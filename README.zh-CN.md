@@ -7,7 +7,9 @@
 
 面向高并发的静态接口：仅在源数据或配置变化时重建，其余时间通过 GitHub Pages 提供静态 JSON。线上站点内置一个极简价格浏览器（`web/`，Vite + React + Tailwind + shadcn/ui + Magic UI），直接读取静态 API 渲染各供应商的模型价格表，支持浅色/深色主题（默认跟随系统）与中/英/日三语界面。
 
-数据来源：[models.dev/api.json](https://models.dev/api.json) + basellm 社区贡献，并经 `data/native-providers.json` 过滤，仅保留原生（第一方）供应商。
+数据来源：[models.dev/api.json](https://models.dev/api.json) + [models.dev V2](https://models.dev/experimental/v2.0/api.json) 补缺 + basellm 社区贡献，并经 `data/native-providers.json` 过滤，仅保留原生（第一方）供应商。
+
+V1 同供应商、同模型键的数据优先保留；V2 仅补入缺失模型，再进入既有覆写、筛选及本地化流程。两份上游使用独立缓存，网络失败时显式警告并回退对应缓存，无缓存则失败。V2 本次仅导入资料：其按模态、单位和条件组织的价格不会强行映射为 V1 文本价格，会输出构建警告；仍可通过本地 `cost` 覆写提供价格。接口路径和输出格式不变。离线回归测试运行 `npm test`。
 
 ## 快速开始
 

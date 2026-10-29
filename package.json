@@ -11,6 +11,7 @@
     "translate": "npm run compile && node dist/translate.js",
     "clean": "rimraf .cache dist src/**/*.js src/**/*.d.ts",
     "compile": "tsc",
+    "test": "npm run compile && node --test tests/*.test.mjs",
     "compile:watch": "tsc --watch",
     "dev": "npm run compile:watch",
     "web:dev": "npm --prefix web run dev",

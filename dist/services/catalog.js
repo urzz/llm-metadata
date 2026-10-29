@@ -6,7 +6,9 @@ import { DataLoader } from './data-loader.js';
 import { DataProcessor } from './data-processor.js';
 import { I18nService } from './i18n-service.js';
 import { NativeFilter } from './native-filter.js';
+import { supplementWithV2 } from './models-dev-v2.js';
 const SOURCE_URL = 'https://models.dev/api.json';
+const V2_SOURCE_URL = 'https://models.dev/experimental/v2.0/api.json';
 export function catalogPaths(root) {
     return { root, dataDir: join(root, 'data'), cacheDir: join(root, '.cache') };
 }
@@ -21,8 +23,11 @@ export async function loadCatalog(paths) {
     const i18n = new I18nService(paths.root);
     const processor = new DataProcessor(i18n);
     console.log('Loading source data...');
-    const source = await loader.loadSourceData(SOURCE_URL);
-    writeFileSync(join(paths.cacheDir, 'api.json'), stableStringify(source), 'utf8');
+    const v1 = await loader.loadSourceData(SOURCE_URL);
+    writeFileSync(join(paths.cacheDir, 'api.json'), stableStringify(v1), 'utf8');
+    const v2 = await loader.loadSourceData(V2_SOURCE_URL, 'api-v2.json');
+    const { source, warnings: sourceWarnings } = supplementWithV2(v1, v2);
+    writeFileSync(join(paths.cacheDir, 'api-v2.json'), stableStringify(v2), 'utf8');
     console.log('Loading configuration...');
     const overrides = loader.loadOverrides();
     const policy = loader.loadPolicy();
@@ -45,7 +50,7 @@ export async function loadCatalog(paths) {
         data: filtered.data,
         excludedProviders: filtered.excludedProviders,
         excludedModels: filtered.excludedModels,
-        warnings: filtered.warnings,
+        warnings: [...sourceWarnings, ...filtered.warnings],
         loader,
         processor,
         i18n,

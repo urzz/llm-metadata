@@ -5,7 +5,7 @@ export declare class DataLoader {
     private readonly cacheDir;
     constructor(dataDir: string, cacheDir: string);
     /** 从网络或缓存加载源数据 */
-    loadSourceData(sourceUrl: string): Promise<SourceData>;
+    loadSourceData<T = SourceData>(sourceUrl: string, cacheFile?: string): Promise<T>;
     /** 安全读取 JSON 文件 */
     readJSONSafe<T>(filePath: string, defaultValue: T): T;
     /** 加载策略配置 */

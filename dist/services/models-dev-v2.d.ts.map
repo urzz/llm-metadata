@@ -1,0 +1,1 @@
+{"version":3,"file":"models-dev-v2.d.ts","sourceRoot":"","sources":["../../src/services/models-dev-v2.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAS,UAAU,EAAE,MAAM,mBAAmB,CAAC;AA+D3D,0FAA0F;AAC1F,wBAAgB,gBAAgB,CAC9B,EAAE,EAAE,UAAU,EACd,EAAE,EAAE,OAAO,GACV;IAAE,MAAM,EAAE,UAAU,CAAC;IAAC,QAAQ,EAAE,MAAM,EAAE,CAAA;CAAE,CA4C5C"}

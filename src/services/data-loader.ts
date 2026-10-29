@@ -73,7 +73,7 @@ export class DataLoader {
   ) {}
 
   /** 从网络或缓存加载源数据 */
-  async loadSourceData(sourceUrl: string): Promise<SourceData> {
+  async loadSourceData<T = SourceData>(sourceUrl: string, cacheFile = 'api.json'): Promise<T> {
     try {
       const response = await fetch(sourceUrl, {
         headers: { accept: 'application/json' },
@@ -83,13 +83,13 @@ export class DataLoader {
         throw new Error(`Fetch failed ${response.status} ${sourceUrl}`);
       }
 
-      return response.json() as Promise<SourceData>;
+      return (await response.json()) as T;
     } catch (error) {
       // 网络失败时尝试使用缓存
-      const cachePath = join(this.cacheDir, 'api.json');
+      const cachePath = join(this.cacheDir, cacheFile);
       if (existsSync(cachePath)) {
-        console.warn('Network failed, using cached data:', error);
-        return this.readJSONSafe<SourceData>(cachePath, {});
+        console.warn(`Network failed for ${sourceUrl}, using ${cacheFile}:`, error);
+        return JSON.parse(readFileSync(cachePath, 'utf8')) as T;
       }
       throw error;
     }
