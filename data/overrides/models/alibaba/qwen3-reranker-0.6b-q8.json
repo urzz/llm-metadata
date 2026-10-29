@@ -1,0 +1,18 @@
+{
+  "$comment": "Homelab model metadata. Base model: alibaba/qwen3-reranker-0.6b. Preset: qwen3-reranker-0.6b-q8; weight: qwen3-reranker-0.6b-q8_0.gguf. Context is the deployed c setting, not the base model maximum.",
+  "name": "Qwen3 Reranker 0.6B (Q8_0)",
+  "description": "Self-hosted Qwen3 Reranker 0.6B for query-document relevance reranking. GGUF Q8_0; configured context: 2048 tokens.",
+  "family": "qwen",
+  "open_weights": true,
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "reranking"
+    ]
+  },
+  "limit": {
+    "context": 2048
+  }
+}

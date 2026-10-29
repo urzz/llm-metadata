@@ -1,0 +1,7 @@
+{
+  "description": {
+    "en": "Self-hosted Qwen3 Embedding 0.6B for text embeddings and retrieval.",
+    "zh": "自部署的 Qwen3 Embedding 0.6B，用于文本向量化与检索。",
+    "ja": "セルフホストの Qwen3 Embedding 0.6B。テキスト埋め込みと検索向け。"
+  }
+}

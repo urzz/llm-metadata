@@ -1,0 +1,7 @@
+{
+  "description": {
+    "en": "Self-hosted Qwen3 Embedding 0.6B for text embeddings and retrieval. GGUF Q8_0; configured context: 2048 tokens.",
+    "zh": "自部署的 Qwen3 Embedding 0.6B，用于文本向量化与检索。 GGUF Q8_0 量化；部署上下文为 2048 Token。",
+    "ja": "セルフホストの Qwen3 Embedding 0.6B。テキスト埋め込みと検索向け。 GGUF Q8_0、設定コンテキストは 2048 トークン。"
+  }
+}

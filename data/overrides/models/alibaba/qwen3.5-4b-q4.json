@@ -1,0 +1,18 @@
+{
+  "$comment": "Homelab model metadata. Base model: alibaba/qwen3.5-4b. Preset: qwen3.5-4b-q4; weight: Qwen3.5-4B-UD-Q4_K_XL.gguf. Context is the deployed c setting, not the base model maximum.",
+  "name": "Qwen3.5 4B (UD-Q4_K_XL)",
+  "description": "Self-hosted Qwen3.5 4B for text conversations. GGUF UD-Q4_K_XL; configured context: 8192 tokens.",
+  "family": "qwen",
+  "open_weights": true,
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "limit": {
+    "context": 8192
+  }
+}

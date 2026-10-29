@@ -1,0 +1,15 @@
+{
+  "$comment": "Homelab model metadata. Base model: alibaba/qwen3.5-9b. Exact unquantized-name metadata for the existing New API ID; no routing equivalence or runtime limits are assumed.",
+  "name": "Qwen3.5 9B",
+  "description": "Self-hosted Qwen3.5 9B for text conversations.",
+  "family": "qwen",
+  "open_weights": true,
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  }
+}
