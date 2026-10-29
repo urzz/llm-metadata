@@ -1,0 +1,15 @@
+{
+  "description": "Self-hosted Qwen3 Reranker 0.6B for query-document relevance reranking.",
+  "family": "qwen",
+  "id": "qwen3-reranker-0.6b",
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "reranking"
+    ]
+  },
+  "name": "Qwen3 Reranker 0.6B",
+  "open_weights": true
+}

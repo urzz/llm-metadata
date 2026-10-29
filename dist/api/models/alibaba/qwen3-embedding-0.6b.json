@@ -1,0 +1,15 @@
+{
+  "description": "Self-hosted Qwen3 Embedding 0.6B for text embeddings and retrieval.",
+  "family": "qwen",
+  "id": "qwen3-embedding-0.6b",
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "name": "Qwen3 Embedding 0.6B",
+  "open_weights": true
+}

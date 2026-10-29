@@ -1,0 +1,15 @@
+{
+  "description": "セルフホストの Qwen3 Embedding 0.6B。テキスト埋め込みと検索向け。",
+  "family": "qwen",
+  "id": "qwen3-embedding-0.6b",
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "name": "Qwen3 Embedding 0.6B",
+  "open_weights": true
+}

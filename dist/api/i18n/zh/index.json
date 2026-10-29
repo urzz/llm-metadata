@@ -277,6 +277,26 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen3-embedding-0.6b",
+      "name": "Qwen3 Embedding 0.6B",
+      "providerId": "alibaba"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen3-embedding-0.6b-q8",
+      "name": "Qwen3 Embedding 0.6B (Q8_0)",
+      "providerId": "alibaba"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": false,
         "tool_call": false
@@ -343,6 +363,26 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen3-reranker-0.6b",
+      "name": "Qwen3 Reranker 0.6B",
+      "providerId": "alibaba"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen3-reranker-0.6b-q8",
+      "name": "Qwen3 Reranker 0.6B (Q8_0)",
+      "providerId": "alibaba"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -398,6 +438,26 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen3.5-2b",
+      "name": "Qwen3.5 2B",
+      "providerId": "alibaba"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen3.5-2b-q4",
+      "name": "Qwen3.5 2B (UD-Q4_K_XL)",
+      "providerId": "alibaba"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -417,6 +477,46 @@
       "name": "Qwen3.5 397B-A17B",
       "providerId": "alibaba",
       "updated": "2026-02-15"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen3.5-4b",
+      "name": "Qwen3.5 4B",
+      "providerId": "alibaba"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen3.5-4b-q4",
+      "name": "Qwen3.5 4B (UD-Q4_K_XL)",
+      "providerId": "alibaba"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen3.5-9b",
+      "name": "Qwen3.5 9B",
+      "providerId": "alibaba"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": false
+      },
+      "id": "qwen3.5-9b-q4",
+      "name": "Qwen3.5 9B (UD-Q4_K_XL)",
+      "providerId": "alibaba"
     },
     {
       "flags": {
@@ -7612,7 +7712,7 @@
       "iconURL": "https://models.dev/logos/alibaba.svg",
       "id": "alibaba",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 57,
+      "modelCount": 67,
       "name": "Alibaba"
     },
     {

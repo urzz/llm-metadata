@@ -1,0 +1,19 @@
+{
+  "description": "自部署的 Qwen3.5 9B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 131072 Token。聊天模板已启用思考。",
+  "family": "qwen",
+  "id": "qwen3.5-9b-q4",
+  "limit": {
+    "context": 131072
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Qwen3.5 9B (UD-Q4_K_XL)",
+  "open_weights": true,
+  "reasoning": true
+}

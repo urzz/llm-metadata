@@ -1,0 +1,15 @@
+{
+  "description": "セルフホストの Qwen3.5 2B。テキスト対話向け。",
+  "family": "qwen",
+  "id": "qwen3.5-2b",
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Qwen3.5 2B",
+  "open_weights": true
+}

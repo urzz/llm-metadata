@@ -1,0 +1,15 @@
+{
+  "description": "自部署的 Qwen3.5 4B，用于文本对话。",
+  "family": "qwen",
+  "id": "qwen3.5-4b",
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Qwen3.5 4B",
+  "open_weights": true
+}

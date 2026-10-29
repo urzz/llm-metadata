@@ -918,6 +918,78 @@
       "tags": []
     },
     {
+      "description": "セルフホストの Qwen3 Embedding 0.6B。テキスト埋め込みと検索向け。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3-embedding-0.6b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Qwen3 Embedding 0.6B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "セルフホストの Qwen3 Embedding 0.6B。テキスト埋め込みと検索向け。 GGUF Q8_0、設定コンテキストは 2048 トークン。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3-embedding-0.6b-q8",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 2048,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Qwen3 Embedding 0.6B (Q8_0)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
       "description": "制御可能な音声、ナレーション、音声配信向けの音声生成モデル",
       "firm": "alibaba",
       "flags": {
@@ -1146,6 +1218,78 @@
       "tags": []
     },
     {
+      "description": "セルフホストの Qwen3 Reranker 0.6B。クエリと文書の関連度による再ランキング向け。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3-reranker-0.6b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "reranking"
+        ]
+      },
+      "name": "Qwen3 Reranker 0.6B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "セルフホストの Qwen3 Reranker 0.6B。クエリと文書の関連度による再ランキング向け。 GGUF Q8_0、設定コンテキストは 2048 トークン。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3-reranker-0.6b-q8",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 2048,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "reranking"
+        ]
+      },
+      "name": "Qwen3 Reranker 0.6B (Q8_0)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
       "description": "視覚推論、文書理解、エージェントタスク向けの Qwen 視覚言語モデル",
       "firm": "alibaba",
       "flags": {
@@ -1333,6 +1477,78 @@
       "tags": []
     },
     {
+      "description": "セルフホストの Qwen3.5 2B。テキスト対話向け。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-2b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 2B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "セルフホストの Qwen3.5 2B。テキスト対話向け。 GGUF UD-Q4_K_XL、設定コンテキストは 8192 トークン。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-2b-q4",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 8192,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 2B (UD-Q4_K_XL)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
       "description": "視覚推論、文書理解、エージェントタスク向けの Qwen 視覚言語モデル",
       "firm": "alibaba",
       "flags": {
@@ -1406,6 +1622,150 @@
         "output": 3.6
       },
       "releaseDate": "2026-02-15",
+      "tags": []
+    },
+    {
+      "description": "セルフホストの Qwen3.5 4B。テキスト対話向け。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-4b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 4B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "セルフホストの Qwen3.5 4B。テキスト対話向け。 GGUF UD-Q4_K_XL、設定コンテキストは 8192 トークン。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-4b-q4",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 8192,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 4B (UD-Q4_K_XL)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "セルフホストの Qwen3.5 9B。テキスト対話向け。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-9b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 9B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "セルフホストの Qwen3.5 9B。テキスト対話向け。 GGUF UD-Q4_K_XL、設定コンテキストは 131072 トークン。チャットテンプレートで思考を有効化。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-9b-q4",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 131072,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 9B (UD-Q4_K_XL)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
       "tags": []
     },
     {

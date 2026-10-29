@@ -1,0 +1,18 @@
+{
+  "description": "セルフホストの Qwen3 Reranker 0.6B。クエリと文書の関連度による再ランキング向け。 GGUF Q8_0、設定コンテキストは 2048 トークン。",
+  "family": "qwen",
+  "id": "qwen3-reranker-0.6b-q8",
+  "limit": {
+    "context": 2048
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "reranking"
+    ]
+  },
+  "name": "Qwen3 Reranker 0.6B (Q8_0)",
+  "open_weights": true
+}

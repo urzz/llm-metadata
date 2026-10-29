@@ -3901,6 +3901,26 @@
       "vendor_name": "Alibaba"
     },
     {
+      "description": "セルフホストの Qwen3 Embedding 0.6B。テキスト埋め込みと検索向け。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3-embedding-0.6b",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オープンウェイト",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "セルフホストの Qwen3 Embedding 0.6B。テキスト埋め込みと検索向け。 GGUF Q8_0、設定コンテキストは 2048 トークン。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3-embedding-0.6b-q8",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オープンウェイト,2K",
+      "vendor_name": "Alibaba"
+    },
+    {
       "description": "制御可能な音声、ナレーション、音声配信向けの音声生成モデル",
       "endpoints": null,
       "icon": "Qwen.Color",
@@ -3971,6 +3991,26 @@
       "vendor_name": "Alibaba"
     },
     {
+      "description": "セルフホストの Qwen3 Reranker 0.6B。クエリと文書の関連度による再ランキング向け。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3-reranker-0.6b",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オープンウェイト",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "セルフホストの Qwen3 Reranker 0.6B。クエリと文書の関連度による再ランキング向け。 GGUF Q8_0、設定コンテキストは 2048 トークン。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3-reranker-0.6b-q8",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オープンウェイト,2K",
+      "vendor_name": "Alibaba"
+    },
+    {
       "description": "視覚推論、文書理解、エージェントタスク向けの Qwen 視覚言語モデル",
       "endpoints": null,
       "icon": "Qwen.Color",
@@ -4021,6 +4061,26 @@
       "vendor_name": "Alibaba"
     },
     {
+      "description": "セルフホストの Qwen3.5 2B。テキスト対話向け。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.5-2b",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オープンウェイト",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "セルフホストの Qwen3.5 2B。テキスト対話向け。 GGUF UD-Q4_K_XL、設定コンテキストは 8192 トークン。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.5-2b-q4",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オープンウェイト,8.2K",
+      "vendor_name": "Alibaba"
+    },
+    {
       "description": "視覚推論、文書理解、エージェントタスク向けの Qwen 視覚言語モデル",
       "endpoints": null,
       "icon": "Qwen.Color",
@@ -4038,6 +4098,46 @@
       "name_rule": 0,
       "status": 1,
       "tags": "推論,ツール,ファイル,オープンウェイト,ビジョン,262.1K",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "セルフホストの Qwen3.5 4B。テキスト対話向け。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.5-4b",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オープンウェイト",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "セルフホストの Qwen3.5 4B。テキスト対話向け。 GGUF UD-Q4_K_XL、設定コンテキストは 8192 トークン。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.5-4b-q4",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オープンウェイト,8.2K",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "セルフホストの Qwen3.5 9B。テキスト対話向け。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.5-9b",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オープンウェイト",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "セルフホストの Qwen3.5 9B。テキスト対話向け。 GGUF UD-Q4_K_XL、設定コンテキストは 131072 トークン。チャットテンプレートで思考を有効化。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.5-9b-q4",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,オープンウェイト,131.1K",
       "vendor_name": "Alibaba"
     },
     {

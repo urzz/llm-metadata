@@ -918,6 +918,78 @@
       "tags": []
     },
     {
+      "description": "Self-hosted Qwen3 Embedding 0.6B for text embeddings and retrieval.",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3-embedding-0.6b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Qwen3 Embedding 0.6B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "Self-hosted Qwen3 Embedding 0.6B for text embeddings and retrieval. GGUF Q8_0; configured context: 2048 tokens.",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3-embedding-0.6b-q8",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 2048,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Qwen3 Embedding 0.6B (Q8_0)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
       "description": "Speech generation model for controllable voice, narration, and audio delivery",
       "firm": "alibaba",
       "flags": {
@@ -1146,6 +1218,78 @@
       "tags": []
     },
     {
+      "description": "Self-hosted Qwen3 Reranker 0.6B for query-document relevance reranking.",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3-reranker-0.6b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "reranking"
+        ]
+      },
+      "name": "Qwen3 Reranker 0.6B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "Self-hosted Qwen3 Reranker 0.6B for query-document relevance reranking. GGUF Q8_0; configured context: 2048 tokens.",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3-reranker-0.6b-q8",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 2048,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "reranking"
+        ]
+      },
+      "name": "Qwen3 Reranker 0.6B (Q8_0)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
       "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
       "firm": "alibaba",
       "flags": {
@@ -1333,6 +1477,78 @@
       "tags": []
     },
     {
+      "description": "Self-hosted Qwen3.5 2B for text conversations.",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-2b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 2B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "Self-hosted Qwen3.5 2B for text conversations. GGUF UD-Q4_K_XL; configured context: 8192 tokens.",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-2b-q4",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 8192,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 2B (UD-Q4_K_XL)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
       "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
       "firm": "alibaba",
       "flags": {
@@ -1406,6 +1622,150 @@
         "output": 3.6
       },
       "releaseDate": "2026-02-15",
+      "tags": []
+    },
+    {
+      "description": "Self-hosted Qwen3.5 4B for text conversations.",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-4b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 4B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "Self-hosted Qwen3.5 4B for text conversations. GGUF UD-Q4_K_XL; configured context: 8192 tokens.",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-4b-q4",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 8192,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 4B (UD-Q4_K_XL)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "Self-hosted Qwen3.5 9B for text conversations.",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-9b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 9B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "Self-hosted Qwen3.5 9B for text conversations. GGUF UD-Q4_K_XL; configured context: 131072 tokens. Thinking is enabled in the chat template.",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-9b-q4",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 131072,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 9B (UD-Q4_K_XL)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
       "tags": []
     },
     {

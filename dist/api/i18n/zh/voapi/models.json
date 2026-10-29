@@ -918,6 +918,78 @@
       "tags": []
     },
     {
+      "description": "自部署的 Qwen3 Embedding 0.6B，用于文本向量化与检索。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3-embedding-0.6b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Qwen3 Embedding 0.6B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "自部署的 Qwen3 Embedding 0.6B，用于文本向量化与检索。 GGUF Q8_0 量化；部署上下文为 2048 Token。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3-embedding-0.6b-q8",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 2048,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Qwen3 Embedding 0.6B (Q8_0)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
       "description": "语音生成模型，面向可控音色、旁白解说与音频交付",
       "firm": "alibaba",
       "flags": {
@@ -1146,6 +1218,78 @@
       "tags": []
     },
     {
+      "description": "自部署的 Qwen3 Reranker 0.6B，用于查询与文档的相关性重排序。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3-reranker-0.6b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "reranking"
+        ]
+      },
+      "name": "Qwen3 Reranker 0.6B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "自部署的 Qwen3 Reranker 0.6B，用于查询与文档的相关性重排序。 GGUF Q8_0 量化；部署上下文为 2048 Token。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3-reranker-0.6b-q8",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 2048,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "reranking"
+        ]
+      },
+      "name": "Qwen3 Reranker 0.6B (Q8_0)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
       "description": "Qwen 视觉语言模型，面向视觉推理、文档理解与智能体任务",
       "firm": "alibaba",
       "flags": {
@@ -1333,6 +1477,78 @@
       "tags": []
     },
     {
+      "description": "自部署的 Qwen3.5 2B，用于文本对话。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-2b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 2B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "自部署的 Qwen3.5 2B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 8192 Token。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-2b-q4",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 8192,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 2B (UD-Q4_K_XL)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
       "description": "Qwen 视觉语言模型，面向视觉推理、文档理解与智能体任务",
       "firm": "alibaba",
       "flags": {
@@ -1406,6 +1622,150 @@
         "output": 3.6
       },
       "releaseDate": "2026-02-15",
+      "tags": []
+    },
+    {
+      "description": "自部署的 Qwen3.5 4B，用于文本对话。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-4b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 4B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "自部署的 Qwen3.5 4B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 8192 Token。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-4b-q4",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 8192,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 4B (UD-Q4_K_XL)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "自部署的 Qwen3.5 9B，用于文本对话。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-9b",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 9B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
+      "description": "自部署的 Qwen3.5 9B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 131072 Token。聊天模板已启用思考。",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.5-9b-q4",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 131072,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.5 9B (UD-Q4_K_XL)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": null,
       "tags": []
     },
     {

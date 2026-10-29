@@ -973,6 +973,39 @@
         "temperature": true,
         "tool_call": true
       },
+      "qwen3-embedding-0.6b": {
+        "description": "自部署的 Qwen3 Embedding 0.6B，用于文本向量化与检索。",
+        "family": "qwen",
+        "id": "qwen3-embedding-0.6b",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Qwen3 Embedding 0.6B",
+        "open_weights": true
+      },
+      "qwen3-embedding-0.6b-q8": {
+        "description": "自部署的 Qwen3 Embedding 0.6B，用于文本向量化与检索。 GGUF Q8_0 量化；部署上下文为 2048 Token。",
+        "family": "qwen",
+        "id": "qwen3-embedding-0.6b-q8",
+        "limit": {
+          "context": 2048
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Qwen3 Embedding 0.6B (Q8_0)",
+        "open_weights": true
+      },
       "qwen3-livetranslate-flash-realtime": {
         "attachment": true,
         "cost": {
@@ -1193,6 +1226,39 @@
         "temperature": true,
         "tool_call": true,
         "type": "realtime"
+      },
+      "qwen3-reranker-0.6b": {
+        "description": "自部署的 Qwen3 Reranker 0.6B，用于查询与文档的相关性重排序。",
+        "family": "qwen",
+        "id": "qwen3-reranker-0.6b",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "reranking"
+          ]
+        },
+        "name": "Qwen3 Reranker 0.6B",
+        "open_weights": true
+      },
+      "qwen3-reranker-0.6b-q8": {
+        "description": "自部署的 Qwen3 Reranker 0.6B，用于查询与文档的相关性重排序。 GGUF Q8_0 量化；部署上下文为 2048 Token。",
+        "family": "qwen",
+        "id": "qwen3-reranker-0.6b-q8",
+        "limit": {
+          "context": 2048
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "reranking"
+          ]
+        },
+        "name": "Qwen3 Reranker 0.6B (Q8_0)",
+        "open_weights": true
       },
       "qwen3-vl-235b-a22b": {
         "attachment": true,
@@ -1416,6 +1482,39 @@
         "temperature": true,
         "tool_call": true
       },
+      "qwen3.5-2b": {
+        "description": "自部署的 Qwen3.5 2B，用于文本对话。",
+        "family": "qwen",
+        "id": "qwen3.5-2b",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.5 2B",
+        "open_weights": true
+      },
+      "qwen3.5-2b-q4": {
+        "description": "自部署的 Qwen3.5 2B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 8192 Token。",
+        "family": "qwen",
+        "id": "qwen3.5-2b-q4",
+        "limit": {
+          "context": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.5 2B (UD-Q4_K_XL)",
+        "open_weights": true
+      },
       "qwen3.5-35b-a3b": {
         "attachment": true,
         "cost": {
@@ -1495,6 +1594,73 @@
         "structured_output": true,
         "temperature": true,
         "tool_call": true
+      },
+      "qwen3.5-4b": {
+        "description": "自部署的 Qwen3.5 4B，用于文本对话。",
+        "family": "qwen",
+        "id": "qwen3.5-4b",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.5 4B",
+        "open_weights": true
+      },
+      "qwen3.5-4b-q4": {
+        "description": "自部署的 Qwen3.5 4B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 8192 Token。",
+        "family": "qwen",
+        "id": "qwen3.5-4b-q4",
+        "limit": {
+          "context": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.5 4B (UD-Q4_K_XL)",
+        "open_weights": true
+      },
+      "qwen3.5-9b": {
+        "description": "自部署的 Qwen3.5 9B，用于文本对话。",
+        "family": "qwen",
+        "id": "qwen3.5-9b",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.5 9B",
+        "open_weights": true
+      },
+      "qwen3.5-9b-q4": {
+        "description": "自部署的 Qwen3.5 9B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 131072 Token。聊天模板已启用思考。",
+        "family": "qwen",
+        "id": "qwen3.5-9b-q4",
+        "limit": {
+          "context": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.5 9B (UD-Q4_K_XL)",
+        "open_weights": true,
+        "reasoning": true
       },
       "qwen3.5-flash": {
         "attachment": true,

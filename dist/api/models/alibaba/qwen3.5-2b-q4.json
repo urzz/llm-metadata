@@ -1,0 +1,18 @@
+{
+  "description": "Self-hosted Qwen3.5 2B for text conversations. GGUF UD-Q4_K_XL; configured context: 8192 tokens.",
+  "family": "qwen",
+  "id": "qwen3.5-2b-q4",
+  "limit": {
+    "context": 8192
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Qwen3.5 2B (UD-Q4_K_XL)",
+  "open_weights": true
+}

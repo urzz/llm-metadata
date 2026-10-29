@@ -1,0 +1,18 @@
+{
+  "description": "Self-hosted Qwen3 Reranker 0.6B for query-document relevance reranking. GGUF Q8_0; configured context: 2048 tokens.",
+  "family": "qwen",
+  "id": "qwen3-reranker-0.6b-q8",
+  "limit": {
+    "context": 2048
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "reranking"
+    ]
+  },
+  "name": "Qwen3 Reranker 0.6B (Q8_0)",
+  "open_weights": true
+}

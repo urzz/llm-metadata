@@ -1,0 +1,19 @@
+{
+  "description": "Self-hosted Qwen3.5 9B for text conversations. GGUF UD-Q4_K_XL; configured context: 131072 tokens. Thinking is enabled in the chat template.",
+  "family": "qwen",
+  "id": "qwen3.5-9b-q4",
+  "limit": {
+    "context": 131072
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Qwen3.5 9B (UD-Q4_K_XL)",
+  "open_weights": true,
+  "reasoning": true
+}

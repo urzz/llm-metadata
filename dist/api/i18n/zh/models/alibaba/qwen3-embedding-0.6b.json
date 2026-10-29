@@ -1,0 +1,15 @@
+{
+  "description": "自部署的 Qwen3 Embedding 0.6B，用于文本向量化与检索。",
+  "family": "qwen",
+  "id": "qwen3-embedding-0.6b",
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "name": "Qwen3 Embedding 0.6B",
+  "open_weights": true
+}

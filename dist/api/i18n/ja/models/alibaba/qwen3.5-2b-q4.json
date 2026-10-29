@@ -1,0 +1,18 @@
+{
+  "description": "セルフホストの Qwen3.5 2B。テキスト対話向け。 GGUF UD-Q4_K_XL、設定コンテキストは 8192 トークン。",
+  "family": "qwen",
+  "id": "qwen3.5-2b-q4",
+  "limit": {
+    "context": 8192
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Qwen3.5 2B (UD-Q4_K_XL)",
+  "open_weights": true
+}

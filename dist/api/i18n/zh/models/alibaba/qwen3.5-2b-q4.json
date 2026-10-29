@@ -1,0 +1,18 @@
+{
+  "description": "自部署的 Qwen3.5 2B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 8192 Token。",
+  "family": "qwen",
+  "id": "qwen3.5-2b-q4",
+  "limit": {
+    "context": 8192
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Qwen3.5 2B (UD-Q4_K_XL)",
+  "open_weights": true
+}

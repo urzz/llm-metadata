@@ -3901,6 +3901,26 @@
       "vendor_name": "Alibaba"
     },
     {
+      "description": "自部署的 Qwen3 Embedding 0.6B，用于文本向量化与检索。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3-embedding-0.6b",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "开源权重",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "自部署的 Qwen3 Embedding 0.6B，用于文本向量化与检索。 GGUF Q8_0 量化；部署上下文为 2048 Token。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3-embedding-0.6b-q8",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "开源权重,2K",
+      "vendor_name": "Alibaba"
+    },
+    {
       "description": "语音生成模型，面向可控音色、旁白解说与音频交付",
       "endpoints": null,
       "icon": "Qwen.Color",
@@ -3971,6 +3991,26 @@
       "vendor_name": "Alibaba"
     },
     {
+      "description": "自部署的 Qwen3 Reranker 0.6B，用于查询与文档的相关性重排序。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3-reranker-0.6b",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "开源权重",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "自部署的 Qwen3 Reranker 0.6B，用于查询与文档的相关性重排序。 GGUF Q8_0 量化；部署上下文为 2048 Token。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3-reranker-0.6b-q8",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "开源权重,2K",
+      "vendor_name": "Alibaba"
+    },
+    {
       "description": "Qwen 视觉语言模型，面向视觉推理、文档理解与智能体任务",
       "endpoints": null,
       "icon": "Qwen.Color",
@@ -4021,6 +4061,26 @@
       "vendor_name": "Alibaba"
     },
     {
+      "description": "自部署的 Qwen3.5 2B，用于文本对话。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.5-2b",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "开源权重",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "自部署的 Qwen3.5 2B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 8192 Token。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.5-2b-q4",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "开源权重,8.2K",
+      "vendor_name": "Alibaba"
+    },
+    {
       "description": "Qwen 视觉语言模型，面向视觉推理、文档理解与智能体任务",
       "endpoints": null,
       "icon": "Qwen.Color",
@@ -4038,6 +4098,46 @@
       "name_rule": 0,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,262.1K",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "自部署的 Qwen3.5 4B，用于文本对话。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.5-4b",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "开源权重",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "自部署的 Qwen3.5 4B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 8192 Token。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.5-4b-q4",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "开源权重,8.2K",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "自部署的 Qwen3.5 9B，用于文本对话。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.5-9b",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "开源权重",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "自部署的 Qwen3.5 9B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 131072 Token。聊天模板已启用思考。",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.5-9b-q4",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推理,开源权重,131.1K",
       "vendor_name": "Alibaba"
     },
     {

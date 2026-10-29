@@ -973,6 +973,39 @@
         "temperature": true,
         "tool_call": true
       },
+      "qwen3-embedding-0.6b": {
+        "description": "セルフホストの Qwen3 Embedding 0.6B。テキスト埋め込みと検索向け。",
+        "family": "qwen",
+        "id": "qwen3-embedding-0.6b",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Qwen3 Embedding 0.6B",
+        "open_weights": true
+      },
+      "qwen3-embedding-0.6b-q8": {
+        "description": "セルフホストの Qwen3 Embedding 0.6B。テキスト埋め込みと検索向け。 GGUF Q8_0、設定コンテキストは 2048 トークン。",
+        "family": "qwen",
+        "id": "qwen3-embedding-0.6b-q8",
+        "limit": {
+          "context": 2048
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Qwen3 Embedding 0.6B (Q8_0)",
+        "open_weights": true
+      },
       "qwen3-livetranslate-flash-realtime": {
         "attachment": true,
         "cost": {
@@ -1193,6 +1226,39 @@
         "temperature": true,
         "tool_call": true,
         "type": "realtime"
+      },
+      "qwen3-reranker-0.6b": {
+        "description": "セルフホストの Qwen3 Reranker 0.6B。クエリと文書の関連度による再ランキング向け。",
+        "family": "qwen",
+        "id": "qwen3-reranker-0.6b",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "reranking"
+          ]
+        },
+        "name": "Qwen3 Reranker 0.6B",
+        "open_weights": true
+      },
+      "qwen3-reranker-0.6b-q8": {
+        "description": "セルフホストの Qwen3 Reranker 0.6B。クエリと文書の関連度による再ランキング向け。 GGUF Q8_0、設定コンテキストは 2048 トークン。",
+        "family": "qwen",
+        "id": "qwen3-reranker-0.6b-q8",
+        "limit": {
+          "context": 2048
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "reranking"
+          ]
+        },
+        "name": "Qwen3 Reranker 0.6B (Q8_0)",
+        "open_weights": true
       },
       "qwen3-vl-235b-a22b": {
         "attachment": true,
@@ -1416,6 +1482,39 @@
         "temperature": true,
         "tool_call": true
       },
+      "qwen3.5-2b": {
+        "description": "セルフホストの Qwen3.5 2B。テキスト対話向け。",
+        "family": "qwen",
+        "id": "qwen3.5-2b",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.5 2B",
+        "open_weights": true
+      },
+      "qwen3.5-2b-q4": {
+        "description": "セルフホストの Qwen3.5 2B。テキスト対話向け。 GGUF UD-Q4_K_XL、設定コンテキストは 8192 トークン。",
+        "family": "qwen",
+        "id": "qwen3.5-2b-q4",
+        "limit": {
+          "context": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.5 2B (UD-Q4_K_XL)",
+        "open_weights": true
+      },
       "qwen3.5-35b-a3b": {
         "attachment": true,
         "cost": {
@@ -1495,6 +1594,73 @@
         "structured_output": true,
         "temperature": true,
         "tool_call": true
+      },
+      "qwen3.5-4b": {
+        "description": "セルフホストの Qwen3.5 4B。テキスト対話向け。",
+        "family": "qwen",
+        "id": "qwen3.5-4b",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.5 4B",
+        "open_weights": true
+      },
+      "qwen3.5-4b-q4": {
+        "description": "セルフホストの Qwen3.5 4B。テキスト対話向け。 GGUF UD-Q4_K_XL、設定コンテキストは 8192 トークン。",
+        "family": "qwen",
+        "id": "qwen3.5-4b-q4",
+        "limit": {
+          "context": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.5 4B (UD-Q4_K_XL)",
+        "open_weights": true
+      },
+      "qwen3.5-9b": {
+        "description": "セルフホストの Qwen3.5 9B。テキスト対話向け。",
+        "family": "qwen",
+        "id": "qwen3.5-9b",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.5 9B",
+        "open_weights": true
+      },
+      "qwen3.5-9b-q4": {
+        "description": "セルフホストの Qwen3.5 9B。テキスト対話向け。 GGUF UD-Q4_K_XL、設定コンテキストは 131072 トークン。チャットテンプレートで思考を有効化。",
+        "family": "qwen",
+        "id": "qwen3.5-9b-q4",
+        "limit": {
+          "context": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.5 9B (UD-Q4_K_XL)",
+        "open_weights": true,
+        "reasoning": true
       },
       "qwen3.5-flash": {
         "attachment": true,
