@@ -1,0 +1,27 @@
+{
+  "attachment": true,
+  "description": "Document OCR model with paragraph-level bounding boxes, block labels, and confidence scores",
+  "id": "mistral-ocr-4-1",
+  "last_updated": "2026-07-16",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "pdf",
+      "text"
+    ],
+    "output": [
+      "text",
+      "image"
+    ]
+  },
+  "name": "Mistral OCR 4.1",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-07-16",
+  "temperature": false,
+  "tool_call": false
+}

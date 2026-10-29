@@ -1,0 +1,25 @@
+{
+  "attachment": true,
+  "description": "Video generation model for text-to-video, image-to-video, and first/last-frame clips with optional sound effects",
+  "id": "cogvideox-3",
+  "last_updated": "2025-07-15",
+  "limit": {
+    "context": 512,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "name": "CogVideoX-3",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-07-15",
+  "temperature": false,
+  "tool_call": false
+}

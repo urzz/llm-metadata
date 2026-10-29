@@ -8,6 +8,32 @@
   "id": "meta",
   "lobeIcon": "Meta.Color",
   "models": {
+    "muse-image-1.0": {
+      "attachment": true,
+      "description": "Agentic image generation and editing model that plans, searches and refines before rendering",
+      "family": "muse",
+      "id": "muse-image-1.0",
+      "last_updated": "2026-07-07",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "Muse Image",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-07-07",
+      "temperature": false,
+      "tool_call": false
+    },
     "muse-spark-1.1": {
       "attachment": true,
       "canonical_model_id": "meta/muse-spark-1.1",

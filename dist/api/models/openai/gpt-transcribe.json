@@ -1,0 +1,26 @@
+{
+  "attachment": true,
+  "description": "High-accuracy speech-to-text model for audio files and committed Realtime turns",
+  "family": "gpt",
+  "id": "gpt-transcribe",
+  "last_updated": "2026-07-28",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "GPT-Transcribe",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-07-28",
+  "temperature": true,
+  "tool_call": false
+}

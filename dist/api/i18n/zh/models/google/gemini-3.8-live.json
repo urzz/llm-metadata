@@ -1,0 +1,30 @@
+{
+  "attachment": true,
+  "description": "Low-latency Live API model for real-time voice agents with interleaved reasoning and async tools",
+  "family": "gemini-flash",
+  "id": "gemini-3.8-live",
+  "last_updated": "2026-09-15",
+  "limit": {
+    "context": 131072,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "name": "Gemini 3.8 Live",
+  "open_weights": false,
+  "reasoning": true,
+  "release_date": "2026-09-15",
+  "structured_output": false,
+  "temperature": true,
+  "tool_call": true
+}

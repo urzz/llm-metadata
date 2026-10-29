@@ -1,0 +1,26 @@
+{
+  "attachment": false,
+  "description": "Text-to-speech model powered by GPT-4o Mini with steerable voice delivery",
+  "family": "gpt-mini",
+  "id": "gpt-4o-mini-tts",
+  "last_updated": "2025-03-20",
+  "limit": {
+    "context": 2000,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "name": "GPT-4o Mini TTS",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-03-20",
+  "status": "deprecated",
+  "temperature": false,
+  "tool_call": false
+}

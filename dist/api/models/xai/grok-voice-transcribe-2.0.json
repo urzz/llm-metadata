@@ -1,0 +1,25 @@
+{
+  "attachment": true,
+  "description": "Speech-to-text model with word-level timestamps, speaker diarization, multichannel audio, and streaming",
+  "family": "grok",
+  "id": "grok-voice-transcribe-2.0",
+  "last_updated": "2026-09-17",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Grok Voice Transcribe 2.0",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-09-17",
+  "temperature": false,
+  "tool_call": false
+}

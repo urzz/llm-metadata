@@ -1,0 +1,25 @@
+{
+  "attachment": true,
+  "description": "Higher-quality Wan image model for generation and editing",
+  "id": "wan2.7-image-pro",
+  "last_updated": "2026-05-29",
+  "limit": {
+    "context": 8192,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "name": "Wan2.7 Image Pro",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-05-29",
+  "temperature": false,
+  "tool_call": false
+}

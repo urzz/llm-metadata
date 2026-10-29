@@ -407,6 +407,11 @@
       "description": "MiniMax image model for detailed text-to-image and subject-reference image-to-image generation",
       "family": "minimax",
       "id": "image-01",
+      "last_updated": "2026-08-25",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
       "modalities": {
         "input": [
           "text",
@@ -432,6 +437,11 @@
       "description": "MiniMax image model with enhanced hand-drawn and cartoon styles and selectable style presets",
       "family": "minimax",
       "id": "image-01-live",
+      "last_updated": "2025-02-15",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
       "modalities": {
         "input": [
           "text",
@@ -444,6 +454,7 @@
       "name": "image-01-live",
       "open_weights": false,
       "reasoning": false,
+      "release_date": "2025-02-15",
       "temperature": false,
       "tool_call": false
     },

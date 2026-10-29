@@ -64,6 +64,54 @@
       "temperature": true,
       "tool_call": false
     },
+    "cohere-transcribe-03-2026": {
+      "attachment": true,
+      "description": "Open 2B speech recognition model for accurate transcription across 14 languages",
+      "id": "cohere-transcribe-03-2026",
+      "last_updated": "2026-03-26",
+      "limit": {
+        "context": 32768,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Cohere Transcribe",
+      "open_weights": true,
+      "reasoning": false,
+      "release_date": "2026-03-26",
+      "temperature": true,
+      "tool_call": false
+    },
+    "cohere-transcribe-arabic-07-2026": {
+      "attachment": true,
+      "description": "Cohere Transcribe fine-tune for Arabic dialects and Arabic-English code-switching",
+      "id": "cohere-transcribe-arabic-07-2026",
+      "last_updated": "2026-07-07",
+      "limit": {
+        "context": 32768,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Cohere Transcribe Arabic",
+      "open_weights": true,
+      "reasoning": false,
+      "release_date": "2026-07-07",
+      "temperature": true,
+      "tool_call": false
+    },
     "command-a-03-2025": {
       "attachment": false,
       "canonical_model_id": "cohere/command-a-03-2025",
@@ -372,6 +420,188 @@
       "temperature": true,
       "tool_call": true
     },
+    "embed-english-light-v3.0": {
+      "attachment": true,
+      "description": "Smaller, faster English embedding model",
+      "family": "cohere-embed",
+      "id": "embed-english-light-v3.0",
+      "last_updated": "2023-11-02",
+      "limit": {
+        "context": 512,
+        "output": 384
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Embed English Light 3",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2023-11-02",
+      "temperature": false,
+      "tool_call": false
+    },
+    "embed-english-v3.0": {
+      "attachment": true,
+      "description": "English embedding model for search, classification, and clustering",
+      "family": "cohere-embed",
+      "id": "embed-english-v3.0",
+      "last_updated": "2023-11-02",
+      "limit": {
+        "context": 512,
+        "output": 1024
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Embed English 3",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2023-11-02",
+      "temperature": false,
+      "tool_call": false
+    },
+    "embed-multilingual-light-v3.0": {
+      "attachment": true,
+      "description": "Smaller, faster multilingual embedding model",
+      "family": "cohere-embed",
+      "id": "embed-multilingual-light-v3.0",
+      "last_updated": "2023-11-02",
+      "limit": {
+        "context": 512,
+        "output": 384
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Embed Multilingual Light 3",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2023-11-02",
+      "temperature": false,
+      "tool_call": false
+    },
+    "embed-multilingual-v3.0": {
+      "attachment": true,
+      "description": "Multilingual embedding model covering over 100 languages",
+      "family": "cohere-embed",
+      "id": "embed-multilingual-v3.0",
+      "last_updated": "2023-11-02",
+      "limit": {
+        "context": 512,
+        "output": 1024
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Embed Multilingual 3",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2023-11-02",
+      "temperature": false,
+      "tool_call": false
+    },
+    "embed-v4.0": {
+      "attachment": true,
+      "description": "Multimodal embedding model for text, images, and mixed text-and-image documents",
+      "family": "cohere-embed",
+      "id": "embed-v4.0",
+      "last_updated": "2025-04-15",
+      "limit": {
+        "context": 128000,
+        "output": 1536
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Embed 4",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-04-15",
+      "temperature": false,
+      "tool_call": false
+    },
+    "embed-v5.0-fast": {
+      "attachment": true,
+      "description": "Faster, lighter Embed 5 model sharing Embed 5 Pro's embedding space",
+      "family": "cohere-embed",
+      "id": "embed-v5.0-fast",
+      "last_updated": "2026-09-30",
+      "limit": {
+        "context": 128000,
+        "output": 2048
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Embed 5 Fast",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-09-30",
+      "temperature": false,
+      "tool_call": false
+    },
+    "embed-v5.0-pro": {
+      "attachment": true,
+      "description": "Cohere's most capable multimodal embedding model for text, images, and mixed documents",
+      "family": "cohere-embed",
+      "id": "embed-v5.0-pro",
+      "last_updated": "2026-09-30",
+      "limit": {
+        "context": 128000,
+        "output": 2048
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Embed 5 Pro",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-09-30",
+      "temperature": false,
+      "tool_call": false
+    },
     "north-mini-code-1-0": {
       "attachment": false,
       "canonical_model_id": "cohere/north-mini-code-1-0",
@@ -449,6 +679,126 @@
       "release_date": "2026-09-09",
       "structured_output": false,
       "temperature": true,
+      "tool_call": false
+    },
+    "rerank-english-v3.0": {
+      "attachment": false,
+      "description": "English reranker for documents and semi-structured data",
+      "id": "rerank-english-v3.0",
+      "last_updated": "2024-04-11",
+      "limit": {
+        "context": 4096,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "reranking"
+        ]
+      },
+      "name": "Rerank English 3",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2024-04-11",
+      "temperature": false,
+      "tool_call": false
+    },
+    "rerank-multilingual-v3.0": {
+      "attachment": false,
+      "description": "Reranker for non-English documents and semi-structured data",
+      "id": "rerank-multilingual-v3.0",
+      "last_updated": "2024-04-11",
+      "limit": {
+        "context": 4096,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "reranking"
+        ]
+      },
+      "name": "Rerank Multilingual 3",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2024-04-11",
+      "temperature": false,
+      "tool_call": false
+    },
+    "rerank-v3.5": {
+      "attachment": false,
+      "description": "Multilingual reranker for documents and semi-structured data",
+      "id": "rerank-v3.5",
+      "last_updated": "2024-12-02",
+      "limit": {
+        "context": 4096,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "reranking"
+        ]
+      },
+      "name": "Rerank 3.5",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2024-12-02",
+      "temperature": false,
+      "tool_call": false
+    },
+    "rerank-v4.0-fast": {
+      "attachment": false,
+      "description": "Low-latency multilingual reranker for high-throughput retrieval",
+      "id": "rerank-v4.0-fast",
+      "last_updated": "2025-12-11",
+      "limit": {
+        "context": 32768,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "reranking"
+        ]
+      },
+      "name": "Rerank 4 Fast",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-12-11",
+      "temperature": false,
+      "tool_call": false
+    },
+    "rerank-v4.0-pro": {
+      "attachment": false,
+      "description": "Multilingual reranker for maximum relevance on documents and semi-structured data",
+      "id": "rerank-v4.0-pro",
+      "last_updated": "2025-12-11",
+      "limit": {
+        "context": 32768,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "reranking"
+        ]
+      },
+      "name": "Rerank 4 Pro",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-12-11",
+      "temperature": false,
       "tool_call": false
     },
     "tiny-aya-earth": {

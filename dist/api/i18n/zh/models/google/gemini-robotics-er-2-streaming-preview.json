@@ -1,0 +1,29 @@
+{
+  "attachment": true,
+  "description": "Live API robotics model for low-latency robot agents over continuous audio and video",
+  "family": "gemini",
+  "id": "gemini-robotics-er-2-streaming-preview",
+  "last_updated": "2026-07-30",
+  "limit": {
+    "context": 131072,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Gemini Robotics-ER 2 Streaming Preview",
+  "open_weights": false,
+  "reasoning": true,
+  "release_date": "2026-07-30",
+  "structured_output": false,
+  "temperature": true,
+  "tool_call": true
+}

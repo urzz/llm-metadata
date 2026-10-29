@@ -1,0 +1,29 @@
+{
+  "attachment": true,
+  "description": "2026-09-02 upgraded snapshot of Qwen3.8 Max with stronger coding, collaborative agents, and multimodal document understanding",
+  "family": "qwen",
+  "id": "qwen3.8-max-0902",
+  "last_updated": "2026-09-02",
+  "limit": {
+    "context": 1000000,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "pdf"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Qwen3.8 Max 0902",
+  "open_weights": false,
+  "reasoning": true,
+  "release_date": "2026-09-02",
+  "structured_output": true,
+  "temperature": true,
+  "tool_call": true
+}

@@ -52,6 +52,31 @@
       "temperature": true,
       "tool_call": true
     },
+    "mimo-v2.5-asr": {
+      "attachment": true,
+      "description": "Speech recognition model for Chinese, English, dialects, and noisy multi-speaker audio",
+      "family": "mimo",
+      "id": "mimo-v2.5-asr",
+      "last_updated": "2026-04-23",
+      "limit": {
+        "context": 8192,
+        "output": 2048
+      },
+      "modalities": {
+        "input": [
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MiMo-V2.5-ASR",
+      "open_weights": true,
+      "reasoning": false,
+      "release_date": "2026-04-23",
+      "temperature": false,
+      "tool_call": false
+    },
     "mimo-v2.5-pro": {
       "attachment": false,
       "canonical_model_id": "xiaomi/mimo-v2.5-pro",

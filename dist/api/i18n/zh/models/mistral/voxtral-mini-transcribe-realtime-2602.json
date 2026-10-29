@@ -1,0 +1,25 @@
+{
+  "attachment": true,
+  "description": "Low-latency streaming speech-to-text model for live transcription and voice agents",
+  "family": "voxtral",
+  "id": "voxtral-mini-transcribe-realtime-2602",
+  "last_updated": "2026-02-04",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Voxtral Mini Transcribe Realtime",
+  "open_weights": true,
+  "reasoning": false,
+  "release_date": "2026-02-04",
+  "temperature": false,
+  "tool_call": false
+}

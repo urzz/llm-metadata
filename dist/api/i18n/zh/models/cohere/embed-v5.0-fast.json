@@ -1,0 +1,26 @@
+{
+  "attachment": true,
+  "description": "Faster, lighter Embed 5 model sharing Embed 5 Pro's embedding space",
+  "family": "cohere-embed",
+  "id": "embed-v5.0-fast",
+  "last_updated": "2026-09-30",
+  "limit": {
+    "context": 128000,
+    "output": 2048
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "name": "Embed 5 Fast",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-09-30",
+  "temperature": false,
+  "tool_call": false
+}

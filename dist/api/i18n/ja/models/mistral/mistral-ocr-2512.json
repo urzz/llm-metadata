@@ -1,0 +1,27 @@
+{
+  "attachment": true,
+  "description": "Document OCR model that extracts interleaved text and images from documents",
+  "id": "mistral-ocr-2512",
+  "last_updated": "2025-12-18",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "pdf",
+      "text"
+    ],
+    "output": [
+      "text",
+      "image"
+    ]
+  },
+  "name": "Mistral OCR 3",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-12-18",
+  "temperature": false,
+  "tool_call": false
+}

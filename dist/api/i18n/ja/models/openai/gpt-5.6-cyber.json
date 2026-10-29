@@ -1,0 +1,28 @@
+{
+  "attachment": true,
+  "description": "Cybersecurity model for authorized vulnerability research and security testing",
+  "family": "gpt",
+  "id": "gpt-5.6-cyber",
+  "knowledge": "2026-02-16",
+  "last_updated": "2026-08-07",
+  "limit": {
+    "context": 400000,
+    "output": 128000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "GPT-5.6 Cyber",
+  "open_weights": false,
+  "reasoning": true,
+  "release_date": "2026-08-07",
+  "structured_output": true,
+  "temperature": false,
+  "tool_call": true
+}

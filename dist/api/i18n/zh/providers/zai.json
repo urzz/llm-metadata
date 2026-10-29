@@ -11,6 +11,31 @@
   "id": "zai",
   "lobeIcon": "ZAI",
   "models": {
+    "cogvideox-3": {
+      "attachment": true,
+      "description": "Video generation model for text-to-video, image-to-video, and first/last-frame clips with optional sound effects",
+      "id": "cogvideox-3",
+      "last_updated": "2025-07-15",
+      "limit": {
+        "context": 512,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "CogVideoX-3",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-07-15",
+      "temperature": false,
+      "tool_call": false
+    },
     "glm-4.5": {
       "attachment": false,
       "canonical_model_id": "zhipuai/glm-4.5",
@@ -93,6 +118,32 @@
       "temperature": true,
       "tool_call": true
     },
+    "glm-4.5-airx": {
+      "attachment": false,
+      "description": "High-speed GLM-4.5-Air serving option for low-latency coding assistance and agents",
+      "family": "glm-air",
+      "id": "glm-4.5-airx",
+      "knowledge": "2025-04",
+      "last_updated": "2025-07-28",
+      "limit": {
+        "context": 131072,
+        "output": 98304
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM-4.5-AirX",
+      "open_weights": true,
+      "reasoning": true,
+      "release_date": "2025-07-28",
+      "temperature": true,
+      "tool_call": true
+    },
     "glm-4.5-flash": {
       "attachment": false,
       "canonical_model_id": "zhipuai/glm-4.5-flash",
@@ -130,6 +181,32 @@
           "type": "toggle"
         }
       ],
+      "release_date": "2025-07-28",
+      "temperature": true,
+      "tool_call": true
+    },
+    "glm-4.5-x": {
+      "attachment": false,
+      "description": "High-speed GLM-4.5 serving option for latency-sensitive reasoning, coding, and agent workflows",
+      "family": "glm",
+      "id": "glm-4.5-x",
+      "knowledge": "2025-04",
+      "last_updated": "2025-07-28",
+      "limit": {
+        "context": 131072,
+        "output": 98304
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM-4.5-X",
+      "open_weights": true,
+      "reasoning": true,
       "release_date": "2025-07-28",
       "temperature": true,
       "tool_call": true
@@ -299,6 +376,33 @@
           "type": "toggle"
         }
       ],
+      "release_date": "2025-12-08",
+      "temperature": true,
+      "tool_call": true
+    },
+    "glm-4.6v-flashx": {
+      "attachment": true,
+      "description": "Paid high-speed GLM-4.6V-Flash serving option for affordable visual reasoning and multimodal agents",
+      "family": "glm-flash",
+      "id": "glm-4.6v-flashx",
+      "last_updated": "2025-12-08",
+      "limit": {
+        "context": 128000,
+        "output": 32768
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM-4.6V-FlashX",
+      "open_weights": true,
+      "reasoning": true,
       "release_date": "2025-12-08",
       "temperature": true,
       "tool_call": true
@@ -782,6 +886,55 @@
       "release_date": "2026-04-01",
       "temperature": true,
       "tool_call": true
+    },
+    "glm-asr-2512": {
+      "attachment": true,
+      "description": "Speech recognition model for multilingual and dialect transcription with custom hotwords",
+      "family": "glm",
+      "id": "glm-asr-2512",
+      "last_updated": "2025-12-10",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM-ASR-2512",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-12-10",
+      "temperature": false,
+      "tool_call": false
+    },
+    "glm-image": {
+      "attachment": false,
+      "description": "GLM-Image is an image generation model adopts a hybrid autoregressive + diffusion decoder architecture. In general image generation quality, GLM‑Image aligns with mainstream latent diffusion approaches, but it shows significant advantages in text-rendering and knowledge‑intensive generation scenarios. It performs especially well in tasks requiring precise semantic understanding and complex information expression, while maintaining strong capabilities in high‑fidelity and fine‑grained detail generation. In addition to text‑to‑image generation, GLM‑Image also supports a rich set of image‑to‑image tasks including image editing, style transfer, identity‑preserving generation, and multi‑subject consistency.",
+      "id": "glm-image",
+      "last_updated": "2026-01-14",
+      "limit": {
+        "context": 10240,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "GLM-Image",
+      "open_weights": true,
+      "reasoning": false,
+      "release_date": "2026-01-14",
+      "temperature": false,
+      "tool_call": false
     }
   },
   "name": "Z.AI",

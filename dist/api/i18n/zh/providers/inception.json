@@ -136,6 +136,32 @@
       "temperature": true,
       "tool_call": true
     },
+    "mercury-decide": {
+      "attachment": true,
+      "description": "Inception's diffusion decision model that returns probabilities for typed yes/no, choice and score questions about text or images",
+      "family": "mercury",
+      "id": "mercury-decide",
+      "last_updated": "2026-09-30",
+      "limit": {
+        "context": 65536,
+        "output": 50000
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "decision"
+        ]
+      },
+      "name": "Mercury Decide",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-09-30",
+      "temperature": false,
+      "tool_call": false
+    },
     "mercury-edit-2": {
       "attachment": false,
       "canonical_model_id": "inception/mercury-edit-2",

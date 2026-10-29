@@ -1,0 +1,26 @@
+{
+  "attachment": true,
+  "description": "Multilingual embedding model covering over 100 languages",
+  "family": "cohere-embed",
+  "id": "embed-multilingual-v3.0",
+  "last_updated": "2023-11-02",
+  "limit": {
+    "context": 512,
+    "output": 1024
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "name": "Embed Multilingual 3",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2023-11-02",
+  "temperature": false,
+  "tool_call": false
+}

@@ -1,0 +1,26 @@
+{
+  "attachment": true,
+  "description": "Cohere's most capable multimodal embedding model for text, images, and mixed documents",
+  "family": "cohere-embed",
+  "id": "embed-v5.0-pro",
+  "last_updated": "2026-09-30",
+  "limit": {
+    "context": 128000,
+    "output": 2048
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "name": "Embed 5 Pro",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-09-30",
+  "temperature": false,
+  "tool_call": false
+}

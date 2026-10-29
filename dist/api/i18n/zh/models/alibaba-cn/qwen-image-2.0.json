@@ -1,0 +1,26 @@
+{
+  "attachment": true,
+  "description": "图像模型，面向提示词驱动的生成、编辑与视觉设计工作流",
+  "family": "qwen",
+  "id": "qwen-image-2.0",
+  "last_updated": "2026-03-03",
+  "limit": {
+    "context": 8192,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "name": "Qwen Image 2.0",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-03-03",
+  "temperature": false,
+  "tool_call": false
+}

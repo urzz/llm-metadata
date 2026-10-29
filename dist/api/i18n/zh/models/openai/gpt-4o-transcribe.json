@@ -1,0 +1,28 @@
+{
+  "attachment": true,
+  "description": "Speech-to-text model powered by GPT-4o for accurate transcription",
+  "family": "gpt",
+  "id": "gpt-4o-transcribe",
+  "knowledge": "2024-06-01",
+  "last_updated": "2025-03-20",
+  "limit": {
+    "context": 16000,
+    "output": 2000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "GPT-4o Transcribe",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-03-20",
+  "status": "deprecated",
+  "temperature": true,
+  "tool_call": false
+}

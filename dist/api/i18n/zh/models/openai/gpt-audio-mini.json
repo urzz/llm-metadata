@@ -1,0 +1,30 @@
+{
+  "attachment": true,
+  "description": "Cost-efficient audio model for speech input and output with the Chat Completions API",
+  "family": "gpt-mini",
+  "id": "gpt-audio-mini",
+  "knowledge": "2023-10-01",
+  "last_updated": "2025-10-06",
+  "limit": {
+    "context": 128000,
+    "output": 16384
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "name": "GPT-Audio Mini",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-10-06",
+  "status": "deprecated",
+  "structured_output": false,
+  "temperature": true,
+  "tool_call": true
+}

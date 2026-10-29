@@ -1,0 +1,25 @@
+{
+  "attachment": true,
+  "description": "Hosted speech recognition model with dialect and 30-language support for audio-to-text transcription up to 5 minutes",
+  "family": "qwen",
+  "id": "qwen-audio-3.0-asr-flash",
+  "last_updated": "2026-06",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Qwen-Audio-3.0-ASR Flash",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-06",
+  "temperature": false,
+  "tool_call": false
+}

@@ -1,0 +1,31 @@
+{
+  "attachment": true,
+  "description": "Cost-efficient realtime speech-to-speech model for voice agents",
+  "family": "gpt-mini",
+  "id": "gpt-realtime-mini",
+  "knowledge": "2023-10-01",
+  "last_updated": "2025-10-06",
+  "limit": {
+    "context": 32000,
+    "output": 4096
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio",
+      "image"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "name": "GPT-Realtime Mini",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-10-06",
+  "status": "deprecated",
+  "structured_output": false,
+  "temperature": false,
+  "tool_call": true
+}

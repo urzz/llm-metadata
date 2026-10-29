@@ -1,0 +1,26 @@
+{
+  "attachment": true,
+  "description": "Low-latency streaming speech-to-text model with keyword and language hints",
+  "family": "gpt",
+  "id": "gpt-live-transcribe",
+  "last_updated": "2026-07-28",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "GPT-Live-Transcribe",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-07-28",
+  "temperature": false,
+  "tool_call": false
+}

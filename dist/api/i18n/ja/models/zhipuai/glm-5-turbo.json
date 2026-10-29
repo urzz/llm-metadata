@@ -1,0 +1,26 @@
+{
+  "attachment": false,
+  "description": "より低い遅延を求めるコーディングエージェント向けの高速版 GLM-5",
+  "family": "glm",
+  "id": "glm-5-turbo",
+  "last_updated": "2026-03-16",
+  "limit": {
+    "context": 200000,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "GLM-5-Turbo",
+  "open_weights": false,
+  "reasoning": true,
+  "release_date": "2026-03-16",
+  "structured_output": true,
+  "temperature": true,
+  "tool_call": true
+}

@@ -1,0 +1,25 @@
+{
+  "attachment": true,
+  "description": "语音转写模型，面向精准的音频转文本与字幕工作流",
+  "family": "gemini",
+  "id": "gemini-3.5-transcribe-live",
+  "last_updated": "2026-08-26",
+  "limit": {
+    "context": 131072,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Gemini 3.5 Transcribe Live",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-08-26",
+  "temperature": true,
+  "tool_call": false
+}

@@ -1,0 +1,26 @@
+{
+  "attachment": false,
+  "description": "GPT-5 model trained for web search in the Chat Completions API",
+  "family": "gpt",
+  "id": "gpt-5-search-api",
+  "last_updated": "2025-10-14",
+  "limit": {
+    "context": 200000,
+    "output": 100000
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "GPT-5 Search API",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-10-14",
+  "structured_output": true,
+  "temperature": false,
+  "tool_call": false
+}

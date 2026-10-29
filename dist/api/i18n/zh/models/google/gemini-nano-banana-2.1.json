@@ -1,0 +1,29 @@
+{
+  "attachment": true,
+  "description": "Image model for prompt-driven generation, multi-turn editing, and visual design workflows",
+  "family": "gemini-flash",
+  "id": "gemini-nano-banana-2.1",
+  "last_updated": "2026-10-06",
+  "limit": {
+    "context": 131072,
+    "output": 32768
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text",
+      "image"
+    ]
+  },
+  "name": "Nano Banana 2.1",
+  "open_weights": false,
+  "reasoning": true,
+  "release_date": "2026-10-06",
+  "structured_output": false,
+  "temperature": true,
+  "tool_call": false
+}

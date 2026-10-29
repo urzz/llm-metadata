@@ -295,6 +295,37 @@
       "temperature": true,
       "tool_call": true
     },
+    "gemini-2.5-flash-native-audio-preview-12-2025": {
+      "attachment": true,
+      "description": "Gemini 2.5 Flash Live API model with native audio for real-time conversational agents",
+      "family": "gemini-flash",
+      "id": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "knowledge": "2025-01",
+      "last_updated": "2025-12-12",
+      "limit": {
+        "context": 131072,
+        "output": 8192
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "audio"
+        ]
+      },
+      "name": "Gemini 2.5 Flash Native Audio Preview 12-2025",
+      "open_weights": false,
+      "reasoning": true,
+      "release_date": "2025-12-12",
+      "structured_output": false,
+      "temperature": true,
+      "tool_call": true
+    },
     "gemini-2.5-flash-preview-tts": {
       "attachment": false,
       "cost": {
@@ -1032,6 +1063,56 @@
       "tool_call": false,
       "type": "realtime"
     },
+    "gemini-3.5-transcribe": {
+      "attachment": true,
+      "description": "Speech-to-text model with language detection, speaker diarization, word timestamps, and custom vocabulary",
+      "family": "gemini",
+      "id": "gemini-3.5-transcribe",
+      "last_updated": "2026-08-26",
+      "limit": {
+        "context": 98304,
+        "output": 32768
+      },
+      "modalities": {
+        "input": [
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemini 3.5 Transcribe",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-08-26",
+      "temperature": true,
+      "tool_call": false
+    },
+    "gemini-3.5-transcribe-live": {
+      "attachment": true,
+      "description": "语音转写模型，面向精准的音频转文本与字幕工作流",
+      "family": "gemini",
+      "id": "gemini-3.5-transcribe-live",
+      "last_updated": "2026-08-26",
+      "limit": {
+        "context": 131072,
+        "output": 65536
+      },
+      "modalities": {
+        "input": [
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemini 3.5 Transcribe Live",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-08-26",
+      "temperature": true,
+      "tool_call": false
+    },
     "gemini-3.6-flash": {
       "attachment": true,
       "canonical_model_id": "google/gemini-3.6-flash",
@@ -1173,6 +1254,118 @@
       ],
       "release_date": "2026-09-02",
       "structured_output": true,
+      "temperature": true,
+      "tool_call": true
+    },
+    "gemini-3.8-flash-lite-tts": {
+      "attachment": false,
+      "description": "Fast, cost-efficient text-to-speech model for high-volume narration and voice agent pipelines",
+      "family": "gemini-flash-lite",
+      "id": "gemini-3.8-flash-lite-tts",
+      "last_updated": "2026-09-22",
+      "limit": {
+        "context": 8192,
+        "output": 16384
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "name": "Gemini 3.8 Flash Lite TTS",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-09-22",
+      "structured_output": false,
+      "temperature": true,
+      "tool_call": false
+    },
+    "gemini-3.8-flash-tts": {
+      "attachment": false,
+      "description": "Flagship text-to-speech model for expressive, studio-grade voices and long-form multi-speaker audio",
+      "family": "gemini-flash",
+      "id": "gemini-3.8-flash-tts",
+      "last_updated": "2026-09-22",
+      "limit": {
+        "context": 8192,
+        "output": 16384
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "name": "Gemini 3.8 Flash TTS",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-09-22",
+      "structured_output": false,
+      "temperature": true,
+      "tool_call": false
+    },
+    "gemini-3.8-live": {
+      "attachment": true,
+      "description": "Low-latency Live API model for real-time voice agents with interleaved reasoning and async tools",
+      "family": "gemini-flash",
+      "id": "gemini-3.8-live",
+      "last_updated": "2026-09-15",
+      "limit": {
+        "context": 131072,
+        "output": 65536
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "audio"
+        ]
+      },
+      "name": "Gemini 3.8 Live",
+      "open_weights": false,
+      "reasoning": true,
+      "release_date": "2026-09-15",
+      "structured_output": false,
+      "temperature": true,
+      "tool_call": true
+    },
+    "gemini-3.8-live-extended-thinking": {
+      "attachment": true,
+      "description": "Live API voice model with configurable background reasoning for multi-step real-time agents",
+      "family": "gemini-flash",
+      "id": "gemini-3.8-live-extended-thinking",
+      "last_updated": "2026-09-15",
+      "limit": {
+        "context": 131072,
+        "output": 65536
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "audio"
+        ]
+      },
+      "name": "Gemini 3.8 Live Extended Thinking",
+      "open_weights": false,
+      "reasoning": true,
+      "release_date": "2026-09-15",
+      "structured_output": false,
       "temperature": true,
       "tool_call": true
     },
@@ -1386,6 +1579,62 @@
       "temperature": true,
       "tool_call": true
     },
+    "gemini-nano-banana-2.1": {
+      "attachment": true,
+      "description": "Image model for prompt-driven generation, multi-turn editing, and visual design workflows",
+      "family": "gemini-flash",
+      "id": "gemini-nano-banana-2.1",
+      "last_updated": "2026-10-06",
+      "limit": {
+        "context": 131072,
+        "output": 32768
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text",
+          "image"
+        ]
+      },
+      "name": "Nano Banana 2.1",
+      "open_weights": false,
+      "reasoning": true,
+      "release_date": "2026-10-06",
+      "structured_output": false,
+      "temperature": true,
+      "tool_call": false
+    },
+    "gemini-omni-1.1-flash": {
+      "attachment": true,
+      "description": "Video generation and editing model for scene extension, frame interpolation, and reference-guided multimodal control",
+      "family": "gemini",
+      "id": "gemini-omni-1.1-flash",
+      "last_updated": "2026-08-27",
+      "limit": {
+        "context": 131072,
+        "output": 65536
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Gemini Omni 1.1 Flash",
+      "open_weights": false,
+      "reasoning": true,
+      "release_date": "2026-08-27",
+      "temperature": true,
+      "tool_call": false
+    },
     "gemini-omni-flash-preview": {
       "attachment": true,
       "canonical_model_id": "google/gemini-omni-flash-preview",
@@ -1480,6 +1729,64 @@
       ],
       "release_date": "2026-02-19",
       "structured_output": true,
+      "temperature": true,
+      "tool_call": true
+    },
+    "gemini-robotics-er-2-preview": {
+      "attachment": true,
+      "description": "Embodied reasoning model for robotics: spatial understanding, video progress, and multi-robot orchestration",
+      "family": "gemini",
+      "id": "gemini-robotics-er-2-preview",
+      "last_updated": "2026-07-30",
+      "limit": {
+        "context": 131072,
+        "output": 65536
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemini Robotics-ER 2 Preview",
+      "open_weights": false,
+      "reasoning": true,
+      "release_date": "2026-07-30",
+      "structured_output": true,
+      "temperature": true,
+      "tool_call": true
+    },
+    "gemini-robotics-er-2-streaming-preview": {
+      "attachment": true,
+      "description": "Live API robotics model for low-latency robot agents over continuous audio and video",
+      "family": "gemini",
+      "id": "gemini-robotics-er-2-streaming-preview",
+      "last_updated": "2026-07-30",
+      "limit": {
+        "context": 131072,
+        "output": 65536
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemini Robotics-ER 2 Streaming Preview",
+      "open_weights": false,
+      "reasoning": true,
+      "release_date": "2026-07-30",
+      "structured_output": false,
       "temperature": true,
       "tool_call": true
     },
@@ -1609,6 +1916,61 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2026-03-25",
+      "structured_output": false,
+      "temperature": true,
+      "tool_call": false
+    },
+    "lyria-3.5": {
+      "attachment": true,
+      "description": "Music generation model for full-length songs with vocals and structure from text or image prompts",
+      "family": "lyria",
+      "id": "lyria-3.5",
+      "last_updated": "2026-09-03",
+      "limit": {
+        "context": 1048576,
+        "output": 65536
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "audio"
+        ]
+      },
+      "name": "Lyria 3.5",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-09-03",
+      "structured_output": false,
+      "temperature": true,
+      "tool_call": false
+    },
+    "lyria-realtime-exp": {
+      "attachment": false,
+      "description": "Experimental streaming music generation model steered in real time by weighted text prompts",
+      "family": "lyria",
+      "id": "lyria-realtime-exp",
+      "last_updated": "2025-05-20",
+      "limit": {
+        "context": 1048576,
+        "output": 65536
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "name": "Lyria Realtime Experimental",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-05-20",
+      "status": "alpha",
       "structured_output": false,
       "temperature": true,
       "tool_call": false

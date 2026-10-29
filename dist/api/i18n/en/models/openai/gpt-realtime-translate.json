@@ -1,0 +1,27 @@
+{
+  "attachment": true,
+  "description": "Streaming speech-to-speech translation model for live multilingual audio",
+  "family": "gpt",
+  "id": "gpt-realtime-translate",
+  "knowledge": "2024-09-30",
+  "last_updated": "2026-05-07",
+  "limit": {
+    "context": 16000,
+    "output": 2000
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "name": "GPT-Realtime-Translate",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-05-07",
+  "temperature": false,
+  "tool_call": false
+}

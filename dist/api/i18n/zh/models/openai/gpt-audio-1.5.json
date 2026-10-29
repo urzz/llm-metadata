@@ -1,0 +1,29 @@
+{
+  "attachment": true,
+  "description": "Audio model for speech input and output with the Chat Completions API",
+  "family": "gpt",
+  "id": "gpt-audio-1.5",
+  "knowledge": "2024-09-30",
+  "last_updated": "2026-02-23",
+  "limit": {
+    "context": 128000,
+    "output": 16384
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "name": "GPT-Audio-1.5",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-02-23",
+  "structured_output": false,
+  "temperature": true,
+  "tool_call": true
+}

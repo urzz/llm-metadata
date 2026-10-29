@@ -6,6 +6,11 @@
   "description": "MiniMax image model for detailed text-to-image and subject-reference image-to-image generation",
   "family": "minimax",
   "id": "image-01",
+  "last_updated": "2026-08-25",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
   "modalities": {
     "input": [
       "text",

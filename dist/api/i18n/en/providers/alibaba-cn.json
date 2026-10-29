@@ -173,6 +173,58 @@
       "temperature": true,
       "tool_call": true
     },
+    "qwen-image-2.0": {
+      "attachment": true,
+      "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+      "family": "qwen",
+      "id": "qwen-image-2.0",
+      "last_updated": "2026-03-03",
+      "limit": {
+        "context": 8192,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "Qwen Image 2.0",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-03-03",
+      "temperature": false,
+      "tool_call": false
+    },
+    "qwen-image-2.0-pro": {
+      "attachment": true,
+      "description": "Higher-quality Qwen image model for generation and editing",
+      "family": "qwen",
+      "id": "qwen-image-2.0-pro",
+      "last_updated": "2026-03-03",
+      "limit": {
+        "context": 8192,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "Qwen Image 2.0 Pro",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-03-03",
+      "temperature": false,
+      "tool_call": false
+    },
     "qwen-long": {
       "attachment": false,
       "cost": {
@@ -1984,6 +2036,60 @@
       "temperature": true,
       "tool_call": true
     },
+    "qwen3.8-2.4t-a95b": {
+      "attachment": false,
+      "description": "Open-weight sparse MoE (2.4T total, 95B active), the open-weight twin of Qwen3.8 Max for coding, research, complex reasoning, and agentic workflows",
+      "family": "qwen",
+      "id": "qwen3.8-2.4t-a95b",
+      "last_updated": "2026-08-12",
+      "limit": {
+        "context": 262144,
+        "output": 131072
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.8 2.4T A95B",
+      "open_weights": true,
+      "reasoning": true,
+      "release_date": "2026-08-12",
+      "structured_output": true,
+      "temperature": true,
+      "tool_call": true
+    },
+    "qwen3.8-27b": {
+      "attachment": true,
+      "description": "Dense 27B vision-language model for coding, agent tasks, and image and video understanding",
+      "family": "qwen",
+      "id": "qwen3.8-27b",
+      "last_updated": "2026-08-14",
+      "limit": {
+        "context": 262144,
+        "output": 32768
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.8 27B",
+      "open_weights": true,
+      "reasoning": true,
+      "release_date": "2026-08-14",
+      "structured_output": true,
+      "temperature": true,
+      "tool_call": true
+    },
     "qwen3.8-flash": {
       "attachment": true,
       "canonical_model_id": "alibaba/qwen3.8-flash",
@@ -2092,6 +2198,35 @@
         }
       ],
       "release_date": "2026-08-03",
+      "structured_output": true,
+      "temperature": true,
+      "tool_call": true
+    },
+    "qwen3.8-max-0902": {
+      "attachment": true,
+      "description": "2026-09-02 upgraded snapshot of Qwen3.8 Max with stronger coding, collaborative agents, and multimodal document understanding",
+      "family": "qwen",
+      "id": "qwen3.8-max-0902",
+      "last_updated": "2026-09-02",
+      "limit": {
+        "context": 1000000,
+        "output": 131072
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.8 Max 0902",
+      "open_weights": false,
+      "reasoning": true,
+      "release_date": "2026-09-02",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -2336,6 +2471,56 @@
       "reasoning": false,
       "release_date": "2024-01",
       "temperature": true,
+      "tool_call": false
+    },
+    "wan2.7-image": {
+      "attachment": true,
+      "description": "Wan image model for prompt-driven generation and editing",
+      "id": "wan2.7-image",
+      "last_updated": "2026-05-29",
+      "limit": {
+        "context": 8192,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "Wan2.7 Image",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-05-29",
+      "temperature": false,
+      "tool_call": false
+    },
+    "wan2.7-image-pro": {
+      "attachment": true,
+      "description": "Higher-quality Wan image model for generation and editing",
+      "id": "wan2.7-image-pro",
+      "last_updated": "2026-05-29",
+      "limit": {
+        "context": 8192,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "Wan2.7 Image Pro",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-05-29",
+      "temperature": false,
       "tool_call": false
     }
   },

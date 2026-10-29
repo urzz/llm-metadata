@@ -6,7 +6,7 @@
       "doc": "https://www.alibabacloud.com/help/en/model-studio/models",
       "icon": "lb:qwen-color",
       "id": "alibaba",
-      "modelCount": 50,
+      "modelCount": 57,
       "name": "Alibaba",
       "status": 1
     },
@@ -16,7 +16,7 @@
       "doc": "https://www.alibabacloud.com/help/en/model-studio/models",
       "icon": "lb:qwen-color",
       "id": "alibaba-cn",
-      "modelCount": 54,
+      "modelCount": 61,
       "name": "Alibaba (China)",
       "status": 1
     },
@@ -46,7 +46,7 @@
       "doc": "https://www.alibabacloud.com/help/en/model-studio/token-plan-overview",
       "icon": "lb:qwen-color",
       "id": "alibaba-token-plan",
-      "modelCount": 14,
+      "modelCount": 16,
       "name": "Alibaba Token Plan",
       "status": 1
     },
@@ -56,7 +56,7 @@
       "doc": "https://www.alibabacloud.com/help/zh/model-studio/token-plan-overview",
       "icon": "lb:qwen-color",
       "id": "alibaba-token-plan-cn",
-      "modelCount": 14,
+      "modelCount": 16,
       "name": "Alibaba Token Plan (China)",
       "status": 1
     },
@@ -96,7 +96,7 @@
       "doc": "https://docs.cohere.com/docs/models",
       "icon": "lb:cohere-color",
       "id": "cohere",
-      "modelCount": 17,
+      "modelCount": 31,
       "name": "Cohere",
       "status": 1
     },
@@ -116,7 +116,7 @@
       "doc": "https://ai.google.dev/gemini-api/docs/models",
       "icon": "lb:gemini-color",
       "id": "google",
-      "modelCount": 36,
+      "modelCount": 49,
       "name": "Google",
       "status": 1
     },
@@ -126,7 +126,7 @@
       "doc": "https://docs.inceptionlabs.ai/get-started/models",
       "icon": "lb:inception",
       "id": "inception",
-      "modelCount": 4,
+      "modelCount": 5,
       "name": "Inception",
       "status": 1
     },
@@ -146,7 +146,7 @@
       "doc": "https://dev.meta.ai/docs",
       "icon": "lb:meta-color",
       "id": "meta",
-      "modelCount": 6,
+      "modelCount": 7,
       "name": "Meta",
       "status": 1
     },
@@ -156,7 +156,7 @@
       "doc": "https://platform.minimax.io/docs/guides/quickstart",
       "icon": "lb:minimax-color",
       "id": "minimax",
-      "modelCount": 18,
+      "modelCount": 19,
       "name": "MiniMax (minimax.io)",
       "status": 1
     },
@@ -196,7 +196,7 @@
       "doc": "https://docs.mistral.ai/getting-started/models/",
       "icon": "lb:mistral-color",
       "id": "mistral",
-      "modelCount": 35,
+      "modelCount": 40,
       "name": "Mistral",
       "status": 1
     },
@@ -246,7 +246,7 @@
       "doc": "https://platform.openai.com/docs/models",
       "icon": "lb:openai",
       "id": "openai",
-      "modelCount": 51,
+      "modelCount": 77,
       "name": "OpenAI",
       "status": 1
     },
@@ -416,7 +416,7 @@
       "doc": "https://docs.x.ai/docs/models",
       "icon": "lb:xai",
       "id": "xai",
-      "modelCount": 13,
+      "modelCount": 17,
       "name": "xAI",
       "status": 1
     },
@@ -426,7 +426,7 @@
       "doc": "https://platform.xiaomimimo.com/#/docs",
       "icon": "lb:xiaomimimo",
       "id": "xiaomi",
-      "modelCount": 6,
+      "modelCount": 10,
       "name": "Xiaomi",
       "status": 1
     },
@@ -436,7 +436,7 @@
       "doc": "https://platform.xiaomimimo.com/#/docs",
       "icon": "lb:xiaomimimo",
       "id": "xiaomi-token-plan-ams",
-      "modelCount": 7,
+      "modelCount": 8,
       "name": "Xiaomi Token Plan (Europe)",
       "status": 1
     },
@@ -446,7 +446,7 @@
       "doc": "https://platform.xiaomimimo.com/#/docs",
       "icon": "lb:xiaomimimo",
       "id": "xiaomi-token-plan-cn",
-      "modelCount": 7,
+      "modelCount": 8,
       "name": "Xiaomi Token Plan (China)",
       "status": 1
     },
@@ -456,7 +456,7 @@
       "doc": "https://platform.xiaomimimo.com/#/docs",
       "icon": "lb:xiaomimimo",
       "id": "xiaomi-token-plan-sgp",
-      "modelCount": 7,
+      "modelCount": 8,
       "name": "Xiaomi Token Plan (Singapore)",
       "status": 1
     },
@@ -466,7 +466,7 @@
       "doc": "https://docs.z.ai/guides/overview/pricing",
       "icon": "lb:zai",
       "id": "zai",
-      "modelCount": 18,
+      "modelCount": 24,
       "name": "Z.AI",
       "status": 1
     },
@@ -486,7 +486,7 @@
       "doc": "https://docs.bigmodel.cn/cn/guide/start/pricing",
       "icon": "lb:zhipu-color",
       "id": "zhipuai",
-      "modelCount": 17,
+      "modelCount": 22,
       "name": "Zhipu AI",
       "status": 1
     },

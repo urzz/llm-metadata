@@ -1,0 +1,26 @@
+{
+  "attachment": true,
+  "description": "Higher-quality Qwen-Image-3.0 for complex layouts, small text and photographic detail",
+  "family": "qwen",
+  "id": "qwen-image-3.0-pro",
+  "last_updated": "2026-08-05",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "name": "Qwen-Image-3.0-Pro",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-08-05",
+  "temperature": false,
+  "tool_call": false
+}

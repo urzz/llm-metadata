@@ -1,0 +1,26 @@
+{
+  "attachment": true,
+  "description": "图像模型，面向提示词驱动的生成、编辑与视觉设计工作流",
+  "family": "gpt-image",
+  "id": "gpt-image-2.5-flare",
+  "last_updated": "2026-09-08",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "name": "GPT Image 2.5 Flare",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-09-08",
+  "temperature": false,
+  "tool_call": false
+}

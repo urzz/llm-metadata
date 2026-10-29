@@ -407,6 +407,11 @@
       "description": "MiniMax 图像模型，面向画面细腻的文生图与主体参考图生图",
       "family": "minimax",
       "id": "image-01",
+      "last_updated": "2026-08-25",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
       "modalities": {
         "input": [
           "text",
@@ -432,6 +437,11 @@
       "description": "MiniMax 图像模型，增强手绘、卡通等画风，支持画风预设",
       "family": "minimax",
       "id": "image-01-live",
+      "last_updated": "2025-02-15",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
       "modalities": {
         "input": [
           "text",
@@ -444,6 +454,7 @@
       "name": "image-01-live",
       "open_weights": false,
       "reasoning": false,
+      "release_date": "2025-02-15",
       "temperature": false,
       "tool_call": false
     },

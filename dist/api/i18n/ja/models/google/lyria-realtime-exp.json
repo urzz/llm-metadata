@@ -1,0 +1,27 @@
+{
+  "attachment": false,
+  "description": "Experimental streaming music generation model steered in real time by weighted text prompts",
+  "family": "lyria",
+  "id": "lyria-realtime-exp",
+  "last_updated": "2025-05-20",
+  "limit": {
+    "context": 1048576,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "name": "Lyria Realtime Experimental",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-05-20",
+  "status": "alpha",
+  "structured_output": false,
+  "temperature": true,
+  "tool_call": false
+}

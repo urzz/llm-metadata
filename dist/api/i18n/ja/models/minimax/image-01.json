@@ -6,6 +6,11 @@
   "description": "精細なテキストからの画像生成と、被写体参照による画像からの画像生成向けの MiniMax 画像モデル",
   "family": "minimax",
   "id": "image-01",
+  "last_updated": "2026-08-25",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
   "modalities": {
     "input": [
       "text",

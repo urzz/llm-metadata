@@ -24,6 +24,28 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen-image-2.0",
+      "name": "Qwen Image 2.0",
+      "providerId": "alibaba",
+      "updated": "2026-03-03"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen-image-2.0-pro",
+      "name": "Qwen Image 2.0 Pro",
+      "providerId": "alibaba",
+      "updated": "2026-03-03"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": false,
         "tool_call": true
@@ -508,6 +530,28 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen3.8-2.4t-a95b",
+      "name": "Qwen3.8 2.4T A95B",
+      "providerId": "alibaba",
+      "updated": "2026-08-12"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "providerId": "alibaba",
+      "updated": "2026-08-14"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -534,6 +578,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "qwen3.8-max-0902",
+      "name": "Qwen3.8 Max 0902",
+      "providerId": "alibaba",
+      "updated": "2026-09-02"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "qwen3.8-omni-flash",
       "name": "Qwen3.8 Omni Flash",
       "providerId": "alibaba",
@@ -549,6 +604,28 @@
       "name": "QwQ Plus",
       "providerId": "alibaba",
       "updated": "2025-03-05"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "wan2.7-image",
+      "name": "Wan2.7 Image",
+      "providerId": "alibaba",
+      "updated": "2026-05-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "wan2.7-image-pro",
+      "name": "Wan2.7 Image Pro",
+      "providerId": "alibaba",
+      "updated": "2026-05-29"
     },
     {
       "flags": {
@@ -593,6 +670,28 @@
       "name": "Qwen Flash",
       "providerId": "alibaba-cn",
       "updated": "2025-07-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen-image-2.0",
+      "name": "Qwen Image 2.0",
+      "providerId": "alibaba-cn",
+      "updated": "2026-03-03"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen-image-2.0-pro",
+      "name": "Qwen Image 2.0 Pro",
+      "providerId": "alibaba-cn",
+      "updated": "2026-03-03"
     },
     {
       "flags": {
@@ -1047,6 +1146,28 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen3.8-2.4t-a95b",
+      "name": "Qwen3.8 2.4T A95B",
+      "providerId": "alibaba-cn",
+      "updated": "2026-08-12"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "providerId": "alibaba-cn",
+      "updated": "2026-08-14"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -1066,6 +1187,17 @@
       "name": "Qwen3.8 Max",
       "providerId": "alibaba-cn",
       "updated": "2026-08-03"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen3.8-max-0902",
+      "name": "Qwen3.8 Max 0902",
+      "providerId": "alibaba-cn",
+      "updated": "2026-09-02"
     },
     {
       "flags": {
@@ -1143,6 +1275,28 @@
       "name": "Tongyi Intent Detect V3",
       "providerId": "alibaba-cn",
       "updated": "2024-01"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "wan2.7-image",
+      "name": "Wan2.7 Image",
+      "providerId": "alibaba-cn",
+      "updated": "2026-05-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "wan2.7-image-pro",
+      "name": "Wan2.7 Image Pro",
+      "providerId": "alibaba-cn",
+      "updated": "2026-05-29"
     },
     {
       "flags": {
@@ -1311,6 +1465,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen-audio-3.0-asr-flash",
+      "name": "Qwen-Audio-3.0-ASR Flash",
+      "providerId": "alibaba-token-plan",
+      "updated": "2026-06"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": false,
         "tool_call": false
@@ -1330,6 +1495,17 @@
       "name": "Qwen Image 2.0 Pro",
       "providerId": "alibaba-token-plan",
       "updated": "2026-03-03"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen-image-3.0-pro",
+      "name": "Qwen-Image-3.0-Pro",
+      "providerId": "alibaba-token-plan",
+      "updated": "2026-08-05"
     },
     {
       "flags": {
@@ -1465,6 +1641,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen-audio-3.0-asr-flash",
+      "name": "Qwen-Audio-3.0-ASR Flash",
+      "providerId": "alibaba-token-plan-cn",
+      "updated": "2026-06"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": false,
         "tool_call": false
@@ -1484,6 +1671,17 @@
       "name": "Qwen Image 2.0 Pro",
       "providerId": "alibaba-token-plan-cn",
       "updated": "2026-03-03"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen-image-3.0-pro",
+      "name": "Qwen-Image-3.0-Pro",
+      "providerId": "alibaba-token-plan-cn",
+      "updated": "2026-08-05"
     },
     {
       "flags": {
@@ -1828,6 +2026,28 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "cohere-transcribe-03-2026",
+      "name": "Cohere Transcribe",
+      "providerId": "cohere",
+      "updated": "2026-03-26"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "cohere-transcribe-arabic-07-2026",
+      "name": "Cohere Transcribe Arabic",
+      "providerId": "cohere",
+      "updated": "2026-07-07"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": false,
         "tool_call": true
@@ -1927,6 +2147,83 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "embed-english-light-v3.0",
+      "name": "Embed English Light 3",
+      "providerId": "cohere",
+      "updated": "2023-11-02"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "embed-english-v3.0",
+      "name": "Embed English 3",
+      "providerId": "cohere",
+      "updated": "2023-11-02"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "embed-multilingual-light-v3.0",
+      "name": "Embed Multilingual Light 3",
+      "providerId": "cohere",
+      "updated": "2023-11-02"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "embed-multilingual-v3.0",
+      "name": "Embed Multilingual 3",
+      "providerId": "cohere",
+      "updated": "2023-11-02"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "embed-v4.0",
+      "name": "Embed 4",
+      "providerId": "cohere",
+      "updated": "2025-04-15"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "embed-v5.0-fast",
+      "name": "Embed 5 Fast",
+      "providerId": "cohere",
+      "updated": "2026-09-30"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "embed-v5.0-pro",
+      "name": "Embed 5 Pro",
+      "providerId": "cohere",
+      "updated": "2026-09-30"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -1946,6 +2243,61 @@
       "name": "North Small Translate",
       "providerId": "cohere",
       "updated": "2026-09-09"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "rerank-english-v3.0",
+      "name": "Rerank English 3",
+      "providerId": "cohere",
+      "updated": "2024-04-11"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "rerank-multilingual-v3.0",
+      "name": "Rerank Multilingual 3",
+      "providerId": "cohere",
+      "updated": "2024-04-11"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "rerank-v3.5",
+      "name": "Rerank 3.5",
+      "providerId": "cohere",
+      "updated": "2024-12-02"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "rerank-v4.0-fast",
+      "name": "Rerank 4 Fast",
+      "providerId": "cohere",
+      "updated": "2025-12-11"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "rerank-v4.0-pro",
+      "name": "Rerank 4 Pro",
+      "providerId": "cohere",
+      "updated": "2025-12-11"
     },
     {
       "flags": {
@@ -2100,6 +2452,17 @@
       "name": "Gemini 2.5 Flash-Lite",
       "providerId": "google",
       "updated": "2025-06-17"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "name": "Gemini 2.5 Flash Native Audio Preview 12-2025",
+      "providerId": "google",
+      "updated": "2025-12-12"
     },
     {
       "flags": {
@@ -2280,6 +2643,28 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gemini-3.5-transcribe",
+      "name": "Gemini 3.5 Transcribe",
+      "providerId": "google",
+      "updated": "2026-08-26"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gemini-3.5-transcribe-live",
+      "name": "Gemini 3.5 Transcribe Live",
+      "providerId": "google",
+      "updated": "2026-08-26"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -2309,6 +2694,50 @@
       "name": "Gemini 3.8 Flash",
       "providerId": "google",
       "updated": "2026-09-02"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gemini-3.8-flash-lite-tts",
+      "name": "Gemini 3.8 Flash Lite TTS",
+      "providerId": "google",
+      "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gemini-3.8-flash-tts",
+      "name": "Gemini 3.8 Flash TTS",
+      "providerId": "google",
+      "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gemini-3.8-live",
+      "name": "Gemini 3.8 Live",
+      "providerId": "google",
+      "updated": "2026-09-15"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gemini-3.8-live-extended-thinking",
+      "name": "Gemini 3.8 Live Extended Thinking",
+      "providerId": "google",
+      "updated": "2026-09-15"
     },
     {
       "flags": {
@@ -2371,6 +2800,28 @@
         "reasoning": true,
         "tool_call": false
       },
+      "id": "gemini-nano-banana-2.1",
+      "name": "Nano Banana 2.1",
+      "providerId": "google",
+      "updated": "2026-10-06"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": false
+      },
+      "id": "gemini-omni-1.1-flash",
+      "name": "Gemini Omni 1.1 Flash",
+      "providerId": "google",
+      "updated": "2026-08-27"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": false
+      },
       "id": "gemini-omni-flash-preview",
       "name": "Gemini Omni Flash Preview",
       "providerId": "google",
@@ -2386,6 +2837,28 @@
       "name": "Gemini Pro Latest",
       "providerId": "google",
       "updated": "2026-02-19"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gemini-robotics-er-2-preview",
+      "name": "Gemini Robotics-ER 2 Preview",
+      "providerId": "google",
+      "updated": "2026-07-30"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gemini-robotics-er-2-streaming-preview",
+      "name": "Gemini Robotics-ER 2 Streaming Preview",
+      "providerId": "google",
+      "updated": "2026-07-30"
     },
     {
       "flags": {
@@ -2433,6 +2906,28 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "lyria-3.5",
+      "name": "Lyria 3.5",
+      "providerId": "google",
+      "updated": "2026-09-03"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "lyria-realtime-exp",
+      "name": "Lyria Realtime Experimental",
+      "providerId": "google",
+      "updated": "2025-05-20"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -2466,6 +2961,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "mercury-decide",
+      "name": "Mercury Decide",
+      "providerId": "inception",
+      "updated": "2026-09-30"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": false,
         "tool_call": false
@@ -2496,6 +3002,17 @@
       "name": "LongCat-2.5-Preview",
       "providerId": "longcat",
       "updated": "2026-09-25"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "muse-image-1.0",
+      "name": "Muse Image",
+      "providerId": "meta",
+      "updated": "2026-07-07"
     },
     {
       "flags": {
@@ -2571,6 +3088,17 @@
       },
       "id": "image-01",
       "name": "image-01",
+      "providerId": "minimax",
+      "updated": "2026-08-25"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "image-01-live",
+      "name": "MiniMax image-01-live",
       "providerId": "minimax",
       "updated": "2025-02-15"
     },
@@ -2769,7 +3297,7 @@
       "id": "image-01",
       "name": "image-01",
       "providerId": "minimax-cn",
-      "updated": "2025-04-02"
+      "updated": "2026-08-25"
     },
     {
       "flags": {
@@ -2779,7 +3307,8 @@
       },
       "id": "image-01-live",
       "name": "image-01-live",
-      "providerId": "minimax-cn"
+      "providerId": "minimax-cn",
+      "updated": "2025-02-15"
     },
     {
       "flags": {
@@ -3176,6 +3705,17 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "codestral-embed",
+      "name": "Codestral Embed",
+      "providerId": "mistral",
+      "updated": "2025-05-28"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": false,
         "tool_call": true
@@ -3418,6 +3958,39 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "mistral-moderation-2603",
+      "name": "Mistral Moderation 26.03",
+      "providerId": "mistral",
+      "updated": "2026-03-01"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "mistral-ocr-2512",
+      "name": "Mistral OCR 3",
+      "providerId": "mistral",
+      "updated": "2025-12-18"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "mistral-ocr-4-1",
+      "name": "Mistral OCR 4.1",
+      "providerId": "mistral",
+      "updated": "2026-07-16"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": false,
         "tool_call": true
@@ -3479,6 +4052,17 @@
       },
       "id": "voxtral-mini-latest",
       "name": "Voxtral Mini (latest)",
+      "providerId": "mistral",
+      "updated": "2026-02-04"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "voxtral-mini-transcribe-realtime-2602",
+      "name": "Voxtral Mini Transcribe Realtime",
       "providerId": "mistral",
       "updated": "2026-02-04"
     },
@@ -3826,6 +4410,17 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "chat-latest",
+      "name": "Chat Latest",
+      "providerId": "openai",
+      "updated": "2026-05-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": false,
         "tool_call": false
       },
@@ -3958,6 +4553,50 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gpt-4o-mini-transcribe",
+      "name": "GPT-4o Mini Transcribe",
+      "providerId": "openai",
+      "updated": "2025-03-20"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gpt-4o-mini-tts",
+      "name": "GPT-4o Mini TTS",
+      "providerId": "openai",
+      "updated": "2025-03-20"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gpt-4o-transcribe",
+      "name": "GPT-4o Transcribe",
+      "providerId": "openai",
+      "updated": "2025-03-20"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gpt-4o-transcribe-diarize",
+      "name": "GPT-4o Transcribe Diarize",
+      "providerId": "openai",
+      "updated": "2025-10-17"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -3998,6 +4637,17 @@
       "name": "GPT-5 Pro",
       "providerId": "openai",
       "updated": "2025-10-06"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gpt-5-search-api",
+      "name": "GPT-5 Search API",
+      "providerId": "openai",
+      "updated": "2025-10-14"
     },
     {
       "flags": {
@@ -4137,6 +4787,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "gpt-5.6-cyber",
+      "name": "GPT-5.6 Cyber",
+      "providerId": "openai",
+      "updated": "2026-08-07"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "gpt-5.6-luna",
       "name": "GPT-5.6 Luna",
       "providerId": "openai",
@@ -4222,6 +4883,39 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "gpt-audio",
+      "name": "GPT-Audio",
+      "providerId": "openai",
+      "updated": "2025-08-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "gpt-audio-1.5",
+      "name": "GPT-Audio-1.5",
+      "providerId": "openai",
+      "updated": "2026-02-23"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "gpt-audio-mini",
+      "name": "GPT-Audio Mini",
+      "providerId": "openai",
+      "updated": "2025-10-06"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -4277,6 +4971,83 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gpt-image-2.5-flare",
+      "name": "GPT Image 2.5 Flare",
+      "providerId": "openai",
+      "updated": "2026-09-08"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gpt-image-2.5-sunburst",
+      "name": "GPT Image 2.5 Sunburst",
+      "providerId": "openai",
+      "updated": "2026-09-08"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "gpt-live-1",
+      "name": "GPT-Live 1",
+      "providerId": "openai",
+      "updated": "2026-09-10"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gpt-live-transcribe",
+      "name": "GPT-Live-Transcribe",
+      "providerId": "openai",
+      "updated": "2026-07-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "gpt-realtime",
+      "name": "GPT-Realtime",
+      "providerId": "openai",
+      "updated": "2025-08-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "gpt-realtime-1.5",
+      "name": "GPT-Realtime-1.5",
+      "providerId": "openai",
+      "updated": "2026-02-23"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gpt-realtime-2",
+      "name": "GPT-Realtime-2",
+      "providerId": "openai",
+      "updated": "2026-05-07"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -4284,6 +5055,61 @@
       "name": "GPT-Realtime-2.1",
       "providerId": "openai",
       "updated": "2026-07-06"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gpt-realtime-2.1-mini",
+      "name": "GPT-Realtime-2.1 Mini",
+      "providerId": "openai",
+      "updated": "2026-07-06"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "gpt-realtime-mini",
+      "name": "GPT-Realtime Mini",
+      "providerId": "openai",
+      "updated": "2025-10-06"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gpt-realtime-translate",
+      "name": "GPT-Realtime-Translate",
+      "providerId": "openai",
+      "updated": "2026-05-07"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gpt-realtime-whisper",
+      "name": "GPT Realtime Whisper",
+      "providerId": "openai",
+      "updated": "2026-05-07"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gpt-transcribe",
+      "name": "GPT-Transcribe",
+      "providerId": "openai",
+      "updated": "2026-07-28"
     },
     {
       "flags": {
@@ -4353,6 +5179,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "omni-moderation-latest",
+      "name": "omni-moderation",
+      "providerId": "openai",
+      "updated": "2024-09-26"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": false,
         "tool_call": false
@@ -4383,6 +5220,39 @@
       "name": "text-embedding-ada-002",
       "providerId": "openai",
       "updated": "2022-12-15"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "tts-1",
+      "name": "TTS-1",
+      "providerId": "openai",
+      "updated": "2023-11-06"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "tts-1-hd",
+      "name": "TTS-1 HD",
+      "providerId": "openai",
+      "updated": "2023-11-06"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "whisper-1",
+      "name": "Whisper",
+      "providerId": "openai",
+      "updated": "2023-03-01"
     },
     {
       "flags": {
@@ -5644,6 +6514,17 @@
         "reasoning": false,
         "tool_call": false
       },
+      "id": "grok-imagine-image-2.0",
+      "name": "Grok Imagine Image 2.0",
+      "providerId": "xai",
+      "updated": "2026-08-07"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
       "id": "grok-imagine-image-quality",
       "name": "Grok Imagine Image Quality",
       "providerId": "xai",
@@ -5684,6 +6565,39 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "grok-tts",
+      "name": "Grok TTS",
+      "providerId": "xai",
+      "updated": "2026-03-16"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "grok-voice-3.0",
+      "name": "Grok Voice 3.0",
+      "providerId": "xai",
+      "updated": "2026-10-14"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "grok-voice-transcribe-2.0",
+      "name": "Grok Voice Transcribe 2.0",
+      "providerId": "xai",
+      "updated": "2026-09-17"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -5692,6 +6606,17 @@
       "name": "MiMo-V2.5",
       "providerId": "xiaomi",
       "updated": "2026-04-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "mimo-v2.5-asr",
+      "name": "MiMo-V2.5-ASR",
+      "providerId": "xiaomi",
+      "updated": "2026-04-23"
     },
     {
       "flags": {
@@ -5714,6 +6639,39 @@
       "name": "MiMo-V2.5-Pro-UltraSpeed",
       "providerId": "xiaomi",
       "updated": "2026-06-09"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "mimo-v2.5-tts",
+      "name": "MiMo-V2.5-TTS",
+      "providerId": "xiaomi",
+      "updated": "2026-04-22"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "mimo-v2.5-tts-voiceclone",
+      "name": "MiMo-V2.5-TTS-VoiceClone",
+      "providerId": "xiaomi",
+      "updated": "2026-04-22"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "mimo-v2.5-tts-voicedesign",
+      "name": "MiMo-V2.5-TTS-VoiceDesign",
+      "providerId": "xiaomi",
+      "updated": "2026-04-22"
     },
     {
       "flags": {
@@ -5761,6 +6719,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "mimo-v2.5-asr",
+      "name": "MiMo-V2.5-ASR",
+      "providerId": "xiaomi-token-plan-ams",
+      "updated": "2026-04-23"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -5838,6 +6807,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "mimo-v2.5-asr",
+      "name": "MiMo-V2.5-ASR",
+      "providerId": "xiaomi-token-plan-cn",
+      "updated": "2026-04-23"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -5915,6 +6895,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "mimo-v2.5-asr",
+      "name": "MiMo-V2.5-ASR",
+      "providerId": "xiaomi-token-plan-sgp",
+      "updated": "2026-04-23"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -5978,6 +6969,17 @@
       "name": "MiMo-V2.6-Pro",
       "providerId": "xiaomi-token-plan-sgp",
       "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "cogvideox-3",
+      "name": "CogVideoX-3",
+      "providerId": "zai",
+      "updated": "2025-07-15"
     },
     {
       "flags": {
@@ -6007,8 +7009,30 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "glm-4.5-airx",
+      "name": "GLM-4.5-AirX",
+      "providerId": "zai",
+      "updated": "2025-07-28"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "glm-4.5-flash",
       "name": "GLM-4.5-Flash",
+      "providerId": "zai",
+      "updated": "2025-07-28"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "glm-4.5-x",
+      "name": "GLM-4.5-X",
       "providerId": "zai",
       "updated": "2025-07-28"
     },
@@ -6053,6 +7077,17 @@
       },
       "id": "glm-4.6v-flash",
       "name": "GLM-4.6V-Flash",
+      "providerId": "zai",
+      "updated": "2025-12-08"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "glm-4.6v-flashx",
+      "name": "GLM-4.6V-FlashX",
       "providerId": "zai",
       "updated": "2025-12-08"
     },
@@ -6176,6 +7211,28 @@
       "name": "GLM-5V-Turbo",
       "providerId": "zai",
       "updated": "2026-04-01"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "glm-asr-2512",
+      "name": "GLM-ASR-2512",
+      "providerId": "zai",
+      "updated": "2025-12-10"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "glm-image",
+      "name": "GLM-Image",
+      "providerId": "zai",
+      "updated": "2026-01-14"
     },
     {
       "flags": {
@@ -6256,6 +7313,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "cogvideox-3",
+      "name": "CogVideoX-3",
+      "providerId": "zhipuai",
+      "updated": "2025-07-15"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -6333,6 +7401,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "glm-4.6v-flashx",
+      "name": "GLM-4.6V-FlashX",
+      "providerId": "zhipuai",
+      "updated": "2025-12-08"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -6374,6 +7453,17 @@
       "name": "GLM-5",
       "providerId": "zhipuai",
       "updated": "2026-02-12"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "glm-5-turbo",
+      "name": "GLM-5-Turbo",
+      "providerId": "zhipuai",
+      "updated": "2026-03-16"
     },
     {
       "flags": {
@@ -6444,6 +7534,28 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "glm-asr-2512",
+      "name": "GLM-ASR-2512",
+      "providerId": "zhipuai",
+      "updated": "2025-12-10"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "glm-image",
+      "name": "GLM-Image",
+      "providerId": "zhipuai",
+      "updated": "2026-01-14"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -6500,7 +7612,7 @@
       "iconURL": "https://models.dev/logos/alibaba.svg",
       "id": "alibaba",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 50,
+      "modelCount": 57,
       "name": "Alibaba"
     },
     {
@@ -6517,7 +7629,7 @@
       "iconURL": "https://models.dev/logos/alibaba-cn.svg",
       "id": "alibaba-cn",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 54,
+      "modelCount": 61,
       "name": "Alibaba (China)"
     },
     {
@@ -6568,7 +7680,7 @@
       "iconURL": "https://models.dev/logos/alibaba-token-plan.svg",
       "id": "alibaba-token-plan",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 14,
+      "modelCount": 16,
       "name": "Alibaba Token Plan",
       "subscription": true
     },
@@ -6586,7 +7698,7 @@
       "iconURL": "https://models.dev/logos/alibaba-token-plan-cn.svg",
       "id": "alibaba-token-plan-cn",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 14,
+      "modelCount": 16,
       "name": "Alibaba Token Plan (China)",
       "subscription": true
     },
@@ -6625,7 +7737,7 @@
       "iconURL": "https://models.dev/logos/cohere.svg",
       "id": "cohere",
       "lobeIcon": "Cohere.Color",
-      "modelCount": 17,
+      "modelCount": 31,
       "name": "Cohere"
     },
     {
@@ -6642,7 +7754,7 @@
       "iconURL": "https://models.dev/logos/google.svg",
       "id": "google",
       "lobeIcon": "Gemini.Color",
-      "modelCount": 36,
+      "modelCount": 49,
       "name": "Google"
     },
     {
@@ -6651,7 +7763,7 @@
       "iconURL": "https://models.dev/logos/inception.svg",
       "id": "inception",
       "lobeIcon": "Inception",
-      "modelCount": 4,
+      "modelCount": 5,
       "name": "Inception"
     },
     {
@@ -6669,7 +7781,7 @@
       "iconURL": "https://models.dev/logos/meta.svg",
       "id": "meta",
       "lobeIcon": "Meta.Color",
-      "modelCount": 6,
+      "modelCount": 7,
       "name": "Meta"
     },
     {
@@ -6681,7 +7793,7 @@
       "iconURL": "https://models.dev/logos/minimax.svg",
       "id": "minimax",
       "lobeIcon": "Minimax.Color",
-      "modelCount": 18,
+      "modelCount": 19,
       "name": "MiniMax (minimax.io)"
     },
     {
@@ -6729,7 +7841,7 @@
       "iconURL": "https://models.dev/logos/mistral.svg",
       "id": "mistral",
       "lobeIcon": "Mistral.Color",
-      "modelCount": 35,
+      "modelCount": 40,
       "name": "Mistral"
     },
     {
@@ -6785,7 +7897,7 @@
       "iconURL": "https://models.dev/logos/openai.svg",
       "id": "openai",
       "lobeIcon": "OpenAI",
-      "modelCount": 51,
+      "modelCount": 77,
       "name": "OpenAI"
     },
     {
@@ -6970,7 +8082,7 @@
       "iconURL": "https://models.dev/logos/xai.svg",
       "id": "xai",
       "lobeIcon": "XAI",
-      "modelCount": 13,
+      "modelCount": 17,
       "name": "xAI"
     },
     {
@@ -6982,7 +8094,7 @@
       "iconURL": "https://models.dev/logos/xiaomi.svg",
       "id": "xiaomi",
       "lobeIcon": "XiaomiMiMo",
-      "modelCount": 6,
+      "modelCount": 10,
       "name": "Xiaomi"
     },
     {
@@ -6991,7 +8103,7 @@
       "iconURL": "https://models.dev/logos/xiaomi-token-plan-ams.svg",
       "id": "xiaomi-token-plan-ams",
       "lobeIcon": "XiaomiMiMo",
-      "modelCount": 7,
+      "modelCount": 8,
       "name": "Xiaomi Token Plan (Europe)",
       "subscription": true
     },
@@ -7002,7 +8114,7 @@
       "iconURL": "https://models.dev/logos/xiaomi-token-plan-cn.svg",
       "id": "xiaomi-token-plan-cn",
       "lobeIcon": "XiaomiMiMo",
-      "modelCount": 7,
+      "modelCount": 8,
       "name": "Xiaomi Token Plan (China)",
       "subscription": true
     },
@@ -7012,7 +8124,7 @@
       "iconURL": "https://models.dev/logos/xiaomi-token-plan-sgp.svg",
       "id": "xiaomi-token-plan-sgp",
       "lobeIcon": "XiaomiMiMo",
-      "modelCount": 7,
+      "modelCount": 8,
       "name": "Xiaomi Token Plan (Singapore)",
       "subscription": true
     },
@@ -7025,7 +8137,7 @@
       "iconURL": "https://models.dev/logos/zai.svg",
       "id": "zai",
       "lobeIcon": "ZAI",
-      "modelCount": 18,
+      "modelCount": 24,
       "name": "Z.AI"
     },
     {
@@ -7051,7 +8163,7 @@
       "iconURL": "https://models.dev/logos/zhipuai.svg",
       "id": "zhipuai",
       "lobeIcon": "Zhipu.Color",
-      "modelCount": 17,
+      "modelCount": 22,
       "name": "Zhipu AI"
     },
     {

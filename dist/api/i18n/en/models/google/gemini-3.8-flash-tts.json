@@ -1,0 +1,26 @@
+{
+  "attachment": false,
+  "description": "Flagship text-to-speech model for expressive, studio-grade voices and long-form multi-speaker audio",
+  "family": "gemini-flash",
+  "id": "gemini-3.8-flash-tts",
+  "last_updated": "2026-09-22",
+  "limit": {
+    "context": 8192,
+    "output": 16384
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "name": "Gemini 3.8 Flash TTS",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-09-22",
+  "structured_output": false,
+  "temperature": true,
+  "tool_call": false
+}

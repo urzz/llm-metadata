@@ -7,6 +7,11 @@
   "description": "手描きやアニメ調などの画風を強化し、画風プリセットを選べる MiniMax 画像モデル",
   "family": "minimax",
   "id": "image-01-live",
+  "last_updated": "2025-02-15",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
   "modalities": {
     "input": [
       "text",
@@ -19,6 +24,7 @@
   "name": "image-01-live",
   "open_weights": false,
   "reasoning": false,
+  "release_date": "2025-02-15",
   "temperature": false,
   "tool_call": false
 }

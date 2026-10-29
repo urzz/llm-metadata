@@ -1,0 +1,27 @@
+{
+  "attachment": true,
+  "description": "Speech-to-speech model for real-time voice agents with tool use and optional reasoning",
+  "family": "grok",
+  "id": "grok-voice-3.0",
+  "last_updated": "2026-10-14",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "name": "Grok Voice 3.0",
+  "open_weights": false,
+  "reasoning": true,
+  "release_date": "2026-10-14",
+  "temperature": false,
+  "tool_call": true
+}

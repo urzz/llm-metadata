@@ -1,0 +1,28 @@
+{
+  "attachment": true,
+  "description": "Full-duplex voice model for natural conversations that delegates reasoning and tools to a backend agent",
+  "family": "gpt",
+  "id": "gpt-live-1",
+  "knowledge": "2025-07-31",
+  "last_updated": "2026-09-10",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "name": "GPT-Live 1",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-09-10",
+  "temperature": false,
+  "tool_call": true
+}

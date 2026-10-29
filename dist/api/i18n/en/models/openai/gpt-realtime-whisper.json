@@ -1,0 +1,25 @@
+{
+  "attachment": true,
+  "description": "Streaming speech-to-text model for low-latency transcript deltas from live audio",
+  "family": "whisper",
+  "id": "gpt-realtime-whisper",
+  "last_updated": "2026-05-07",
+  "limit": {
+    "context": 16000,
+    "output": 2000
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "GPT Realtime Whisper",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-05-07",
+  "temperature": true,
+  "tool_call": false
+}

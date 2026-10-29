@@ -1,0 +1,26 @@
+{
+  "attachment": false,
+  "description": "High-speed GLM-4.5-Air serving option for low-latency coding assistance and agents",
+  "family": "glm-air",
+  "id": "glm-4.5-airx",
+  "knowledge": "2025-04",
+  "last_updated": "2025-07-28",
+  "limit": {
+    "context": 131072,
+    "output": 98304
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "GLM-4.5-AirX",
+  "open_weights": true,
+  "reasoning": true,
+  "release_date": "2025-07-28",
+  "temperature": true,
+  "tool_call": true
+}

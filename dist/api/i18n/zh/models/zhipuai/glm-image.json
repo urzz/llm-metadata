@@ -1,0 +1,24 @@
+{
+  "attachment": false,
+  "description": "GLM-Image is an image generation model adopts a hybrid autoregressive + diffusion decoder architecture. In general image generation quality, GLM‑Image aligns with mainstream latent diffusion approaches, but it shows significant advantages in text-rendering and knowledge‑intensive generation scenarios. It performs especially well in tasks requiring precise semantic understanding and complex information expression, while maintaining strong capabilities in high‑fidelity and fine‑grained detail generation. In addition to text‑to‑image generation, GLM‑Image also supports a rich set of image‑to‑image tasks including image editing, style transfer, identity‑preserving generation, and multi‑subject consistency.",
+  "id": "glm-image",
+  "last_updated": "2026-01-14",
+  "limit": {
+    "context": 10240,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "name": "GLM-Image",
+  "open_weights": true,
+  "reasoning": false,
+  "release_date": "2026-01-14",
+  "temperature": false,
+  "tool_call": false
+}

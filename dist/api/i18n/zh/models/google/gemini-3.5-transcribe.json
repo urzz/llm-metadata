@@ -1,0 +1,25 @@
+{
+  "attachment": true,
+  "description": "Speech-to-text model with language detection, speaker diarization, word timestamps, and custom vocabulary",
+  "family": "gemini",
+  "id": "gemini-3.5-transcribe",
+  "last_updated": "2026-08-26",
+  "limit": {
+    "context": 98304,
+    "output": 32768
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Gemini 3.5 Transcribe",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-08-26",
+  "temperature": true,
+  "tool_call": false
+}

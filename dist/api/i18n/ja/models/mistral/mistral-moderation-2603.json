@@ -1,0 +1,24 @@
+{
+  "attachment": false,
+  "description": "Moderation classifier for text and conversations with jailbreak detection and multilingual coverage",
+  "id": "mistral-moderation-2603",
+  "last_updated": "2026-03-01",
+  "limit": {
+    "context": 131072,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Mistral Moderation 26.03",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-03-01",
+  "temperature": false,
+  "tool_call": false
+}

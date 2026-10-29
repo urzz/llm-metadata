@@ -31,6 +31,16 @@
       "vendor_name": "Cohere"
     },
     {
+      "description": "低遅延の支援と大量ワークロード向けのコンパクトな GPT モデル",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "chat-latest",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,ファイル,ビジョン,400K",
+      "vendor_name": "OpenAI"
+    },
+    {
       "description": "プロンプト主導の生成、編集、ビジュアルデザインワークフロー向けの画像モデル",
       "endpoints": null,
       "icon": "OpenAI",
@@ -221,6 +231,16 @@
       "vendor_name": "Mistral"
     },
     {
+      "description": "Embedding model for code search, retrieval, and code-aware RAG pipelines",
+      "endpoints": null,
+      "icon": "Mistral.Color",
+      "model_name": "codestral-embed",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "8.2K",
+      "vendor_name": "Mistral"
+    },
+    {
       "description": "コード補完、リファクタリング、開発者 IDE ワークフロー向けの Mistral コードモデル",
       "endpoints": null,
       "icon": "Mistral.Color",
@@ -229,6 +249,36 @@
       "status": 1,
       "tags": "ツール,ファイル,オープンウェイト,256K",
       "vendor_name": "Mistral"
+    },
+    {
+      "description": "Video generation model for text-to-video, image-to-video, and first/last-frame clips with optional sound effects",
+      "endpoints": null,
+      "icon": "ZAI",
+      "model_name": "cogvideox-3",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン,512",
+      "vendor_name": "Z.AI"
+    },
+    {
+      "description": "Open 2B speech recognition model for accurate transcription across 14 languages",
+      "endpoints": null,
+      "icon": "Cohere.Color",
+      "model_name": "cohere-transcribe-03-2026",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オープンウェイト,オーディオ,32.8K",
+      "vendor_name": "Cohere"
+    },
+    {
+      "description": "Cohere Transcribe fine-tune for Arabic dialects and Arabic-English code-switching",
+      "endpoints": null,
+      "icon": "Cohere.Color",
+      "model_name": "cohere-transcribe-arabic-07-2026",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オープンウェイト,オーディオ,32.8K",
+      "vendor_name": "Cohere"
     },
     {
       "description": "多言語エンタープライズエージェント、ツール、チャット向けの Cohere Command モデル",
@@ -591,6 +641,76 @@
       "vendor_name": "Volcengine Ark"
     },
     {
+      "description": "Smaller, faster English embedding model",
+      "endpoints": null,
+      "icon": "Cohere.Color",
+      "model_name": "embed-english-light-v3.0",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン,512",
+      "vendor_name": "Cohere"
+    },
+    {
+      "description": "English embedding model for search, classification, and clustering",
+      "endpoints": null,
+      "icon": "Cohere.Color",
+      "model_name": "embed-english-v3.0",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン,512",
+      "vendor_name": "Cohere"
+    },
+    {
+      "description": "Smaller, faster multilingual embedding model",
+      "endpoints": null,
+      "icon": "Cohere.Color",
+      "model_name": "embed-multilingual-light-v3.0",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン,512",
+      "vendor_name": "Cohere"
+    },
+    {
+      "description": "Multilingual embedding model covering over 100 languages",
+      "endpoints": null,
+      "icon": "Cohere.Color",
+      "model_name": "embed-multilingual-v3.0",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン,512",
+      "vendor_name": "Cohere"
+    },
+    {
+      "description": "Multimodal embedding model for text, images, and mixed text-and-image documents",
+      "endpoints": null,
+      "icon": "Cohere.Color",
+      "model_name": "embed-v4.0",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン,128K",
+      "vendor_name": "Cohere"
+    },
+    {
+      "description": "Faster, lighter Embed 5 model sharing Embed 5 Pro's embedding space",
+      "endpoints": null,
+      "icon": "Cohere.Color",
+      "model_name": "embed-v5.0-fast",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン,128K",
+      "vendor_name": "Cohere"
+    },
+    {
+      "description": "Cohere's most capable multimodal embedding model for text, images, and mixed documents",
+      "endpoints": null,
+      "icon": "Cohere.Color",
+      "model_name": "embed-v5.0-pro",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン,128K",
+      "vendor_name": "Cohere"
+    },
+    {
       "description": "複雑な分析タスクで専門エージェントを振り分けるマルチエージェントモデル",
       "endpoints": null,
       "icon": "",
@@ -658,6 +778,16 @@
       "name_rule": 0,
       "status": 1,
       "tags": "推論,ツール,ファイル,ビジョン,オーディオ,1M",
+      "vendor_name": "Google"
+    },
+    {
+      "description": "Gemini 2.5 Flash Live API model with native audio for real-time conversational agents",
+      "endpoints": null,
+      "icon": "Gemini.Color",
+      "model_name": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,ファイル,ビジョン,オーディオ,131.1K",
       "vendor_name": "Google"
     },
     {
@@ -821,6 +951,26 @@
       "vendor_name": "Google"
     },
     {
+      "description": "Speech-to-text model with language detection, speaker diarization, word timestamps, and custom vocabulary",
+      "endpoints": null,
+      "icon": "Gemini.Color",
+      "model_name": "gemini-3.5-transcribe",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オーディオ,98.3K",
+      "vendor_name": "Google"
+    },
+    {
+      "description": "正確な音声書き起こしと字幕ワークフロー向けの音声認識モデル",
+      "endpoints": null,
+      "icon": "Gemini.Color",
+      "model_name": "gemini-3.5-transcribe-live",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オーディオ,131.1K",
+      "vendor_name": "Google"
+    },
+    {
       "description": "マルチモーダル推論、ツール利用、コストのバランスを取った高速 Gemini モデル",
       "endpoints": null,
       "icon": "Gemini.Color",
@@ -848,6 +998,46 @@
       "name_rule": 0,
       "status": 1,
       "tags": "推論,ツール,ファイル,ビジョン,オーディオ,1M",
+      "vendor_name": "Google"
+    },
+    {
+      "description": "Fast, cost-efficient text-to-speech model for high-volume narration and voice agent pipelines",
+      "endpoints": null,
+      "icon": "Gemini.Color",
+      "model_name": "gemini-3.8-flash-lite-tts",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オーディオ,8.2K",
+      "vendor_name": "Google"
+    },
+    {
+      "description": "Flagship text-to-speech model for expressive, studio-grade voices and long-form multi-speaker audio",
+      "endpoints": null,
+      "icon": "Gemini.Color",
+      "model_name": "gemini-3.8-flash-tts",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オーディオ,8.2K",
+      "vendor_name": "Google"
+    },
+    {
+      "description": "Low-latency Live API model for real-time voice agents with interleaved reasoning and async tools",
+      "endpoints": null,
+      "icon": "Gemini.Color",
+      "model_name": "gemini-3.8-live",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,ファイル,ビジョン,オーディオ,131.1K",
+      "vendor_name": "Google"
+    },
+    {
+      "description": "Live API voice model with configurable background reasoning for multi-step real-time agents",
+      "endpoints": null,
+      "icon": "Gemini.Color",
+      "model_name": "gemini-3.8-live-extended-thinking",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,ファイル,ビジョン,オーディオ,131.1K",
       "vendor_name": "Google"
     },
     {
@@ -901,6 +1091,26 @@
       "vendor_name": "Google"
     },
     {
+      "description": "Image model for prompt-driven generation, multi-turn editing, and visual design workflows",
+      "endpoints": null,
+      "icon": "Gemini.Color",
+      "model_name": "gemini-nano-banana-2.1",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ファイル,ビジョン,131.1K",
+      "vendor_name": "Google"
+    },
+    {
+      "description": "Video generation and editing model for scene extension, frame interpolation, and reference-guided multimodal control",
+      "endpoints": null,
+      "icon": "Gemini.Color",
+      "model_name": "gemini-omni-1.1-flash",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ファイル,ビジョン,131.1K",
+      "vendor_name": "Google"
+    },
+    {
       "description": "高速で対話的な text-to-video および image-to-video ワークフロー向けの動画生成・編集モデル",
       "endpoints": null,
       "icon": "Gemini.Color",
@@ -918,6 +1128,26 @@
       "name_rule": 0,
       "status": 1,
       "tags": "推論,ツール,ファイル,ビジョン,オーディオ,1M",
+      "vendor_name": "Google"
+    },
+    {
+      "description": "Embodied reasoning model for robotics: spatial understanding, video progress, and multi-robot orchestration",
+      "endpoints": null,
+      "icon": "Gemini.Color",
+      "model_name": "gemini-robotics-er-2-preview",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,ファイル,ビジョン,オーディオ,131.1K",
+      "vendor_name": "Google"
+    },
+    {
+      "description": "Live API robotics model for low-latency robot agents over continuous audio and video",
+      "endpoints": null,
+      "icon": "Gemini.Color",
+      "model_name": "gemini-robotics-er-2-streaming-preview",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,ファイル,ビジョン,オーディオ,131.1K",
       "vendor_name": "Google"
     },
     {
@@ -961,6 +1191,16 @@
       "vendor_name": "Z.AI"
     },
     {
+      "description": "High-speed GLM-4.5-Air serving option for low-latency coding assistance and agents",
+      "endpoints": null,
+      "icon": "ZAI",
+      "model_name": "glm-4.5-airx",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,オープンウェイト,131.1K",
+      "vendor_name": "Z.AI"
+    },
+    {
       "description": "高速な推論、コーディング、エージェントワークフロー向けの効率的な GLM モデル",
       "endpoints": null,
       "icon": "ZAI",
@@ -968,6 +1208,16 @@
       "name_rule": 0,
       "status": 1,
       "tags": "推論,ツール,131.1K",
+      "vendor_name": "Z.AI"
+    },
+    {
+      "description": "High-speed GLM-4.5 serving option for latency-sensitive reasoning, coding, and agent workflows",
+      "endpoints": null,
+      "icon": "ZAI",
+      "model_name": "glm-4.5-x",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,オープンウェイト,131.1K",
       "vendor_name": "Z.AI"
     },
     {
@@ -1005,6 +1255,16 @@
       "endpoints": null,
       "icon": "ZAI",
       "model_name": "glm-4.6v-flash",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,ファイル,オープンウェイト,ビジョン,128K",
+      "vendor_name": "Z.AI"
+    },
+    {
+      "description": "Paid high-speed GLM-4.6V-Flash serving option for affordable visual reasoning and multimodal agents",
+      "endpoints": null,
+      "icon": "ZAI",
+      "model_name": "glm-4.6v-flashx",
       "name_rule": 0,
       "status": 1,
       "tags": "推論,ツール,ファイル,オープンウェイト,ビジョン,128K",
@@ -1151,6 +1411,26 @@
       "vendor_name": "Z.AI"
     },
     {
+      "description": "Speech recognition model for multilingual and dialect transcription with custom hotwords",
+      "endpoints": null,
+      "icon": "ZAI",
+      "model_name": "glm-asr-2512",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オーディオ",
+      "vendor_name": "Z.AI"
+    },
+    {
+      "description": "GLM-Image is an image generation model adopts a hybrid autoregressive + diffusion decoder architecture. In general image generation quality, GLM‑Image aligns with mainstream latent diffusion approaches, but it shows significant advantages in text-rendering and knowledge‑intensive generation scenarios. It performs especially well in tasks requiring precise semantic understanding and complex information expression, while maintaining strong capabilities in high‑fidelity and fine‑grained detail generation. In addition to text‑to‑image generation, GLM‑Image also supports a rich set of image‑to‑image tasks including image editing, style transfer, identity‑preserving generation, and multi‑subject consistency.",
+      "endpoints": null,
+      "icon": "ZAI",
+      "model_name": "glm-image",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オープンウェイト,ビジョン,10.2K",
+      "vendor_name": "Z.AI"
+    },
+    {
       "description": "低遅延の支援と大量ワークロード向けのコンパクトな GPT モデル",
       "endpoints": null,
       "icon": "OpenAI",
@@ -1261,6 +1541,46 @@
       "vendor_name": "OpenAI"
     },
     {
+      "description": "Speech-to-text model powered by GPT-4o Mini for fast, accurate transcription",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-4o-mini-transcribe",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オーディオ,非推奨,16K",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Text-to-speech model powered by GPT-4o Mini with steerable voice delivery",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-4o-mini-tts",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オーディオ,非推奨,2K",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Speech-to-text model powered by GPT-4o for accurate transcription",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-4o-transcribe",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オーディオ,非推奨,16K",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Speech-to-text model with built-in speaker diarization",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-4o-transcribe-diarize",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オーディオ,非推奨,16K",
+      "vendor_name": "OpenAI"
+    },
+    {
       "description": "推論、コーディング、文章作成、ツールワークフロー向けの初代 GPT-5 主力モデル",
       "endpoints": null,
       "icon": "OpenAI",
@@ -1298,6 +1618,16 @@
       "name_rule": 0,
       "status": 1,
       "tags": "推論,ツール,ファイル,ビジョン,400K",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "GPT-5 model trained for web search in the Chat Completions API",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-5-search-api",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "200K",
       "vendor_name": "OpenAI"
     },
     {
@@ -1421,6 +1751,16 @@
       "vendor_name": "OpenAI"
     },
     {
+      "description": "Cybersecurity model for authorized vulnerability research and security testing",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-5.6-cyber",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,ファイル,ビジョン,400K",
+      "vendor_name": "OpenAI"
+    },
+    {
       "description": "高速かつ大量のワークロード向けのコスト効率に優れた GPT-5.6",
       "endpoints": null,
       "icon": "OpenAI",
@@ -1501,6 +1841,36 @@
       "vendor_name": "OpenAI"
     },
     {
+      "description": "Audio model for speech input and output with the Chat Completions API",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-audio",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ツール,ファイル,オーディオ,非推奨,128K",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Audio model for speech input and output with the Chat Completions API",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-audio-1.5",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ツール,ファイル,オーディオ,128K",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Cost-efficient audio model for speech input and output with the Chat Completions API",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-audio-mini",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ツール,ファイル,オーディオ,非推奨,128K",
+      "vendor_name": "OpenAI"
+    },
+    {
       "description": "防御的なサイバーセキュリティ業務向けの安全対策を備えたフラッグシップ汎用モデルのエイリアス",
       "endpoints": null,
       "icon": "OpenAI",
@@ -1551,6 +1921,76 @@
       "vendor_name": "OpenAI"
     },
     {
+      "description": "プロンプト主導の生成、編集、ビジュアルデザインワークフロー向けの画像モデル",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-image-2.5-flare",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "プロンプト主導の生成、編集、ビジュアルデザインワークフロー向けの画像モデル",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-image-2.5-sunburst",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Full-duplex voice model for natural conversations that delegates reasoning and tools to a backend agent",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-live-1",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ツール,ファイル,オーディオ",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Low-latency streaming speech-to-text model with keyword and language hints",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-live-transcribe",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オーディオ",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Realtime speech-to-speech model for low-latency voice agents over WebRTC, WebSocket, or SIP",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-realtime",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ツール,ファイル,ビジョン,オーディオ,非推奨,32K",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Realtime speech-to-speech model for voice agents and customer support",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-realtime-1.5",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ツール,ファイル,ビジョン,オーディオ,32K",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Realtime speech-to-speech model with configurable reasoning and reliable tool use for voice agents",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-realtime-2",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,ファイル,ビジョン,オーディオ,128K",
+      "vendor_name": "OpenAI"
+    },
+    {
       "description": "設定可能な推論、ツール利用、堅牢な音声エージェント挙動を備えたリアルタイム speech-to-speech モデル",
       "endpoints": null,
       "icon": "OpenAI",
@@ -1558,6 +1998,56 @@
       "name_rule": 0,
       "status": 1,
       "tags": "推論,ツール,ファイル,ビジョン,オーディオ,128K",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Distilled realtime reasoning model for faster, lower-cost voice interactions",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-realtime-2.1-mini",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,ファイル,ビジョン,オーディオ,128K",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Cost-efficient realtime speech-to-speech model for voice agents",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-realtime-mini",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ツール,ファイル,ビジョン,オーディオ,非推奨,32K",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Streaming speech-to-speech translation model for live multilingual audio",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-realtime-translate",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オーディオ,16K",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Streaming speech-to-text model for low-latency transcript deltas from live audio",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-realtime-whisper",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オーディオ,16K",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "High-accuracy speech-to-text model for audio files and committed Realtime turns",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "gpt-transcribe",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オーディオ",
       "vendor_name": "OpenAI"
     },
     {
@@ -1651,6 +2141,16 @@
       "vendor_name": "xAI"
     },
     {
+      "description": "プロンプト主導の生成、編集、ビジュアルデザインワークフロー向けの画像モデル",
+      "endpoints": null,
+      "icon": "XAI",
+      "model_name": "grok-imagine-image-2.0",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン,64K",
+      "vendor_name": "xAI"
+    },
+    {
       "description": "プロンプト駆動の生成、編集、ビジュアルデザインワークフロー向けの、より高忠実度なGrok Imagine画像モデル",
       "endpoints": null,
       "icon": "XAI",
@@ -1688,6 +2188,36 @@
       "name_rule": 0,
       "status": 1,
       "tags": "ファイル,ビジョン,1K",
+      "vendor_name": "xAI"
+    },
+    {
+      "description": "Convert text into spoken audio with a single API call. The API supports a rich set of expressive voices, inline speech tags for fine-grained delivery control, and output formats from high-fidelity MP3 to telephony-optimized μ-law.",
+      "endpoints": null,
+      "icon": "XAI",
+      "model_name": "grok-tts",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オーディオ,15K",
+      "vendor_name": "xAI"
+    },
+    {
+      "description": "Speech-to-speech model for real-time voice agents with tool use and optional reasoning",
+      "endpoints": null,
+      "icon": "XAI",
+      "model_name": "grok-voice-3.0",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,ファイル,オーディオ",
+      "vendor_name": "xAI"
+    },
+    {
+      "description": "Speech-to-text model with word-level timestamps, speaker diarization, multichannel audio, and streaming",
+      "endpoints": null,
+      "icon": "XAI",
+      "model_name": "grok-voice-transcribe-2.0",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オーディオ",
       "vendor_name": "xAI"
     },
     {
@@ -1801,14 +2331,14 @@
       "vendor_name": "MiniMax (minimax.io)"
     },
     {
-      "description": "手描きやアニメ調などの画風を強化し、画風プリセットを選べる MiniMax 画像モデル",
+      "description": "MiniMax image generation model with style presets. The API also takes one character (portrait) reference to keep a person consistent, but it cannot edit an input image",
       "endpoints": null,
       "icon": "Minimax.Color",
       "model_name": "image-01-live",
       "name_rule": 0,
       "status": 1,
-      "tags": "ファイル,ビジョン",
-      "vendor_name": "MiniMax (minimax.cn)"
+      "tags": "ビジョン",
+      "vendor_name": "MiniMax (minimax.io)"
     },
     {
       "description": "エージェントループ、コーディングタスク、視覚コンテキスト向けのマルチモーダル Kimi 主力モデル",
@@ -1941,6 +2471,26 @@
       "vendor_name": "Google"
     },
     {
+      "description": "Music generation model for full-length songs with vocals and structure from text or image prompts",
+      "endpoints": null,
+      "icon": "Gemini.Color",
+      "model_name": "lyria-3.5",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン,オーディオ,1M",
+      "vendor_name": "Google"
+    },
+    {
+      "description": "Experimental streaming music generation model steered in real time by weighted text prompts",
+      "endpoints": null,
+      "icon": "Gemini.Color",
+      "model_name": "lyria-realtime-exp",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オーディオ,alpha,1M",
+      "vendor_name": "Google"
+    },
+    {
       "description": "透明性の高い分析、数学、複雑な意思決定向けの Mistral 推論モデル",
       "endpoints": null,
       "icon": "Mistral.Color",
@@ -1981,6 +2531,16 @@
       "vendor_name": "Inception"
     },
     {
+      "description": "Inception's diffusion decision model that returns probabilities for typed yes/no, choice and score questions about text or images",
+      "endpoints": null,
+      "icon": "Inception",
+      "model_name": "mercury-decide",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン,65.5K",
+      "vendor_name": "Inception"
+    },
+    {
       "description": "自動補完（FIM）と次の編集提案向けのコード編集用拡散 LLM（dLLM）",
       "endpoints": null,
       "icon": "Inception",
@@ -1998,6 +2558,16 @@
       "name_rule": 0,
       "status": 1,
       "tags": "推論,ツール,ファイル,オープンウェイト,ビジョン,オーディオ,非推奨,1M",
+      "vendor_name": "Xiaomi"
+    },
+    {
+      "description": "Speech recognition model for Chinese, English, dialects, and noisy multi-speaker audio",
+      "endpoints": null,
+      "icon": "XiaomiMiMo",
+      "model_name": "mimo-v2.5-asr",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オープンウェイト,オーディオ,8.2K",
       "vendor_name": "Xiaomi"
     },
     {
@@ -2028,7 +2598,7 @@
       "name_rule": 0,
       "status": 1,
       "tags": "オーディオ,8.2K",
-      "vendor_name": "Xiaomi Token Plan (Europe)"
+      "vendor_name": "Xiaomi"
     },
     {
       "description": "制御可能な音声、ナレーション、音声配信向けの音声生成モデル",
@@ -2038,7 +2608,7 @@
       "name_rule": 0,
       "status": 1,
       "tags": "オーディオ,8.2K",
-      "vendor_name": "Xiaomi Token Plan (Europe)"
+      "vendor_name": "Xiaomi"
     },
     {
       "description": "制御可能な音声、ナレーション、音声配信向けの音声生成モデル",
@@ -2048,7 +2618,7 @@
       "name_rule": 0,
       "status": 1,
       "tags": "オーディオ,8.2K",
-      "vendor_name": "Xiaomi Token Plan (Europe)"
+      "vendor_name": "Xiaomi"
     },
     {
       "description": "マルチモーダルコーディングエージェントと長文脈自動化向けのMiMo Flashモデル",
@@ -2331,6 +2901,36 @@
       "vendor_name": "Mistral"
     },
     {
+      "description": "Moderation classifier for text and conversations with jailbreak detection and multilingual coverage",
+      "endpoints": null,
+      "icon": "Mistral.Color",
+      "model_name": "mistral-moderation-2603",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "131.1K",
+      "vendor_name": "Mistral"
+    },
+    {
+      "description": "Document OCR model that extracts interleaved text and images from documents",
+      "endpoints": null,
+      "icon": "Mistral.Color",
+      "model_name": "mistral-ocr-2512",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン",
+      "vendor_name": "Mistral"
+    },
+    {
+      "description": "Document OCR model with paragraph-level bounding boxes, block labels, and confidence scores",
+      "endpoints": null,
+      "icon": "Mistral.Color",
+      "model_name": "mistral-ocr-4-1",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン",
+      "vendor_name": "Mistral"
+    },
+    {
       "description": "高速なチャット、抽出、本番アシスタント向けの効率的な Mistral モデル",
       "endpoints": null,
       "icon": "Mistral.Color",
@@ -2479,6 +3079,16 @@
       "status": 1,
       "tags": "262.1K",
       "vendor_name": "Morph"
+    },
+    {
+      "description": "Agentic image generation and editing model that plans, searches and refines before rendering",
+      "endpoints": null,
+      "icon": "Meta.Color",
+      "model_name": "muse-image-1.0",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン",
+      "vendor_name": "Meta"
     },
     {
       "description": "Muse Spark は、ツール利用、視覚的思考連鎖、マルチエージェントオーケストレーションに対応したネイティブマルチモーダル推論モデルです。",
@@ -2731,6 +3341,16 @@
       "vendor_name": "OpenAI"
     },
     {
+      "description": "Moderation model that classifies potentially harmful content in text and images",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "omni-moderation-latest",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン",
+      "vendor_name": "OpenAI"
+    },
+    {
       "description": "旧来の統合との互換性維持のために残されたレガシーモデル",
       "endpoints": null,
       "icon": "Mistral.Color",
@@ -2821,6 +3441,16 @@
       "vendor_name": "Alibaba"
     },
     {
+      "description": "Hosted speech recognition model with dialect and 30-language support for audio-to-text transcription up to 5 minutes",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen-audio-3.0-asr-flash",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オーディオ",
+      "vendor_name": "Alibaba Token Plan"
+    },
+    {
       "description": "多言語チャット、推論、ツール利用向けの Qwen 指示追従モデル",
       "endpoints": null,
       "icon": "Qwen.Color",
@@ -2857,17 +3487,27 @@
       "model_name": "qwen-image-2.0",
       "name_rule": 0,
       "status": 1,
-      "tags": "ビジョン,8.2K",
-      "vendor_name": "Alibaba Token Plan"
+      "tags": "ファイル,ビジョン,8.2K",
+      "vendor_name": "Alibaba"
     },
     {
-      "description": "プロンプト主導の生成、編集、ビジュアルデザインワークフロー向けの画像モデル",
+      "description": "Higher-quality Qwen image model for generation and editing",
       "endpoints": null,
       "icon": "Qwen.Color",
       "model_name": "qwen-image-2.0-pro",
       "name_rule": 0,
       "status": 1,
-      "tags": "ビジョン,8.2K",
+      "tags": "ファイル,ビジョン,8.2K",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "Higher-quality Qwen-Image-3.0 for complex layouts, small text and photographic detail",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen-image-3.0-pro",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,ビジョン",
       "vendor_name": "Alibaba Token Plan"
     },
     {
@@ -3501,6 +4141,26 @@
       "vendor_name": "Alibaba"
     },
     {
+      "description": "Open-weight sparse MoE (2.4T total, 95B active), the open-weight twin of Qwen3.8 Max for coding, research, complex reasoning, and agentic workflows",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.8-2.4t-a95b",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,オープンウェイト,262.1K",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "コーディング、エージェントタスク、画像・動画理解向けのDense 27B視覚言語モデル",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.8-27b",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,ファイル,オープンウェイト,ビジョン,262.1K",
+      "vendor_name": "Alibaba"
+    },
+    {
       "description": "視覚推論、文書理解、エージェントタスク向けの Qwen 視覚言語モデル",
       "endpoints": null,
       "icon": "Qwen.Color",
@@ -3515,6 +4175,16 @@
       "endpoints": null,
       "icon": "Qwen.Color",
       "model_name": "qwen3.8-max",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "推論,ツール,ファイル,ビジョン,1M",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "2026-09-02 upgraded snapshot of Qwen3.8 Max with stronger coding, collaborative agents, and multimodal document understanding",
+      "endpoints": null,
+      "icon": "Qwen.Color",
+      "model_name": "qwen3.8-max-0902",
       "name_rule": 0,
       "status": 1,
       "tags": "推論,ツール,ファイル,ビジョン,1M",
@@ -3549,6 +4219,56 @@
       "status": 1,
       "tags": "推論,ツール,非推奨,131.1K",
       "vendor_name": "Alibaba"
+    },
+    {
+      "description": "English reranker for documents and semi-structured data",
+      "endpoints": null,
+      "icon": "Cohere.Color",
+      "model_name": "rerank-english-v3.0",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "4.1K",
+      "vendor_name": "Cohere"
+    },
+    {
+      "description": "Reranker for non-English documents and semi-structured data",
+      "endpoints": null,
+      "icon": "Cohere.Color",
+      "model_name": "rerank-multilingual-v3.0",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "4.1K",
+      "vendor_name": "Cohere"
+    },
+    {
+      "description": "Multilingual reranker for documents and semi-structured data",
+      "endpoints": null,
+      "icon": "Cohere.Color",
+      "model_name": "rerank-v3.5",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "4.1K",
+      "vendor_name": "Cohere"
+    },
+    {
+      "description": "Low-latency multilingual reranker for high-throughput retrieval",
+      "endpoints": null,
+      "icon": "Cohere.Color",
+      "model_name": "rerank-v4.0-fast",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "32.8K",
+      "vendor_name": "Cohere"
+    },
+    {
+      "description": "Multilingual reranker for maximum relevance on documents and semi-structured data",
+      "endpoints": null,
+      "icon": "Cohere.Color",
+      "model_name": "rerank-v4.0-pro",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "32.8K",
+      "vendor_name": "Cohere"
     },
     {
       "description": "熟考型の分析、多段階の問題解決、ツール利用向けの推論モデル",
@@ -4031,6 +4751,26 @@
       "vendor_name": "Arcee"
     },
     {
+      "description": "Text-to-speech model optimized for low latency",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "tts-1",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オーディオ,非推奨",
+      "vendor_name": "OpenAI"
+    },
+    {
+      "description": "Text-to-speech model optimized for audio quality",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "tts-1-hd",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "オーディオ,非推奨",
+      "vendor_name": "OpenAI"
+    },
+    {
       "description": "正確な音声書き起こしと字幕ワークフロー向けの音声認識モデル",
       "endpoints": null,
       "icon": "Mistral.Color",
@@ -4038,6 +4778,16 @@
       "name_rule": 0,
       "status": 1,
       "tags": "ファイル,オーディオ",
+      "vendor_name": "Mistral"
+    },
+    {
+      "description": "Low-latency streaming speech-to-text model for live transcription and voice agents",
+      "endpoints": null,
+      "icon": "Mistral.Color",
+      "model_name": "voxtral-mini-transcribe-realtime-2602",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オープンウェイト,オーディオ",
       "vendor_name": "Mistral"
     },
     {
@@ -4071,24 +4821,34 @@
       "vendor_name": "Mistral"
     },
     {
-      "description": "プロンプト主導の生成、編集、ビジュアルデザインワークフロー向けの画像モデル",
+      "description": "Wan image model for prompt-driven generation and editing",
       "endpoints": null,
       "icon": "Qwen.Color",
       "model_name": "wan2.7-image",
       "name_rule": 0,
       "status": 1,
-      "tags": "ビジョン,8.2K",
-      "vendor_name": "Alibaba Token Plan"
+      "tags": "ファイル,ビジョン,8.2K",
+      "vendor_name": "Alibaba"
     },
     {
-      "description": "プロンプト主導の生成、編集、ビジュアルデザインワークフロー向けの画像モデル",
+      "description": "Higher-quality Wan image model for generation and editing",
       "endpoints": null,
       "icon": "Qwen.Color",
       "model_name": "wan2.7-image-pro",
       "name_rule": 0,
       "status": 1,
-      "tags": "ビジョン,8.2K",
-      "vendor_name": "Alibaba Token Plan"
+      "tags": "ファイル,ビジョン,8.2K",
+      "vendor_name": "Alibaba"
+    },
+    {
+      "description": "General-purpose speech recognition model for transcription and translation",
+      "endpoints": null,
+      "icon": "OpenAI",
+      "model_name": "whisper-1",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "ファイル,オーディオ,非推奨",
+      "vendor_name": "OpenAI"
     },
     {
       "description": "長期コーディングエージェントと 100 万トークンコンテキスト作業向けのオープン GLM フラッグシップモデル",

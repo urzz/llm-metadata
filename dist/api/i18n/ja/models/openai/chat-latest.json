@@ -1,0 +1,28 @@
+{
+  "attachment": true,
+  "description": "低遅延の支援と大量ワークロード向けのコンパクトな GPT モデル",
+  "id": "chat-latest",
+  "knowledge": "2026-04-20",
+  "last_updated": "2026-05-28",
+  "limit": {
+    "context": 400000,
+    "output": 128000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "pdf"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Chat Latest",
+  "open_weights": false,
+  "reasoning": true,
+  "release_date": "2026-05-05",
+  "structured_output": true,
+  "temperature": false,
+  "tool_call": true
+}

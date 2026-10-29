@@ -40,6 +40,31 @@
       "temperature": true,
       "tool_call": true
     },
+    "codestral-embed": {
+      "attachment": false,
+      "description": "Embedding model for code search, retrieval, and code-aware RAG pipelines",
+      "family": "codestral-embed",
+      "id": "codestral-embed",
+      "last_updated": "2025-05-28",
+      "limit": {
+        "context": 8192,
+        "output": 3072
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Codestral Embed",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-05-28",
+      "temperature": false,
+      "tool_call": false
+    },
     "codestral-latest": {
       "attachment": true,
       "cost": {
@@ -828,6 +853,84 @@
       "temperature": true,
       "tool_call": true
     },
+    "mistral-moderation-2603": {
+      "attachment": false,
+      "description": "Moderation classifier for text and conversations with jailbreak detection and multilingual coverage",
+      "id": "mistral-moderation-2603",
+      "last_updated": "2026-03-01",
+      "limit": {
+        "context": 131072,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Mistral Moderation 26.03",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-03-01",
+      "temperature": false,
+      "tool_call": false
+    },
+    "mistral-ocr-2512": {
+      "attachment": true,
+      "description": "Document OCR model that extracts interleaved text and images from documents",
+      "id": "mistral-ocr-2512",
+      "last_updated": "2025-12-18",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text",
+          "image"
+        ]
+      },
+      "name": "Mistral OCR 3",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-12-18",
+      "temperature": false,
+      "tool_call": false
+    },
+    "mistral-ocr-4-1": {
+      "attachment": true,
+      "description": "Document OCR model with paragraph-level bounding boxes, block labels, and confidence scores",
+      "id": "mistral-ocr-4-1",
+      "last_updated": "2026-07-16",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text",
+          "image"
+        ]
+      },
+      "name": "Mistral OCR 4.1",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-07-16",
+      "temperature": false,
+      "tool_call": false
+    },
     "mistral-small-2506": {
       "attachment": true,
       "cost": {
@@ -1034,6 +1137,31 @@
       "temperature": false,
       "tool_call": false,
       "type": "transcription"
+    },
+    "voxtral-mini-transcribe-realtime-2602": {
+      "attachment": true,
+      "description": "Low-latency streaming speech-to-text model for live transcription and voice agents",
+      "family": "voxtral",
+      "id": "voxtral-mini-transcribe-realtime-2602",
+      "last_updated": "2026-02-04",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Voxtral Mini Transcribe Realtime",
+      "open_weights": true,
+      "reasoning": false,
+      "release_date": "2026-02-04",
+      "temperature": false,
+      "tool_call": false
     },
     "voxtral-mini-tts-latest": {
       "attachment": false,

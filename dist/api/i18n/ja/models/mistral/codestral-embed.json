@@ -1,0 +1,25 @@
+{
+  "attachment": false,
+  "description": "Embedding model for code search, retrieval, and code-aware RAG pipelines",
+  "family": "codestral-embed",
+  "id": "codestral-embed",
+  "last_updated": "2025-05-28",
+  "limit": {
+    "context": 8192,
+    "output": 3072
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "name": "Codestral Embed",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-05-28",
+  "temperature": false,
+  "tool_call": false
+}

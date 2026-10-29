@@ -1,0 +1,28 @@
+{
+  "attachment": true,
+  "description": "用于编程、智能体任务以及图像和视频理解的稠密 27B 视觉语言模型",
+  "family": "qwen",
+  "id": "qwen3.8-27b",
+  "last_updated": "2026-08-14",
+  "limit": {
+    "context": 262144,
+    "output": 32768
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Qwen3.8 27B",
+  "open_weights": true,
+  "reasoning": true,
+  "release_date": "2026-08-14",
+  "structured_output": true,
+  "temperature": true,
+  "tool_call": true
+}

@@ -1,0 +1,25 @@
+{
+  "attachment": true,
+  "description": "Speech recognition model for multilingual and dialect transcription with custom hotwords",
+  "family": "glm",
+  "id": "glm-asr-2512",
+  "last_updated": "2025-12-10",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "GLM-ASR-2512",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-12-10",
+  "temperature": false,
+  "tool_call": false
+}

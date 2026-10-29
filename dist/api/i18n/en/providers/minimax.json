@@ -400,6 +400,11 @@
       "description": "MiniMax image model for detailed text-to-image and subject-reference image-to-image generation",
       "family": "minimax",
       "id": "image-01",
+      "last_updated": "2026-08-25",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
       "modalities": {
         "input": [
           "text",
@@ -410,6 +415,31 @@
         ]
       },
       "name": "image-01",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-02-15",
+      "temperature": false,
+      "tool_call": false
+    },
+    "image-01-live": {
+      "attachment": false,
+      "description": "MiniMax image generation model with style presets. The API also takes one character (portrait) reference to keep a person consistent, but it cannot edit an input image",
+      "family": "minimax",
+      "id": "image-01-live",
+      "last_updated": "2025-02-15",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "MiniMax image-01-live",
       "open_weights": false,
       "reasoning": false,
       "release_date": "2025-02-15",

@@ -1,0 +1,24 @@
+{
+  "attachment": false,
+  "description": "Low-latency multilingual reranker for high-throughput retrieval",
+  "id": "rerank-v4.0-fast",
+  "last_updated": "2025-12-11",
+  "limit": {
+    "context": 32768,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "reranking"
+    ]
+  },
+  "name": "Rerank 4 Fast",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-12-11",
+  "temperature": false,
+  "tool_call": false
+}
