@@ -3,6 +3,13 @@
   "name": "Qwen3 Embedding 0.6B (Q8_0)",
   "description": "Self-hosted Qwen3 Embedding 0.6B for text embeddings and retrieval. GGUF Q8_0; configured context: 2048 tokens.",
   "family": "qwen",
+  "cost": {
+    "currency": "USD",
+    "input": 0,
+    "output": 0,
+    "cache_read": 0,
+    "cache_write": 0
+  },
   "open_weights": true,
   "modalities": {
     "input": [
