@@ -1,4 +1,11 @@
 {
+  "cost": {
+    "cache_read": 0,
+    "cache_write": 0,
+    "currency": "USD",
+    "input": 0,
+    "output": 0
+  },
   "description": "Self-hosted Qwen3.5 4B for text conversations.",
   "family": "qwen",
   "id": "qwen3.5-4b",

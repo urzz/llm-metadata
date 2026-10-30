@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T03:08:12.047Z",
+  "generatedAt": "2026-10-30T03:15:28.778Z",
   "nativeProvidersHash": "ecae39ff33bdad2d6b42266abf777740451134faa0fb5e9f4674702d83591c29",
   "newapi": {
     "exchangeRates": {
@@ -7,14 +7,14 @@
       "EUR": 0.92
     }
   },
-  "overridesHash": "a89b23321447100b946a010d47befaf0075005af49965417de7404696b91ac5c",
+  "overridesHash": "964aae3b0d0b402b4e9f73f97e6dd2b15bdb14078788811ae27eb79b00d87d3c",
   "policyHash": "20317b46d0bf96bb0fbc54205c9fe49263616973b2ba98b912a6ed68b218c274",
   "sourceHash": "3ba593af10330a44fbba8728de879fee9697234e65a97a43746301a6ca8c980f",
   "stats": {
     "dryRun": false,
     "excludedModels": 106,
     "excludedProviders": 183,
-    "filesChanged": 63,
+    "filesChanged": 22,
     "models": 702,
     "providers": 50
   },

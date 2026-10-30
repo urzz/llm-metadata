@@ -1,4 +1,11 @@
 {
+  "cost": {
+    "cache_read": 0,
+    "cache_write": 0,
+    "currency": "USD",
+    "input": 0,
+    "output": 0
+  },
   "description": "自部署的 Qwen3.5 9B，用于文本对话。",
   "family": "qwen",
   "id": "qwen3.5-9b",
