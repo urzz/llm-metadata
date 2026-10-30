@@ -10,6 +10,8 @@ import { NewApiBuilder } from '../dist/services/newapi-builder.js';
 import { defaultDeployment } from '../dist/billing/deployment.js';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
+const freeBaseIds = ['qwen3.5-2b', 'qwen3.5-4b', 'qwen3.5-9b'];
+const freeCost = { currency: 'USD', input: 0, output: 0, cache_read: 0, cache_write: 0 };
 const presets = [
   ['qwen3.5-9b', 'q4', 131072, 'text'],
   ['qwen3.5-4b', 'q4', 8192, 'text'],
@@ -44,10 +46,9 @@ test('self-hosted Qwen metadata survives native filtering and en/zh/ja New API o
     const deployed = models[`${base}-${suffix}`];
     assert.deepEqual(deployed.limit, { context });
     assert.equal(models[base].limit, undefined, 'base ID must not assume preset limits');
-    assert.equal(models[base].cost, undefined, 'base ID pricing must remain unspecified');
-    assert.deepEqual(deployed.cost, {
-      currency: 'USD', input: 0, output: 0, cache_read: 0, cache_write: 0,
-    }, 'deployed presets must be explicitly free');
+    assert.deepEqual(models[base].cost, freeBaseIds.includes(base) ? freeCost : undefined,
+      'Qwen3.5 base IDs must be free; other base ID pricing remains unspecified');
+    assert.deepEqual(deployed.cost, freeCost, 'deployed presets must be explicitly free');
     for (const id of [base, `${base}-${suffix}`]) {
       assert.deepEqual(models[id].modalities, { input: ['text'], output: [output] });
       assert.equal(models[id].attachment, undefined, 'no vision deployment was supplied');
@@ -57,11 +58,11 @@ test('self-hosted Qwen metadata survives native filtering and en/zh/ja New API o
     }
   }
   // Explicit currency replaces the entire upstream price list, including paid tiers.
+  const freeIds = [...freeBaseIds, ...presets.map(([base, suffix]) => `${base}-${suffix}`)];
   const paidSource = processor.mapSourceToNormalized({
     alibaba: {
       id: 'alibaba', name: 'Alibaba',
-      models: Object.fromEntries(presets.map(([base, suffix]) => {
-        const id = `${base}-${suffix}`;
+      models: Object.fromEntries(freeIds.map((id) => {
         return [id, { id, name: id, cost: {
           input: 1, output: 2, reasoning: 3, cache_read: 0.5, cache_write: 1,
           tiers: [{ context: 4096, input: 4, output: 8 }],
@@ -70,10 +71,9 @@ test('self-hosted Qwen metadata survives native filtering and en/zh/ja New API o
     },
   });
   const repriced = processor.processAllData(paidSource, overrides, new Set(['alibaba']));
-  for (const [base, suffix] of presets) {
-    const id = `${base}-${suffix}`;
-    assert.deepEqual(repriced.providers.alibaba.models[id].cost, models[id].cost,
-      'upstream prices must not leak into free presets');
+  for (const id of freeIds) {
+    assert.deepEqual(repriced.providers.alibaba.models[id].cost, freeCost,
+      'upstream prices must not leak into free models');
   }
   assert.equal(models['qwen3.5-9b-q4'].reasoning, true);
   for (const id of ['qwen3.5', 'qwen3-embedding', 'qwen3-reranker', 'gpt-image-2.5', 'codex-auto-review']) {
