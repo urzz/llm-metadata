@@ -988,6 +988,13 @@
       "open_weights": true
     },
     "qwen3-embedding-0.6b-q8": {
+      "cost": {
+        "cache_read": 0,
+        "cache_write": 0,
+        "currency": "USD",
+        "input": 0,
+        "output": 0
+      },
       "description": "セルフホストの Qwen3 Embedding 0.6B。テキスト埋め込みと検索向け。 GGUF Q8_0、設定コンテキストは 2048 トークン。",
       "family": "qwen",
       "id": "qwen3-embedding-0.6b-q8",
@@ -1242,6 +1249,13 @@
       "open_weights": true
     },
     "qwen3-reranker-0.6b-q8": {
+      "cost": {
+        "cache_read": 0,
+        "cache_write": 0,
+        "currency": "USD",
+        "input": 0,
+        "output": 0
+      },
       "description": "セルフホストの Qwen3 Reranker 0.6B。クエリと文書の関連度による再ランキング向け。 GGUF Q8_0、設定コンテキストは 2048 トークン。",
       "family": "qwen",
       "id": "qwen3-reranker-0.6b-q8",
@@ -1497,6 +1511,13 @@
       "open_weights": true
     },
     "qwen3.5-2b-q4": {
+      "cost": {
+        "cache_read": 0,
+        "cache_write": 0,
+        "currency": "USD",
+        "input": 0,
+        "output": 0
+      },
       "description": "セルフホストの Qwen3.5 2B。テキスト対話向け。 GGUF UD-Q4_K_XL、設定コンテキストは 8192 トークン。",
       "family": "qwen",
       "id": "qwen3.5-2b-q4",
@@ -1610,6 +1631,13 @@
       "open_weights": true
     },
     "qwen3.5-4b-q4": {
+      "cost": {
+        "cache_read": 0,
+        "cache_write": 0,
+        "currency": "USD",
+        "input": 0,
+        "output": 0
+      },
       "description": "セルフホストの Qwen3.5 4B。テキスト対話向け。 GGUF UD-Q4_K_XL、設定コンテキストは 8192 トークン。",
       "family": "qwen",
       "id": "qwen3.5-4b-q4",
@@ -1643,6 +1671,13 @@
       "open_weights": true
     },
     "qwen3.5-9b-q4": {
+      "cost": {
+        "cache_read": 0,
+        "cache_write": 0,
+        "currency": "USD",
+        "input": 0,
+        "output": 0
+      },
       "description": "セルフホストの Qwen3.5 9B。テキスト対話向け。 GGUF UD-Q4_K_XL、設定コンテキストは 131072 トークン。チャットテンプレートで思考を有効化。",
       "family": "qwen",
       "id": "qwen3.5-9b-q4",

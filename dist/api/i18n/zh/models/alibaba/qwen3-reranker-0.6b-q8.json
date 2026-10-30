@@ -1,4 +1,11 @@
 {
+  "cost": {
+    "cache_read": 0,
+    "cache_write": 0,
+    "currency": "USD",
+    "input": 0,
+    "output": 0
+  },
   "description": "自部署的 Qwen3 Reranker 0.6B，用于查询与文档的相关性重排序。 GGUF Q8_0 量化；部署上下文为 2048 Token。",
   "family": "qwen",
   "id": "qwen3-reranker-0.6b-q8",

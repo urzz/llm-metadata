@@ -4004,6 +4004,17 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "mistral-large-4-0-8",
+      "name": "Mistral Large 4.0.8",
+      "providerId": "mistral",
+      "updated": "2026-10-06"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": false,
         "tool_call": true
       },
@@ -7941,7 +7952,7 @@
       "iconURL": "https://models.dev/logos/mistral.svg",
       "id": "mistral",
       "lobeIcon": "Mistral.Color",
-      "modelCount": 40,
+      "modelCount": 41,
       "name": "Mistral"
     },
     {

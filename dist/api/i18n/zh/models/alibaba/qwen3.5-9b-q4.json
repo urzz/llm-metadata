@@ -1,4 +1,11 @@
 {
+  "cost": {
+    "cache_read": 0,
+    "cache_write": 0,
+    "currency": "USD",
+    "input": 0,
+    "output": 0
+  },
   "description": "自部署的 Qwen3.5 9B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 131072 Token。聊天模板已启用思考。",
   "family": "qwen",
   "id": "qwen3.5-9b-q4",

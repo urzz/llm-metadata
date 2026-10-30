@@ -1,4 +1,11 @@
 {
+  "cost": {
+    "cache_read": 0,
+    "cache_write": 0,
+    "currency": "USD",
+    "input": 0,
+    "output": 0
+  },
   "description": "Self-hosted Qwen3.5 9B for text conversations. GGUF UD-Q4_K_XL; configured context: 131072 tokens. Thinking is enabled in the chat template.",
   "family": "qwen",
   "id": "qwen3.5-9b-q4",

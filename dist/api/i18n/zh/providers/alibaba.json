@@ -988,6 +988,13 @@
       "open_weights": true
     },
     "qwen3-embedding-0.6b-q8": {
+      "cost": {
+        "cache_read": 0,
+        "cache_write": 0,
+        "currency": "USD",
+        "input": 0,
+        "output": 0
+      },
       "description": "自部署的 Qwen3 Embedding 0.6B，用于文本向量化与检索。 GGUF Q8_0 量化；部署上下文为 2048 Token。",
       "family": "qwen",
       "id": "qwen3-embedding-0.6b-q8",
@@ -1242,6 +1249,13 @@
       "open_weights": true
     },
     "qwen3-reranker-0.6b-q8": {
+      "cost": {
+        "cache_read": 0,
+        "cache_write": 0,
+        "currency": "USD",
+        "input": 0,
+        "output": 0
+      },
       "description": "自部署的 Qwen3 Reranker 0.6B，用于查询与文档的相关性重排序。 GGUF Q8_0 量化；部署上下文为 2048 Token。",
       "family": "qwen",
       "id": "qwen3-reranker-0.6b-q8",
@@ -1497,6 +1511,13 @@
       "open_weights": true
     },
     "qwen3.5-2b-q4": {
+      "cost": {
+        "cache_read": 0,
+        "cache_write": 0,
+        "currency": "USD",
+        "input": 0,
+        "output": 0
+      },
       "description": "自部署的 Qwen3.5 2B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 8192 Token。",
       "family": "qwen",
       "id": "qwen3.5-2b-q4",
@@ -1610,6 +1631,13 @@
       "open_weights": true
     },
     "qwen3.5-4b-q4": {
+      "cost": {
+        "cache_read": 0,
+        "cache_write": 0,
+        "currency": "USD",
+        "input": 0,
+        "output": 0
+      },
       "description": "自部署的 Qwen3.5 4B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 8192 Token。",
       "family": "qwen",
       "id": "qwen3.5-4b-q4",
@@ -1643,6 +1671,13 @@
       "open_weights": true
     },
     "qwen3.5-9b-q4": {
+      "cost": {
+        "cache_read": 0,
+        "cache_write": 0,
+        "currency": "USD",
+        "input": 0,
+        "output": 0
+      },
       "description": "自部署的 Qwen3.5 9B，用于文本对话。 GGUF UD-Q4_K_XL 量化；部署上下文为 131072 Token。聊天模板已启用思考。",
       "family": "qwen",
       "id": "qwen3.5-9b-q4",

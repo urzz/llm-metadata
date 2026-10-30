@@ -989,6 +989,13 @@
         "open_weights": true
       },
       "qwen3-embedding-0.6b-q8": {
+        "cost": {
+          "cache_read": 0,
+          "cache_write": 0,
+          "currency": "USD",
+          "input": 0,
+          "output": 0
+        },
         "description": "Self-hosted Qwen3 Embedding 0.6B for text embeddings and retrieval. GGUF Q8_0; configured context: 2048 tokens.",
         "family": "qwen",
         "id": "qwen3-embedding-0.6b-q8",
@@ -1243,6 +1250,13 @@
         "open_weights": true
       },
       "qwen3-reranker-0.6b-q8": {
+        "cost": {
+          "cache_read": 0,
+          "cache_write": 0,
+          "currency": "USD",
+          "input": 0,
+          "output": 0
+        },
         "description": "Self-hosted Qwen3 Reranker 0.6B for query-document relevance reranking. GGUF Q8_0; configured context: 2048 tokens.",
         "family": "qwen",
         "id": "qwen3-reranker-0.6b-q8",
@@ -1498,6 +1512,13 @@
         "open_weights": true
       },
       "qwen3.5-2b-q4": {
+        "cost": {
+          "cache_read": 0,
+          "cache_write": 0,
+          "currency": "USD",
+          "input": 0,
+          "output": 0
+        },
         "description": "Self-hosted Qwen3.5 2B for text conversations. GGUF UD-Q4_K_XL; configured context: 8192 tokens.",
         "family": "qwen",
         "id": "qwen3.5-2b-q4",
@@ -1611,6 +1632,13 @@
         "open_weights": true
       },
       "qwen3.5-4b-q4": {
+        "cost": {
+          "cache_read": 0,
+          "cache_write": 0,
+          "currency": "USD",
+          "input": 0,
+          "output": 0
+        },
         "description": "Self-hosted Qwen3.5 4B for text conversations. GGUF UD-Q4_K_XL; configured context: 8192 tokens.",
         "family": "qwen",
         "id": "qwen3.5-4b-q4",
@@ -1644,6 +1672,13 @@
         "open_weights": true
       },
       "qwen3.5-9b-q4": {
+        "cost": {
+          "cache_read": 0,
+          "cache_write": 0,
+          "currency": "USD",
+          "input": 0,
+          "output": 0
+        },
         "description": "Self-hosted Qwen3.5 9B for text conversations. GGUF UD-Q4_K_XL; configured context: 131072 tokens. Thinking is enabled in the chat template.",
         "family": "qwen",
         "id": "qwen3.5-9b-q4",
@@ -14326,9 +14361,9 @@
         "attachment": true,
         "canonical_model_id": "mistral/mistral-large-4",
         "cost": {
-          "cache_read": 0.14,
-          "input": 1.36,
-          "output": 4.18
+          "cache_read": 0.07,
+          "input": 0.7,
+          "output": 2.1
         },
         "description": "Mistral's 1T-parameter multimodal MoE for reasoning, coding, and agentic work",
         "family": "mistral-large",
@@ -14355,7 +14390,53 @@
           {
             "type": "effort",
             "values": [
-              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-10-06",
+        "status": "beta",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "mistral-large-4-0-8": {
+        "attachment": true,
+        "canonical_model_id": "mistral/mistral-large-4",
+        "cost": {
+          "cache_read": 0.07,
+          "input": 0.7,
+          "output": 2.1
+        },
+        "description": "Mistral's 1T-parameter multimodal MoE for reasoning, coding, and agentic work",
+        "family": "mistral-large",
+        "id": "mistral-large-4-0-8",
+        "last_updated": "2026-10-06",
+        "limit": {
+          "context": 1048576,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Mistral Large 4.0.8",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
               "high"
             ]
           }

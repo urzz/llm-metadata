@@ -1,4 +1,11 @@
 {
+  "cost": {
+    "cache_read": 0,
+    "cache_write": 0,
+    "currency": "USD",
+    "input": 0,
+    "output": 0
+  },
   "description": "Self-hosted Qwen3 Reranker 0.6B for query-document relevance reranking. GGUF Q8_0; configured context: 2048 tokens.",
   "family": "qwen",
   "id": "qwen3-reranker-0.6b-q8",
