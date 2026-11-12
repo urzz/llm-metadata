@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T07:12:06.359Z",
+  "generatedAt": "2026-11-12T07:41:15.339Z",
   "nativeProvidersHash": "ecae39ff33bdad2d6b42266abf777740451134faa0fb5e9f4674702d83591c29",
   "newapi": {
     "exchangeRates": {
@@ -14,7 +14,7 @@
     "dryRun": false,
     "excludedModels": 106,
     "excludedProviders": 186,
-    "filesChanged": 144,
+    "filesChanged": 0,
     "models": 724,
     "providers": 50
   },
