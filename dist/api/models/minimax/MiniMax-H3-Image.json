@@ -1,0 +1,26 @@
+{
+  "attachment": true,
+  "description": "MiniMax text-to-image and image-editing model",
+  "family": "minimax",
+  "id": "MiniMax-H3-Image",
+  "last_updated": "2026-11-10",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "name": "MiniMax H3 Image",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-11-10",
+  "temperature": false,
+  "tool_call": false
+}

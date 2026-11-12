@@ -1,0 +1,25 @@
+{
+  "attachment": false,
+  "description": "Multilingual Qwen3-based text embedding model with 64 to 2,048 dimensions",
+  "family": "qwen",
+  "id": "text-embedding-v4",
+  "last_updated": "2025-06-05",
+  "limit": {
+    "context": 8192,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "name": "Text Embedding v4",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-06-05",
+  "temperature": false,
+  "tool_call": false
+}

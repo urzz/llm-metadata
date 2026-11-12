@@ -39,7 +39,7 @@
       "knowledge": "2025-01",
       "last_updated": "2026-04-21",
       "limit": {
-        "context": 131072,
+        "context": 1048576,
         "output": 65536
       },
       "modalities": {
@@ -93,7 +93,7 @@
       "knowledge": "2025-01",
       "last_updated": "2026-04-21",
       "limit": {
-        "context": 131072,
+        "context": 1048576,
         "output": 65536
       },
       "modalities": {
@@ -1417,6 +1417,83 @@
       "temperature": true,
       "tool_call": true
     },
+    "gemini-4-carbon": {
+      "attachment": true,
+      "canonical_model_id": "google/gemini-4-carbon",
+      "cost": {
+        "cache_read": 0.1,
+        "input": 2,
+        "input_audio": 2,
+        "output": 10
+      },
+      "description": "Google's most capable reasoning model for complex software engineering, deep math and science, high factual accuracy, and long-horizon autonomous agents",
+      "family": "gemini",
+      "id": "gemini-4-carbon",
+      "knowledge": "2026-03",
+      "last_updated": "2026-11-10",
+      "limit": {
+        "context": 1048576,
+        "output": 32768
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemini 4 Carbon",
+      "open_weights": false,
+      "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "low",
+            "medium",
+            "high"
+          ]
+        }
+      ],
+      "release_date": "2026-11-10",
+      "structured_output": true,
+      "temperature": true,
+      "tool_call": true
+    },
+    "gemini-decision-1": {
+      "attachment": true,
+      "description": "Google's decision model that returns calibrated probabilities for typed yes/no, choice and score questions about text, images, audio, video and PDFs",
+      "family": "gemini",
+      "id": "gemini-decision-1",
+      "last_updated": "2026-11-11",
+      "limit": {
+        "context": 262144,
+        "output": 1
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "audio",
+          "video",
+          "pdf"
+        ],
+        "output": [
+          "decision"
+        ]
+      },
+      "name": "Gemini Decision 1",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-11-11",
+      "temperature": false,
+      "tool_call": false
+    },
     "gemini-embedding-001": {
       "attachment": false,
       "cost": {
@@ -1632,6 +1709,33 @@
       "open_weights": false,
       "reasoning": true,
       "release_date": "2026-08-27",
+      "temperature": true,
+      "tool_call": false
+    },
+    "gemini-omni-1.2-flash": {
+      "attachment": true,
+      "description": "Video generation and editing model with native audio, up to 15-second clips, extension, frame interpolation, and reference-guided multimodal control",
+      "family": "gemini",
+      "id": "gemini-omni-1.2-flash",
+      "last_updated": "2026-11-05",
+      "limit": {
+        "context": 131072,
+        "output": 65536
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Gemini Omni 1.2 Flash",
+      "open_weights": false,
+      "reasoning": true,
+      "release_date": "2026-11-05",
       "temperature": true,
       "tool_call": false
     },

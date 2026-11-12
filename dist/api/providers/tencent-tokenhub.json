@@ -102,6 +102,48 @@
       "temperature": true,
       "tool_call": true
     },
+    "hy4": {
+      "attachment": true,
+      "canonical_model_id": "tencent/hy4",
+      "cost": {
+        "cache_read": 0.042,
+        "input": 0.834,
+        "output": 2.501
+      },
+      "description": "A next-generation multimodal productivity model with significantly enhanced Agent and complex task execution capabilities.",
+      "family": "Hy",
+      "id": "hy4",
+      "last_updated": "2026-11-04",
+      "limit": {
+        "context": 1048576,
+        "input": 983010,
+        "output": 65536
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Hy4",
+      "open_weights": false,
+      "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "none",
+            "high"
+          ]
+        }
+      ],
+      "release_date": "2026-11-04",
+      "temperature": true,
+      "tool_call": true
+    },
     "hy4-preview": {
       "attachment": false,
       "canonical_model_id": "tencent/hy4-preview",
@@ -144,6 +186,54 @@
       "release_date": "2026-08-28",
       "temperature": true,
       "tool_call": true
+    },
+    "kinfra-text-embedding-0.6b": {
+      "attachment": false,
+      "description": "Lightweight Tencent text embedding model producing 1,024-dimensional vectors for large-scale retrieval",
+      "id": "kinfra-text-embedding-0.6b",
+      "last_updated": "2026-07",
+      "limit": {
+        "context": 32768,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Kinfra Text Embedding 0.6B",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-07",
+      "temperature": false,
+      "tool_call": false
+    },
+    "kinfra-text-embedding-4b": {
+      "attachment": false,
+      "description": "Tencent text embedding model producing 2,560-dimensional vectors for high-quality retrieval",
+      "id": "kinfra-text-embedding-4b",
+      "last_updated": "2026-07",
+      "limit": {
+        "context": 32768,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Kinfra Text Embedding 4B",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-07",
+      "temperature": false,
+      "tool_call": false
     }
   },
   "name": "Tencent TokenHub",

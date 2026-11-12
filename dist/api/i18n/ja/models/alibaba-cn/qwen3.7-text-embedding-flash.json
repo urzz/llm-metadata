@@ -1,0 +1,25 @@
+{
+  "attachment": false,
+  "description": "Lightweight multilingual Qwen3.7 text embedding model for cost and throughput sensitive workloads",
+  "family": "qwen",
+  "id": "qwen3.7-text-embedding-flash",
+  "last_updated": "2026-09-01",
+  "limit": {
+    "context": 128000,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "name": "Qwen3.7 Text Embedding Flash",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-09-01",
+  "temperature": false,
+  "tool_call": false
+}

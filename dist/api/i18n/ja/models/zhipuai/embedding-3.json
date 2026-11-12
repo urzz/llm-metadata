@@ -1,0 +1,24 @@
+{
+  "attachment": false,
+  "description": "Zhipu third-generation text embedding model with 256 to 2,048 dimensions",
+  "id": "embedding-3",
+  "last_updated": "2024-08",
+  "limit": {
+    "context": 8192,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "name": "Embedding-3",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2024-08",
+  "temperature": false,
+  "tool_call": false
+}

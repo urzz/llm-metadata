@@ -7,7 +7,7 @@
     "input": 4,
     "output": 20
   },
-  "description": "具备 1M 上下文和持续推理能力的多模态 Kimi 模型，适用于编程、3D 创作、金融研究和智能体工作",
+  "description": "具备 1M-token 上下文窗口和始终开启推理能力的多模态 Kimi 模型，适用于编程、3D 创作和金融研究",
   "family": "kimi-k3",
   "id": "kimi-k3.1-pro-highspeed",
   "interleaved": {
@@ -29,7 +29,7 @@
     ]
   },
   "name": "Kimi K3.1 Pro Highspeed",
-  "open_weights": false,
+  "open_weights": true,
   "reasoning": true,
   "reasoning_options": [
     {

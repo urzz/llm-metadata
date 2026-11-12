@@ -2237,6 +2237,31 @@
         "temperature": true,
         "tool_call": true
       },
+      "qwen3.7-text-embedding": {
+        "attachment": false,
+        "description": "Multilingual Qwen3.7 text embedding model with 256 to 2,560 dimensions and 128K-token inputs",
+        "family": "qwen",
+        "id": "qwen3.7-text-embedding",
+        "last_updated": "2026-07-15",
+        "limit": {
+          "context": 128000,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Qwen3.7 Text Embedding",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2026-07-15",
+        "temperature": false,
+        "tool_call": false
+      },
       "qwen3.8-2.4t-a95b": {
         "attachment": false,
         "description": "Open-weight sparse MoE (2.4T total, 95B active), the open-weight twin of Qwen3.8 Max for coding, research, complex reasoning, and agentic workflows",
@@ -2512,6 +2537,55 @@
         "status": "deprecated",
         "temperature": true,
         "tool_call": true
+      },
+      "text-embedding-v3": {
+        "attachment": false,
+        "description": "Multilingual text embedding model covering 50+ languages with 64 to 1,024 dimensions",
+        "id": "text-embedding-v3",
+        "last_updated": "2024-07-12",
+        "limit": {
+          "context": 8192,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Text Embedding v3",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2024-07-12",
+        "temperature": false,
+        "tool_call": false
+      },
+      "text-embedding-v4": {
+        "attachment": false,
+        "description": "Multilingual Qwen3-based text embedding model with 64 to 2,048 dimensions",
+        "family": "qwen",
+        "id": "text-embedding-v4",
+        "last_updated": "2025-06-05",
+        "limit": {
+          "context": 8192,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Text Embedding v4",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2025-06-05",
+        "temperature": false,
+        "tool_call": false
       },
       "wan2.7-image": {
         "attachment": true,
@@ -4605,6 +4679,56 @@
         "temperature": true,
         "tool_call": true
       },
+      "qwen3.7-text-embedding": {
+        "attachment": false,
+        "description": "Multilingual Qwen3.7 text embedding model with 256 to 2,560 dimensions and 128K-token inputs",
+        "family": "qwen",
+        "id": "qwen3.7-text-embedding",
+        "last_updated": "2026-07-15",
+        "limit": {
+          "context": 128000,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Qwen3.7 Text Embedding",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2026-07-15",
+        "temperature": false,
+        "tool_call": false
+      },
+      "qwen3.7-text-embedding-flash": {
+        "attachment": false,
+        "description": "Lightweight multilingual Qwen3.7 text embedding model for cost and throughput sensitive workloads",
+        "family": "qwen",
+        "id": "qwen3.7-text-embedding-flash",
+        "last_updated": "2026-09-01",
+        "limit": {
+          "context": 128000,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Qwen3.7 Text Embedding Flash",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2026-09-01",
+        "temperature": false,
+        "tool_call": false
+      },
       "qwen3.8-2.4t-a95b": {
         "attachment": false,
         "description": "Open-weight sparse MoE (2.4T total, 95B active), the open-weight twin of Qwen3.8 Max for coding, research, complex reasoning, and agentic workflows",
@@ -5011,6 +5135,55 @@
         "structured_output": true,
         "temperature": true,
         "tool_call": true
+      },
+      "text-embedding-v3": {
+        "attachment": false,
+        "description": "Multilingual text embedding model covering 50+ languages with 64 to 1,024 dimensions",
+        "id": "text-embedding-v3",
+        "last_updated": "2024-07-12",
+        "limit": {
+          "context": 8192,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Text Embedding v3",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2024-07-12",
+        "temperature": false,
+        "tool_call": false
+      },
+      "text-embedding-v4": {
+        "attachment": false,
+        "description": "Multilingual Qwen3-based text embedding model with 64 to 2,048 dimensions",
+        "family": "qwen",
+        "id": "text-embedding-v4",
+        "last_updated": "2025-06-05",
+        "limit": {
+          "context": 8192,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Text Embedding v4",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2025-06-05",
+        "temperature": false,
+        "tool_call": false
       },
       "tongyi-intent-detect-v3": {
         "attachment": false,
@@ -6997,6 +7170,71 @@
         "temperature": false,
         "tool_call": true
       },
+      "claude-fable-5-2": {
+        "attachment": true,
+        "canonical_model_id": "anthropic/claude-fable-5-2",
+        "cost": {
+          "cache_read": 0.2,
+          "cache_write": 10,
+          "input": 8,
+          "output": 40
+        },
+        "description": "面向高难度推理与长程智能体任务的 Claude 模型",
+        "experimental": {
+          "modes": {
+            "fast": {
+              "cost": {
+                "cache_read": 0.4,
+                "cache_write": 20,
+                "input": 16,
+                "output": 80
+              },
+              "provider": {
+                "body": {
+                  "speed": "fast"
+                }
+              }
+            }
+          }
+        },
+        "family": "claude-fable",
+        "id": "claude-fable-5-2",
+        "knowledge": "2026-06",
+        "last_updated": "2026-11-09",
+        "limit": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Claude Fable 5.2",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-11-09",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
       "claude-haiku-4-5": {
         "attachment": true,
         "canonical_model_id": "anthropic/claude-haiku-4-5",
@@ -7580,6 +7818,7 @@
           }
         ],
         "release_date": "2025-09-29",
+        "status": "deprecated",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -7621,6 +7860,7 @@
           }
         ],
         "release_date": "2025-09-29",
+        "status": "deprecated",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -9297,7 +9537,7 @@
         "knowledge": "2025-01",
         "last_updated": "2026-04-21",
         "limit": {
-          "context": 131072,
+          "context": 1048576,
           "output": 65536
         },
         "modalities": {
@@ -9351,7 +9591,7 @@
         "knowledge": "2025-01",
         "last_updated": "2026-04-21",
         "limit": {
-          "context": 131072,
+          "context": 1048576,
           "output": 65536
         },
         "modalities": {
@@ -10675,6 +10915,83 @@
         "temperature": true,
         "tool_call": true
       },
+      "gemini-4-carbon": {
+        "attachment": true,
+        "canonical_model_id": "google/gemini-4-carbon",
+        "cost": {
+          "cache_read": 0.1,
+          "input": 2,
+          "input_audio": 2,
+          "output": 10
+        },
+        "description": "Google 最强大的推理模型，适用于复杂软件工程、深度数学与科学、高事实准确性以及长周期自主代理",
+        "family": "gemini",
+        "id": "gemini-4-carbon",
+        "knowledge": "2026-03",
+        "last_updated": "2026-11-10",
+        "limit": {
+          "context": 1048576,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Gemini 4 Carbon",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-11-10",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "gemini-decision-1": {
+        "attachment": true,
+        "description": "Google's decision model that returns calibrated probabilities for typed yes/no, choice and score questions about text, images, audio, video and PDFs",
+        "family": "gemini",
+        "id": "gemini-decision-1",
+        "last_updated": "2026-11-11",
+        "limit": {
+          "context": 262144,
+          "output": 1
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "decision"
+          ]
+        },
+        "name": "Gemini Decision 1",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2026-11-11",
+        "temperature": false,
+        "tool_call": false
+      },
       "gemini-embedding-001": {
         "attachment": false,
         "cost": {
@@ -10890,6 +11207,33 @@
         "open_weights": false,
         "reasoning": true,
         "release_date": "2026-08-27",
+        "temperature": true,
+        "tool_call": false
+      },
+      "gemini-omni-1.2-flash": {
+        "attachment": true,
+        "description": "Video generation and editing model with native audio, up to 15-second clips, extension, frame interpolation, and reference-guided multimodal control",
+        "family": "gemini",
+        "id": "gemini-omni-1.2-flash",
+        "last_updated": "2026-11-05",
+        "limit": {
+          "context": 131072,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "name": "Gemini Omni 1.2 Flash",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-11-05",
         "temperature": true,
         "tool_call": false
       },
@@ -11540,6 +11884,71 @@
     "id": "meta",
     "lobeIcon": "Meta.Color",
     "models": {
+      "muse-ember-1.0": {
+        "attachment": true,
+        "canonical_model_id": "meta/muse-ember-1.0",
+        "cost": {
+          "cache_read": 0.004,
+          "context_over_200k": {
+            "cache_read": 0.012,
+            "input": 0.3,
+            "output": 1.5
+          },
+          "input": 0.1,
+          "output": 0.5,
+          "tiers": [
+            {
+              "cache_read": 0.012,
+              "input": 0.3,
+              "output": 1.5,
+              "tier": {
+                "size": 200000,
+                "type": "context"
+              }
+            }
+          ]
+        },
+        "description": "Muse Ember 是 Meta 规模最小、效率最高的推理模型，专为代理全天重复执行的工作而打造：工具调用、编程子任务、路由、信息提取和长文档解析。它与 Muse Wonder 或 Muse Spark 搭配使用，由后者负责规划，Muse Ember 处理大量任务。",
+        "family": "muse",
+        "id": "muse-ember-1.0",
+        "last_updated": "2026-11-09",
+        "limit": {
+          "context": 1048576,
+          "output": 524288
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "pdf",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Muse Ember",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-11-09",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "muse-image-1.0": {
         "attachment": true,
         "description": "Agentic image generation and editing model that plans, searches and refines before rendering",
@@ -11899,6 +12308,32 @@
         "temperature": false,
         "tool_call": false
       },
+      "MiniMax-H3-Image": {
+        "attachment": true,
+        "description": "MiniMax text-to-image and image-editing model",
+        "family": "minimax",
+        "id": "MiniMax-H3-Image",
+        "last_updated": "2026-11-10",
+        "limit": {
+          "context": 0,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "name": "MiniMax H3 Image",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2026-11-10",
+        "temperature": false,
+        "tool_call": false
+      },
       "MiniMax-H3-Max": {
         "attachment": true,
         "cost": {
@@ -12234,7 +12669,7 @@
           ]
         },
         "name": "MiniMax-M3.1-Flash",
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
           {
@@ -12488,6 +12923,32 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2026-07-31",
+        "temperature": false,
+        "tool_call": false
+      },
+      "MiniMax-H3-Image": {
+        "attachment": true,
+        "description": "MiniMax text-to-image and image-editing model",
+        "family": "minimax",
+        "id": "MiniMax-H3-Image",
+        "last_updated": "2026-11-10",
+        "limit": {
+          "context": 0,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "name": "MiniMax H3 Image",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2026-11-10",
         "temperature": false,
         "tool_call": false
       },
@@ -12830,7 +13291,7 @@
           ]
         },
         "name": "MiniMax-M3.1-Flash",
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
           {
@@ -13332,7 +13793,7 @@
           ]
         },
         "name": "MiniMax-M3.1-Flash",
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
           {
@@ -13679,7 +14140,7 @@
           ]
         },
         "name": "MiniMax-M3.1-Flash",
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
           {
@@ -14681,7 +15142,7 @@
         "id": "mistral-ocr-2512",
         "last_updated": "2025-12-18",
         "limit": {
-          "context": 0,
+          "context": 16384,
           "output": 0
         },
         "modalities": {
@@ -14708,7 +15169,7 @@
         "id": "mistral-ocr-4-1",
         "last_updated": "2026-07-16",
         "limit": {
-          "context": 0,
+          "context": 16384,
           "output": 0
         },
         "modalities": {
@@ -15377,7 +15838,7 @@
           "input": 2,
           "output": 10
         },
-        "description": "具备 1M 上下文和持续推理能力的多模态 Kimi 模型，适用于编程、3D 创作、金融研究和智能体工作",
+        "description": "具备 1M-token 上下文窗口和始终开启推理能力的多模态 Kimi 模型，适用于编程、3D 创作和金融研究",
         "family": "kimi-k3",
         "id": "kimi-k3.1-pro",
         "interleaved": {
@@ -15399,7 +15860,7 @@
           ]
         },
         "name": "Kimi K3.1 Pro",
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
           {
@@ -15425,7 +15886,7 @@
           "input": 4,
           "output": 20
         },
-        "description": "具备 1M 上下文和持续推理能力的多模态 Kimi 模型，适用于编程、3D 创作、金融研究和智能体工作",
+        "description": "具备 1M-token 上下文窗口和始终开启推理能力的多模态 Kimi 模型，适用于编程、3D 创作和金融研究",
         "family": "kimi-k3",
         "id": "kimi-k3.1-pro-highspeed",
         "interleaved": {
@@ -15447,7 +15908,7 @@
           ]
         },
         "name": "Kimi K3.1 Pro Highspeed",
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
           {
@@ -15665,7 +16126,7 @@
           "input": 1.9437,
           "output": 10.1671
         },
-        "description": "具备 1M 上下文和持续推理能力的多模态 Kimi 模型，适用于编程、3D 创作、金融研究和智能体工作",
+        "description": "具备 1M-token 上下文窗口和始终开启推理能力的多模态 Kimi 模型，适用于编程、3D 创作和金融研究",
         "family": "kimi-k3",
         "id": "kimi-k3.1-pro",
         "interleaved": {
@@ -15687,7 +16148,7 @@
           ]
         },
         "name": "Kimi K3.1 Pro",
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
           {
@@ -15713,7 +16174,7 @@
           "input": 3.8874,
           "output": 20.3342
         },
-        "description": "具备 1M 上下文和持续推理能力的多模态 Kimi 模型，适用于编程、3D 创作、金融研究和智能体工作",
+        "description": "具备 1M-token 上下文窗口和始终开启推理能力的多模态 Kimi 模型，适用于编程、3D 创作和金融研究",
         "family": "kimi-k3",
         "id": "kimi-k3.1-pro-highspeed",
         "interleaved": {
@@ -15735,7 +16196,7 @@
           ]
         },
         "name": "Kimi K3.1 Pro Highspeed",
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
           {
@@ -16172,6 +16633,52 @@
         "temperature": false,
         "tool_call": true
       },
+      "morph-kimik31": {
+        "attachment": true,
+        "canonical_model_id": "moonshotai/kimi-k3.1-pro",
+        "cost": {
+          "cache_read": 0.29,
+          "input": 2.5,
+          "output": 14
+        },
+        "description": "具备 1M-token 上下文窗口和始终开启推理能力的多模态 Kimi 模型，适用于编程、3D 创作和金融研究",
+        "family": "kimi-k3",
+        "id": "morph-kimik31",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-10-23",
+        "limit": {
+          "context": 1048576,
+          "output": 1048576
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K3.1 Pro",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "high",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-10-23",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
       "morph-v3-fast": {
         "attachment": false,
         "canonical_model_id": "morph/morph-v3-fast",
@@ -16230,6 +16737,31 @@
         "reasoning": false,
         "release_date": "2025-07-07",
         "temperature": true,
+        "tool_call": false
+      },
+      "reflex": {
+        "attachment": true,
+        "description": "Morph's 27B decision model that returns probabilities for typed choice, yes/no and score questions about text, JSON or images",
+        "family": "morph",
+        "id": "reflex",
+        "last_updated": "2026-11-03",
+        "limit": {
+          "context": 65536
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "decision"
+          ]
+        },
+        "name": "Reflex",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2026-11-03",
+        "temperature": false,
         "tool_call": false
       }
     },
@@ -21956,6 +22488,48 @@
         "temperature": true,
         "tool_call": true
       },
+      "hy4": {
+        "attachment": true,
+        "canonical_model_id": "tencent/hy4",
+        "cost": {
+          "cache_read": 0.042,
+          "input": 0.834,
+          "output": 2.501
+        },
+        "description": "新一代多模态生产力模型，Agent 和复杂任务执行能力显著增强。",
+        "family": "Hy",
+        "id": "hy4",
+        "last_updated": "2026-11-04",
+        "limit": {
+          "context": 1048576,
+          "input": 983010,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Hy4",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-11-04",
+        "temperature": true,
+        "tool_call": true
+      },
       "hy4-preview": {
         "attachment": false,
         "canonical_model_id": "tencent/hy4-preview",
@@ -22108,6 +22682,48 @@
         "temperature": true,
         "tool_call": true
       },
+      "hy4": {
+        "attachment": true,
+        "canonical_model_id": "tencent/hy4",
+        "cost": {
+          "cache_read": 0.042,
+          "input": 0.834,
+          "output": 2.501
+        },
+        "description": "新一代多模态生产力模型，Agent 和复杂任务执行能力显著增强。",
+        "family": "Hy",
+        "id": "hy4",
+        "last_updated": "2026-11-04",
+        "limit": {
+          "context": 1048576,
+          "input": 983010,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Hy4",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-11-04",
+        "temperature": true,
+        "tool_call": true
+      },
       "hy4-preview": {
         "attachment": false,
         "canonical_model_id": "tencent/hy4-preview",
@@ -22150,6 +22766,54 @@
         "release_date": "2026-08-28",
         "temperature": true,
         "tool_call": true
+      },
+      "kinfra-text-embedding-0.6b": {
+        "attachment": false,
+        "description": "Lightweight Tencent text embedding model producing 1,024-dimensional vectors for large-scale retrieval",
+        "id": "kinfra-text-embedding-0.6b",
+        "last_updated": "2026-07",
+        "limit": {
+          "context": 32768,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Kinfra Text Embedding 0.6B",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2026-07",
+        "temperature": false,
+        "tool_call": false
+      },
+      "kinfra-text-embedding-4b": {
+        "attachment": false,
+        "description": "Tencent text embedding model producing 2,560-dimensional vectors for high-quality retrieval",
+        "id": "kinfra-text-embedding-4b",
+        "last_updated": "2026-07",
+        "limit": {
+          "context": 32768,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Kinfra Text Embedding 4B",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2026-07",
+        "temperature": false,
+        "tool_call": false
       }
     },
     "name": "Tencent TokenHub",
@@ -25196,6 +25860,29 @@
         "temperature": true,
         "tool_call": true
       },
+      "grok-4.7-build-fast": {
+        "cost": {
+          "cache_read": 1,
+          "currency": "USD",
+          "input": 4,
+          "output": 12,
+          "tiers": [
+            {
+              "cache_read": 1.5,
+              "input": 6,
+              "output": 18,
+              "tier": {
+                "size": 200000,
+                "type": "context"
+              }
+            }
+          ]
+        },
+        "description": "运行在更快基础设施上的 Grok 4.7，供 Grok Build 使用；不在公开的 xAI API 上提供。",
+        "family": "grok",
+        "id": "grok-4.7-build-fast",
+        "name": "Grok 4.7 Build Fast"
+      },
       "grok-build-0.1": {
         "attachment": true,
         "cost": {
@@ -25299,35 +25986,6 @@
         "release_date": "2026-08-07",
         "temperature": false,
         "tool_call": false
-      },
-      "grok-imagine-image-quality": {
-        "attachment": true,
-        "canonical_model_id": "xai/grok-imagine-image-quality",
-        "description": "更高保真的 Grok Imagine 图像模型，适用于基于提示词的生成、编辑和视觉设计工作流",
-        "family": "grok",
-        "id": "grok-imagine-image-quality",
-        "last_updated": "2026-04-03",
-        "limit": {
-          "context": 16000,
-          "output": 0
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "image"
-          ]
-        },
-        "name": "Grok Imagine Image Quality",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2026-04-03",
-        "status": "deprecated",
-        "temperature": false,
-        "tool_call": false,
-        "type": "image"
       },
       "grok-imagine-video": {
         "attachment": true,
@@ -28098,6 +28756,54 @@
         "open_weights": false,
         "reasoning": false,
         "release_date": "2025-07-15",
+        "temperature": false,
+        "tool_call": false
+      },
+      "embedding-2": {
+        "attachment": false,
+        "description": "Zhipu second-generation text embedding model producing 1,024-dimensional vectors",
+        "id": "embedding-2",
+        "last_updated": "2023-12",
+        "limit": {
+          "context": 8192,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Embedding-2",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2023-12",
+        "temperature": false,
+        "tool_call": false
+      },
+      "embedding-3": {
+        "attachment": false,
+        "description": "Zhipu third-generation text embedding model with 256 to 2,048 dimensions",
+        "id": "embedding-3",
+        "last_updated": "2024-08",
+        "limit": {
+          "context": 8192,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "embedding"
+          ]
+        },
+        "name": "Embedding-3",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2024-08",
         "temperature": false,
         "tool_call": false
       },

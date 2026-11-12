@@ -1,0 +1,25 @@
+{
+  "attachment": true,
+  "description": "Morph's 27B decision model that returns probabilities for typed choice, yes/no and score questions about text, JSON or images",
+  "family": "morph",
+  "id": "reflex",
+  "last_updated": "2026-11-03",
+  "limit": {
+    "context": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "decision"
+    ]
+  },
+  "name": "Reflex",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-11-03",
+  "temperature": false,
+  "tool_call": false
+}

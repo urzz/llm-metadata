@@ -1,0 +1,24 @@
+{
+  "attachment": false,
+  "description": "Zhipu second-generation text embedding model producing 1,024-dimensional vectors",
+  "id": "embedding-2",
+  "last_updated": "2023-12",
+  "limit": {
+    "context": 8192,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "name": "Embedding-2",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2023-12",
+  "temperature": false,
+  "tool_call": false
+}

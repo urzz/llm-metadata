@@ -631,6 +631,17 @@
     {
       "flags": {
         "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen3.7-text-embedding",
+      "name": "Qwen3.7 Text Embedding",
+      "providerId": "alibaba",
+      "updated": "2026-07-15"
+    },
+    {
+      "flags": {
+        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -704,6 +715,28 @@
       "name": "QwQ Plus",
       "providerId": "alibaba",
       "updated": "2025-03-05"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "text-embedding-v3",
+      "name": "Text Embedding v3",
+      "providerId": "alibaba",
+      "updated": "2024-07-12"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "text-embedding-v4",
+      "name": "Text Embedding v4",
+      "providerId": "alibaba",
+      "updated": "2025-06-05"
     },
     {
       "flags": {
@@ -1247,6 +1280,28 @@
     {
       "flags": {
         "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen3.7-text-embedding",
+      "name": "Qwen3.7 Text Embedding",
+      "providerId": "alibaba-cn",
+      "updated": "2026-07-15"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "qwen3.7-text-embedding-flash",
+      "name": "Qwen3.7 Text Embedding Flash",
+      "providerId": "alibaba-cn",
+      "updated": "2026-09-01"
+    },
+    {
+      "flags": {
+        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -1364,6 +1419,28 @@
       "name": "siliconflow/deepseek-v3.2",
       "providerId": "alibaba-cn",
       "updated": "2025-12-03"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "text-embedding-v3",
+      "name": "Text Embedding v3",
+      "providerId": "alibaba-cn",
+      "updated": "2024-07-12"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "text-embedding-v4",
+      "name": "Text Embedding v4",
+      "providerId": "alibaba-cn",
+      "updated": "2025-06-05"
     },
     {
       "flags": {
@@ -1903,6 +1980,17 @@
       "name": "Claude Fable 5.1",
       "providerId": "anthropic",
       "updated": "2026-09-01"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "claude-fable-5-2",
+      "name": "Claude Fable 5.2",
+      "providerId": "anthropic",
+      "updated": "2026-11-09"
     },
     {
       "flags": {
@@ -2852,6 +2940,28 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gemini-4-carbon",
+      "name": "Gemini 4 Carbon",
+      "providerId": "google",
+      "updated": "2026-11-10"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gemini-decision-1",
+      "name": "Gemini Decision 1",
+      "providerId": "google",
+      "updated": "2026-11-11"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": false,
         "tool_call": false
@@ -2915,6 +3025,17 @@
       "name": "Gemini Omni 1.1 Flash",
       "providerId": "google",
       "updated": "2026-08-27"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": false
+      },
+      "id": "gemini-omni-1.2-flash",
+      "name": "Gemini Omni 1.2 Flash",
+      "providerId": "google",
+      "updated": "2026-11-05"
     },
     {
       "flags": {
@@ -3106,6 +3227,17 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "muse-ember-1.0",
+      "name": "Muse Ember",
+      "providerId": "meta",
+      "updated": "2026-11-09"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": false,
         "tool_call": false
       },
@@ -3212,6 +3344,17 @@
       "name": "MiniMax-H3",
       "providerId": "minimax",
       "updated": "2026-07-31"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "MiniMax-H3-Image",
+      "name": "MiniMax H3 Image",
+      "providerId": "minimax",
+      "updated": "2026-11-10"
     },
     {
       "flags": {
@@ -3420,6 +3563,17 @@
       "name": "MiniMax-H3",
       "providerId": "minimax-cn",
       "updated": "2026-07-31"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "MiniMax-H3-Image",
+      "name": "MiniMax H3 Image",
+      "providerId": "minimax-cn",
+      "updated": "2026-11-10"
     },
     {
       "flags": {
@@ -4476,6 +4630,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "morph-kimik31",
+      "name": "Kimi K3.1 Pro",
+      "providerId": "morph",
+      "updated": "2026-10-23"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": false,
         "tool_call": false
@@ -4495,6 +4660,17 @@
       "name": "Morph V3 Large",
       "providerId": "morph",
       "updated": "2025-07-07"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "reflex",
+      "name": "Reflex",
+      "providerId": "morph",
+      "updated": "2026-11-03"
     },
     {
       "flags": {
@@ -5840,6 +6016,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "hy4",
+      "name": "Hy4",
+      "providerId": "tencent-token-plan",
+      "updated": "2026-11-04"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -5873,6 +6060,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "hy4",
+      "name": "Hy4",
+      "providerId": "tencent-tokenhub",
+      "updated": "2026-11-04"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -5881,6 +6079,28 @@
       "name": "Hy4 preview",
       "providerId": "tencent-tokenhub",
       "updated": "2026-08-28"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "kinfra-text-embedding-0.6b",
+      "name": "Kinfra Text Embedding 0.6B",
+      "providerId": "tencent-tokenhub",
+      "updated": "2026-07"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "kinfra-text-embedding-4b",
+      "name": "Kinfra Text Embedding 4B",
+      "providerId": "tencent-tokenhub",
+      "updated": "2026-07"
     },
     {
       "flags": {
@@ -6599,6 +6819,16 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "grok-4.7-build-fast",
+      "name": "Grok 4.7 Build Fast",
+      "providerId": "xai"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -6629,17 +6859,6 @@
       "name": "Grok Imagine Image 2.0",
       "providerId": "xai",
       "updated": "2026-08-07"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": false,
-        "tool_call": false
-      },
-      "id": "grok-imagine-image-quality",
-      "name": "Grok Imagine Image Quality",
-      "providerId": "xai",
-      "updated": "2026-04-03"
     },
     {
       "flags": {
@@ -7436,6 +7655,28 @@
     {
       "flags": {
         "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "embedding-2",
+      "name": "Embedding-2",
+      "providerId": "zhipuai",
+      "updated": "2023-12"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "embedding-3",
+      "name": "Embedding-3",
+      "providerId": "zhipuai",
+      "updated": "2024-08"
+    },
+    {
+      "flags": {
+        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -7723,7 +7964,7 @@
       "iconURL": "https://models.dev/logos/alibaba.svg",
       "id": "alibaba",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 67,
+      "modelCount": 70,
       "name": "Alibaba"
     },
     {
@@ -7740,7 +7981,7 @@
       "iconURL": "https://models.dev/logos/alibaba-cn.svg",
       "id": "alibaba-cn",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 61,
+      "modelCount": 65,
       "name": "Alibaba (China)"
     },
     {
@@ -7821,7 +8062,7 @@
       "iconURL": "https://models.dev/logos/anthropic.svg",
       "id": "anthropic",
       "lobeIcon": "Claude.Color",
-      "modelCount": 17,
+      "modelCount": 18,
       "name": "Anthropic"
     },
     {
@@ -7865,7 +8106,7 @@
       "iconURL": "https://models.dev/logos/google.svg",
       "id": "google",
       "lobeIcon": "Gemini.Color",
-      "modelCount": 49,
+      "modelCount": 52,
       "name": "Google"
     },
     {
@@ -7892,7 +8133,7 @@
       "iconURL": "https://models.dev/logos/meta.svg",
       "id": "meta",
       "lobeIcon": "Meta.Color",
-      "modelCount": 7,
+      "modelCount": 8,
       "name": "Meta"
     },
     {
@@ -7904,7 +8145,7 @@
       "iconURL": "https://models.dev/logos/minimax.svg",
       "id": "minimax",
       "lobeIcon": "Minimax.Color",
-      "modelCount": 19,
+      "modelCount": 20,
       "name": "MiniMax (minimax.io)"
     },
     {
@@ -7917,7 +8158,7 @@
       "iconURL": "https://models.dev/logos/minimax-cn.svg",
       "id": "minimax-cn",
       "lobeIcon": "Minimax.Color",
-      "modelCount": 19,
+      "modelCount": 20,
       "name": "MiniMax (minimax.cn)"
     },
     {
@@ -7988,7 +8229,7 @@
       "iconURL": "https://models.dev/logos/morph.svg",
       "id": "morph",
       "lobeIcon": "Morph.Color",
-      "modelCount": 11,
+      "modelCount": 13,
       "name": "Morph"
     },
     {
@@ -8127,7 +8368,7 @@
       "iconURL": "https://models.dev/logos/tencent-token-plan.svg",
       "id": "tencent-token-plan",
       "lobeIcon": "Hunyuan.Color",
-      "modelCount": 2,
+      "modelCount": 3,
       "name": "Tencent Token Plan",
       "subscription": true
     },
@@ -8141,7 +8382,7 @@
       "iconURL": "https://models.dev/logos/tencent-tokenhub.svg",
       "id": "tencent-tokenhub",
       "lobeIcon": "Hunyuan.Color",
-      "modelCount": 3,
+      "modelCount": 6,
       "name": "Tencent TokenHub"
     },
     {
@@ -8274,7 +8515,7 @@
       "iconURL": "https://models.dev/logos/zhipuai.svg",
       "id": "zhipuai",
       "lobeIcon": "Zhipu.Color",
-      "modelCount": 22,
+      "modelCount": 24,
       "name": "Zhipu AI"
     },
     {

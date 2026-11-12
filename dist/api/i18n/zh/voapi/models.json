@@ -2145,6 +2145,42 @@
       "tags": []
     },
     {
+      "description": "Multilingual Qwen3.7 text embedding model with 256 to 2,560 dimensions and 128K-token inputs",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.7-text-embedding",
+      "knowledge": null,
+      "lastUpdated": "2026-07-15",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Qwen3.7 Text Embedding",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-07-15",
+      "tags": []
+    },
+    {
       "description": "Open-weight sparse MoE (2.4T total, 95B active), the open-weight twin of Qwen3.8 Max for coding, research, complex reasoning, and agentic workflows",
       "firm": "alibaba",
       "flags": {
@@ -2407,6 +2443,78 @@
         "output": 2.4
       },
       "releaseDate": "2025-03-05",
+      "tags": []
+    },
+    {
+      "description": "Multilingual text embedding model covering 50+ languages with 64 to 1,024 dimensions",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "text-embedding-v3",
+      "knowledge": null,
+      "lastUpdated": "2024-07-12",
+      "maxCtxTokens": 8192,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Text Embedding v3",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2024-07-12",
+      "tags": []
+    },
+    {
+      "description": "Multilingual Qwen3-based text embedding model with 64 to 2,048 dimensions",
+      "firm": "alibaba",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "text-embedding-v4",
+      "knowledge": null,
+      "lastUpdated": "2025-06-05",
+      "maxCtxTokens": 8192,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Text Embedding v4",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2025-06-05",
       "tags": []
     },
     {
@@ -4217,6 +4325,78 @@
       "tags": []
     },
     {
+      "description": "Multilingual Qwen3.7 text embedding model with 256 to 2,560 dimensions and 128K-token inputs",
+      "firm": "alibaba-cn",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.7-text-embedding",
+      "knowledge": null,
+      "lastUpdated": "2026-07-15",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Qwen3.7 Text Embedding",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-07-15",
+      "tags": []
+    },
+    {
+      "description": "Lightweight multilingual Qwen3.7 text embedding model for cost and throughput sensitive workloads",
+      "firm": "alibaba-cn",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "qwen3.7-text-embedding-flash",
+      "knowledge": null,
+      "lastUpdated": "2026-09-01",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Qwen3.7 Text Embedding Flash",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-09-01",
+      "tags": []
+    },
+    {
       "description": "Open-weight sparse MoE (2.4T total, 95B active), the open-weight twin of Qwen3.8 Max for coding, research, complex reasoning, and agentic workflows",
       "firm": "alibaba-cn",
       "flags": {
@@ -4623,6 +4803,78 @@
         "output": 0.42
       },
       "releaseDate": "2025-12-03",
+      "tags": []
+    },
+    {
+      "description": "Multilingual text embedding model covering 50+ languages with 64 to 1,024 dimensions",
+      "firm": "alibaba-cn",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "text-embedding-v3",
+      "knowledge": null,
+      "lastUpdated": "2024-07-12",
+      "maxCtxTokens": 8192,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Text Embedding v3",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2024-07-12",
+      "tags": []
+    },
+    {
+      "description": "Multilingual Qwen3-based text embedding model with 64 to 2,048 dimensions",
+      "firm": "alibaba-cn",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:qwen-color",
+      "id": "text-embedding-v4",
+      "knowledge": null,
+      "lastUpdated": "2025-06-05",
+      "maxCtxTokens": 8192,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Text Embedding v4",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2025-06-05",
       "tags": []
     },
     {
@@ -6436,6 +6688,44 @@
         "output": 50
       },
       "releaseDate": "2026-09-01",
+      "tags": []
+    },
+    {
+      "description": "面向高难度推理与长程智能体任务的 Claude 模型",
+      "firm": "anthropic",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:claude-color",
+      "id": "claude-fable-5-2",
+      "knowledge": "2026-06",
+      "lastUpdated": "2026-11-09",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Fable 5.2",
+      "price": {
+        "cacheRead": 0.2,
+        "cacheWrite": 10,
+        "input": 8,
+        "output": 40
+      },
+      "releaseDate": "2026-11-09",
       "tags": []
     },
     {
@@ -8405,7 +8695,7 @@
       "id": "deep-research-max-preview-04-2026",
       "knowledge": "2025-01",
       "lastUpdated": "2026-04-21",
-      "maxCtxTokens": 131072,
+      "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
@@ -8446,7 +8736,7 @@
       "id": "deep-research-preview-04-2026",
       "knowledge": "2025-01",
       "lastUpdated": "2026-04-21",
-      "maxCtxTokens": 131072,
+      "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
@@ -9672,6 +9962,86 @@
       "tags": []
     },
     {
+      "description": "Google 最强大的推理模型，适用于复杂软件工程、深度数学与科学、高事实准确性以及长周期自主代理",
+      "firm": "google",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:gemini-color",
+      "id": "gemini-4-carbon",
+      "knowledge": "2026-03",
+      "lastUpdated": "2026-11-10",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemini 4 Carbon",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": null,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-11-10",
+      "tags": []
+    },
+    {
+      "description": "Google's decision model that returns calibrated probabilities for typed yes/no, choice and score questions about text, images, audio, video and PDFs",
+      "firm": "google",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:gemini-color",
+      "id": "gemini-decision-1",
+      "knowledge": null,
+      "lastUpdated": "2026-11-11",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 1,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "audio",
+          "video",
+          "pdf"
+        ],
+        "output": [
+          "decision"
+        ]
+      },
+      "name": "Gemini Decision 1",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-11-11",
+      "tags": []
+    },
+    {
       "description": "向量嵌入模型，面向语义搜索、检索、聚类与排序流水线",
       "firm": "google",
       "flags": {
@@ -9902,6 +10272,44 @@
         "output": null
       },
       "releaseDate": "2026-08-27",
+      "tags": []
+    },
+    {
+      "description": "Video generation and editing model with native audio, up to 15-second clips, extension, frame interpolation, and reference-guided multimodal control",
+      "firm": "google",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:gemini-color",
+      "id": "gemini-omni-1.2-flash",
+      "knowledge": null,
+      "lastUpdated": "2026-11-05",
+      "maxCtxTokens": 131072,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Gemini Omni 1.2 Flash",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-11-05",
       "tags": []
     },
     {
@@ -10539,6 +10947,46 @@
       "tags": []
     },
     {
+      "description": "Muse Ember 是 Meta 规模最小、效率最高的推理模型，专为代理全天重复执行的工作而打造：工具调用、编程子任务、路由、信息提取和长文档解析。它与 Muse Wonder 或 Muse Spark 搭配使用，由后者负责规划，Muse Ember 处理大量任务。",
+      "firm": "meta",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:meta-color",
+      "id": "muse-ember-1.0",
+      "knowledge": null,
+      "lastUpdated": "2026-11-09",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 524288,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "pdf",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Muse Ember",
+      "price": {
+        "cacheRead": 0.004,
+        "cacheWrite": null,
+        "input": 0.1,
+        "output": 0.5
+      },
+      "releaseDate": "2026-11-09",
+      "tags": []
+    },
+    {
       "description": "Agentic image generation and editing model that plans, searches and refines before rendering",
       "firm": "meta",
       "flags": {
@@ -10927,6 +11375,43 @@
       "tags": []
     },
     {
+      "description": "MiniMax text-to-image and image-editing model",
+      "firm": "minimax",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:minimax-color",
+      "id": "MiniMax-H3-Image",
+      "knowledge": null,
+      "lastUpdated": "2026-11-10",
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "MiniMax H3 Image",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-11-10",
+      "tags": []
+    },
+    {
       "description": "由 fal.ai 基于 MiniMax H3 后训练的版本，面向最高 768P 的极速视频生成",
       "firm": "minimax",
       "flags": {
@@ -11262,7 +11747,7 @@
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "temperature": true,
         "tool_call": true
@@ -11623,6 +12108,43 @@
       "tags": []
     },
     {
+      "description": "MiniMax text-to-image and image-editing model",
+      "firm": "minimax-cn",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:minimax-color",
+      "id": "MiniMax-H3-Image",
+      "knowledge": null,
+      "lastUpdated": "2026-11-10",
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "MiniMax H3 Image",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-11-10",
+      "tags": []
+    },
+    {
       "description": "由 fal.ai 基于 MiniMax H3 后训练的版本，面向最高 768P 的极速视频生成",
       "firm": "minimax-cn",
       "flags": {
@@ -11958,7 +12480,7 @@
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "temperature": true,
         "tool_call": true
@@ -12466,7 +12988,7 @@
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "temperature": true,
         "tool_call": true
@@ -12796,7 +13318,7 @@
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "temperature": true,
         "tool_call": true
@@ -13846,7 +14368,7 @@
       "id": "mistral-ocr-2512",
       "knowledge": null,
       "lastUpdated": "2025-12-18",
-      "maxCtxTokens": 0,
+      "maxCtxTokens": 16384,
       "maxOutputTokens": 0,
       "modalities": {
         "input": [
@@ -13885,7 +14407,7 @@
       "id": "mistral-ocr-4-1",
       "knowledge": null,
       "lastUpdated": "2026-07-16",
-      "maxCtxTokens": 0,
+      "maxCtxTokens": 16384,
       "maxOutputTokens": 0,
       "modalities": {
         "input": [
@@ -14542,13 +15064,13 @@
       "tags": []
     },
     {
-      "description": "具备 1M 上下文和持续推理能力的多模态 Kimi 模型，适用于编程、3D 创作、金融研究和智能体工作",
+      "description": "具备 1M-token 上下文窗口和始终开启推理能力的多模态 Kimi 模型，适用于编程、3D 创作和金融研究",
       "firm": "moonshotai",
       "flags": {
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "temperature": false,
         "tool_call": true
@@ -14580,13 +15102,13 @@
       "tags": []
     },
     {
-      "description": "具备 1M 上下文和持续推理能力的多模态 Kimi 模型，适用于编程、3D 创作、金融研究和智能体工作",
+      "description": "具备 1M-token 上下文窗口和始终开启推理能力的多模态 Kimi 模型，适用于编程、3D 创作和金融研究",
       "firm": "moonshotai",
       "flags": {
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "temperature": false,
         "tool_call": true
@@ -14770,13 +15292,13 @@
       "tags": []
     },
     {
-      "description": "具备 1M 上下文和持续推理能力的多模态 Kimi 模型，适用于编程、3D 创作、金融研究和智能体工作",
+      "description": "具备 1M-token 上下文窗口和始终开启推理能力的多模态 Kimi 模型，适用于编程、3D 创作和金融研究",
       "firm": "moonshotai-cn",
       "flags": {
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "temperature": false,
         "tool_call": true
@@ -14808,13 +15330,13 @@
       "tags": []
     },
     {
-      "description": "具备 1M 上下文和持续推理能力的多模态 Kimi 模型，适用于编程、3D 创作、金融研究和智能体工作",
+      "description": "具备 1M-token 上下文窗口和始终开启推理能力的多模态 Kimi 模型，适用于编程、3D 创作和金融研究",
       "firm": "moonshotai-cn",
       "flags": {
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "temperature": false,
         "tool_call": true
@@ -15176,6 +15698,43 @@
       "tags": []
     },
     {
+      "description": "具备 1M-token 上下文窗口和始终开启推理能力的多模态 Kimi 模型，适用于编程、3D 创作和金融研究",
+      "firm": "morph",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:morph-color",
+      "id": "morph-kimik31",
+      "knowledge": null,
+      "lastUpdated": "2026-10-23",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 1048576,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K3.1 Pro",
+      "price": {
+        "cacheRead": 0.29,
+        "cacheWrite": null,
+        "input": 2.5,
+        "output": 14
+      },
+      "releaseDate": "2026-10-23",
+      "tags": []
+    },
+    {
       "description": "高效模型，面向低延迟辅助、信息抽取与日常自动化",
       "firm": "morph",
       "flags": {
@@ -15245,6 +15804,43 @@
         "output": 1.9
       },
       "releaseDate": "2025-07-07",
+      "tags": []
+    },
+    {
+      "description": "Morph's 27B decision model that returns probabilities for typed choice, yes/no and score questions about text, JSON or images",
+      "firm": "morph",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:morph-color",
+      "id": "reflex",
+      "knowledge": null,
+      "lastUpdated": "2026-11-03",
+      "maxCtxTokens": 65536,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "decision"
+        ]
+      },
+      "name": "Reflex",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-11-03",
       "tags": []
     },
     {
@@ -19776,6 +20372,43 @@
       "tags": []
     },
     {
+      "description": "新一代多模态生产力模型，Agent 和复杂任务执行能力显著增强。",
+      "firm": "tencent-token-plan",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:hunyuan-color",
+      "id": "hy4",
+      "knowledge": null,
+      "lastUpdated": "2026-11-04",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Hy4",
+      "price": {
+        "cacheRead": 0.042,
+        "cacheWrite": null,
+        "input": 0.834,
+        "output": 2.501
+      },
+      "releaseDate": "2026-11-04",
+      "tags": []
+    },
+    {
       "description": "新一代生产力模型，Agent 能力与复杂任务执行能力显著增强。",
       "firm": "tencent-token-plan",
       "flags": {
@@ -19884,6 +20517,43 @@
       "tags": []
     },
     {
+      "description": "新一代多模态生产力模型，Agent 和复杂任务执行能力显著增强。",
+      "firm": "tencent-tokenhub",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:hunyuan-color",
+      "id": "hy4",
+      "knowledge": null,
+      "lastUpdated": "2026-11-04",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Hy4",
+      "price": {
+        "cacheRead": 0.042,
+        "cacheWrite": null,
+        "input": 0.834,
+        "output": 2.501
+      },
+      "releaseDate": "2026-11-04",
+      "tags": []
+    },
+    {
       "description": "新一代生产力模型，Agent 能力与复杂任务执行能力显著增强。",
       "firm": "tencent-tokenhub",
       "flags": {
@@ -19917,6 +20587,78 @@
         "output": 2.501
       },
       "releaseDate": "2026-08-28",
+      "tags": []
+    },
+    {
+      "description": "Lightweight Tencent text embedding model producing 1,024-dimensional vectors for large-scale retrieval",
+      "firm": "tencent-tokenhub",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:hunyuan-color",
+      "id": "kinfra-text-embedding-0.6b",
+      "knowledge": null,
+      "lastUpdated": "2026-07",
+      "maxCtxTokens": 32768,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Kinfra Text Embedding 0.6B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-07",
+      "tags": []
+    },
+    {
+      "description": "Tencent text embedding model producing 2,560-dimensional vectors for high-quality retrieval",
+      "firm": "tencent-tokenhub",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:hunyuan-color",
+      "id": "kinfra-text-embedding-4b",
+      "knowledge": null,
+      "lastUpdated": "2026-07",
+      "maxCtxTokens": 32768,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Kinfra Text Embedding 4B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-07",
       "tags": []
     },
     {
@@ -22322,6 +23064,42 @@
       "tags": []
     },
     {
+      "description": "运行在更快基础设施上的 Grok 4.7，供 Grok Build 使用；不在公开的 xAI API 上提供。",
+      "firm": "xai",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:xai",
+      "id": "grok-4.7-build-fast",
+      "knowledge": null,
+      "lastUpdated": null,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Grok 4.7 Build Fast",
+      "price": {
+        "cacheRead": 1,
+        "cacheWrite": null,
+        "input": 4,
+        "output": 12
+      },
+      "releaseDate": null,
+      "tags": []
+    },
+    {
       "description": "快速型 Grok 编程模型，针对智能体工程与迭代式编辑调优",
       "firm": "xai",
       "flags": {
@@ -22431,43 +23209,6 @@
         "output": null
       },
       "releaseDate": "2026-08-07",
-      "tags": []
-    },
-    {
-      "description": "更高保真的 Grok Imagine 图像模型，适用于基于提示词的生成、编辑和视觉设计工作流",
-      "firm": "xai",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": false,
-        "tool_call": false
-      },
-      "icon": "lb:xai",
-      "id": "grok-imagine-image-quality",
-      "knowledge": null,
-      "lastUpdated": "2026-04-03",
-      "maxCtxTokens": 16000,
-      "maxOutputTokens": 0,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "image"
-        ]
-      },
-      "name": "Grok Imagine Image Quality",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2026-04-03",
       "tags": []
     },
     {
@@ -25128,6 +25869,78 @@
         "output": null
       },
       "releaseDate": "2025-07-15",
+      "tags": []
+    },
+    {
+      "description": "Zhipu second-generation text embedding model producing 1,024-dimensional vectors",
+      "firm": "zhipuai",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:zhipu-color",
+      "id": "embedding-2",
+      "knowledge": null,
+      "lastUpdated": "2023-12",
+      "maxCtxTokens": 8192,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Embedding-2",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2023-12",
+      "tags": []
+    },
+    {
+      "description": "Zhipu third-generation text embedding model with 256 to 2,048 dimensions",
+      "firm": "zhipuai",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:zhipu-color",
+      "id": "embedding-3",
+      "knowledge": null,
+      "lastUpdated": "2024-08",
+      "maxCtxTokens": 8192,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Embedding-3",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2024-08",
       "tags": []
     },
     {

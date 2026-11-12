@@ -2236,6 +2236,31 @@
       "temperature": true,
       "tool_call": true
     },
+    "qwen3.7-text-embedding": {
+      "attachment": false,
+      "description": "Multilingual Qwen3.7 text embedding model with 256 to 2,560 dimensions and 128K-token inputs",
+      "family": "qwen",
+      "id": "qwen3.7-text-embedding",
+      "last_updated": "2026-07-15",
+      "limit": {
+        "context": 128000,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Qwen3.7 Text Embedding",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-07-15",
+      "temperature": false,
+      "tool_call": false
+    },
     "qwen3.8-2.4t-a95b": {
       "attachment": false,
       "description": "Open-weight sparse MoE (2.4T total, 95B active), the open-weight twin of Qwen3.8 Max for coding, research, complex reasoning, and agentic workflows",
@@ -2511,6 +2536,55 @@
       "status": "deprecated",
       "temperature": true,
       "tool_call": true
+    },
+    "text-embedding-v3": {
+      "attachment": false,
+      "description": "Multilingual text embedding model covering 50+ languages with 64 to 1,024 dimensions",
+      "id": "text-embedding-v3",
+      "last_updated": "2024-07-12",
+      "limit": {
+        "context": 8192,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Text Embedding v3",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2024-07-12",
+      "temperature": false,
+      "tool_call": false
+    },
+    "text-embedding-v4": {
+      "attachment": false,
+      "description": "Multilingual Qwen3-based text embedding model with 64 to 2,048 dimensions",
+      "family": "qwen",
+      "id": "text-embedding-v4",
+      "last_updated": "2025-06-05",
+      "limit": {
+        "context": 8192,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "embedding"
+        ]
+      },
+      "name": "Text Embedding v4",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-06-05",
+      "temperature": false,
+      "tool_call": false
     },
     "wan2.7-image": {
       "attachment": true,

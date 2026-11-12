@@ -1,0 +1,29 @@
+{
+  "attachment": true,
+  "description": "Google's decision model that returns calibrated probabilities for typed yes/no, choice and score questions about text, images, audio, video and PDFs",
+  "family": "gemini",
+  "id": "gemini-decision-1",
+  "last_updated": "2026-11-11",
+  "limit": {
+    "context": 262144,
+    "output": 1
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "audio",
+      "video",
+      "pdf"
+    ],
+    "output": [
+      "decision"
+    ]
+  },
+  "name": "Gemini Decision 1",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-11-11",
+  "temperature": false,
+  "tool_call": false
+}

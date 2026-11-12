@@ -4,7 +4,7 @@
   "id": "mistral-ocr-2512",
   "last_updated": "2025-12-18",
   "limit": {
-    "context": 0,
+    "context": 16384,
     "output": 0
   },
   "modalities": {

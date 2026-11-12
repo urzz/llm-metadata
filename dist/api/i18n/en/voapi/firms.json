@@ -6,7 +6,7 @@
       "doc": "https://www.alibabacloud.com/help/en/model-studio/models",
       "icon": "lb:qwen-color",
       "id": "alibaba",
-      "modelCount": 67,
+      "modelCount": 70,
       "name": "Alibaba",
       "status": 1
     },
@@ -16,7 +16,7 @@
       "doc": "https://www.alibabacloud.com/help/en/model-studio/models",
       "icon": "lb:qwen-color",
       "id": "alibaba-cn",
-      "modelCount": 61,
+      "modelCount": 65,
       "name": "Alibaba (China)",
       "status": 1
     },
@@ -66,7 +66,7 @@
       "doc": "https://docs.anthropic.com/en/docs/about-claude/models",
       "icon": "lb:claude-color",
       "id": "anthropic",
-      "modelCount": 17,
+      "modelCount": 18,
       "name": "Anthropic",
       "status": 1
     },
@@ -116,7 +116,7 @@
       "doc": "https://ai.google.dev/gemini-api/docs/models",
       "icon": "lb:gemini-color",
       "id": "google",
-      "modelCount": 49,
+      "modelCount": 52,
       "name": "Google",
       "status": 1
     },
@@ -146,7 +146,7 @@
       "doc": "https://dev.meta.ai/docs",
       "icon": "lb:meta-color",
       "id": "meta",
-      "modelCount": 7,
+      "modelCount": 8,
       "name": "Meta",
       "status": 1
     },
@@ -156,7 +156,7 @@
       "doc": "https://platform.minimax.io/docs/guides/quickstart",
       "icon": "lb:minimax-color",
       "id": "minimax",
-      "modelCount": 19,
+      "modelCount": 20,
       "name": "MiniMax (minimax.io)",
       "status": 1
     },
@@ -166,7 +166,7 @@
       "doc": "https://platform.minimaxi.com/docs/guides/quickstart",
       "icon": "lb:minimax-color",
       "id": "minimax-cn",
-      "modelCount": 19,
+      "modelCount": 20,
       "name": "MiniMax (minimax.cn)",
       "status": 1
     },
@@ -226,7 +226,7 @@
       "doc": "https://docs.morphllm.com/api-reference/introduction",
       "icon": "lb:morph-color",
       "id": "morph",
-      "modelCount": 11,
+      "modelCount": 13,
       "name": "Morph",
       "status": 1
     },
@@ -356,7 +356,7 @@
       "doc": "https://cloud.tencent.com/document/product/1823/130060",
       "icon": "lb:hunyuan-color",
       "id": "tencent-token-plan",
-      "modelCount": 2,
+      "modelCount": 3,
       "name": "Tencent Token Plan",
       "status": 1
     },
@@ -366,7 +366,7 @@
       "doc": "https://cloud.tencent.com/document/product/1823/130050",
       "icon": "lb:hunyuan-color",
       "id": "tencent-tokenhub",
-      "modelCount": 3,
+      "modelCount": 6,
       "name": "Tencent TokenHub",
       "status": 1
     },
@@ -486,7 +486,7 @@
       "doc": "https://docs.bigmodel.cn/cn/guide/start/pricing",
       "icon": "lb:zhipu-color",
       "id": "zhipuai",
-      "modelCount": 22,
+      "modelCount": 24,
       "name": "Zhipu AI",
       "status": 1
     },

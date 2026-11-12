@@ -1,0 +1,25 @@
+{
+  "attachment": false,
+  "description": "Multilingual Qwen3.7 text embedding model with 256 to 2,560 dimensions and 128K-token inputs",
+  "family": "qwen",
+  "id": "qwen3.7-text-embedding",
+  "last_updated": "2026-07-15",
+  "limit": {
+    "context": 128000,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "name": "Qwen3.7 Text Embedding",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-07-15",
+  "temperature": false,
+  "tool_call": false
+}

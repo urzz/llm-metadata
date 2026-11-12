@@ -1,0 +1,24 @@
+{
+  "attachment": false,
+  "description": "Lightweight Tencent text embedding model producing 1,024-dimensional vectors for large-scale retrieval",
+  "id": "kinfra-text-embedding-0.6b",
+  "last_updated": "2026-07",
+  "limit": {
+    "context": 32768,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "name": "Kinfra Text Embedding 0.6B",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-07",
+  "temperature": false,
+  "tool_call": false
+}

@@ -13,7 +13,7 @@
       "iconURL": "https://models.dev/logos/alibaba.svg",
       "id": "alibaba",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 67,
+      "modelCount": 70,
       "name": "Alibaba"
     },
     {
@@ -30,7 +30,7 @@
       "iconURL": "https://models.dev/logos/alibaba-cn.svg",
       "id": "alibaba-cn",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 61,
+      "modelCount": 65,
       "name": "Alibaba (China)"
     },
     {
@@ -111,7 +111,7 @@
       "iconURL": "https://models.dev/logos/anthropic.svg",
       "id": "anthropic",
       "lobeIcon": "Claude.Color",
-      "modelCount": 17,
+      "modelCount": 18,
       "name": "Anthropic"
     },
     {
@@ -155,7 +155,7 @@
       "iconURL": "https://models.dev/logos/google.svg",
       "id": "google",
       "lobeIcon": "Gemini.Color",
-      "modelCount": 49,
+      "modelCount": 52,
       "name": "Google"
     },
     {
@@ -182,7 +182,7 @@
       "iconURL": "https://models.dev/logos/meta.svg",
       "id": "meta",
       "lobeIcon": "Meta.Color",
-      "modelCount": 7,
+      "modelCount": 8,
       "name": "Meta"
     },
     {
@@ -194,7 +194,7 @@
       "iconURL": "https://models.dev/logos/minimax.svg",
       "id": "minimax",
       "lobeIcon": "Minimax.Color",
-      "modelCount": 19,
+      "modelCount": 20,
       "name": "MiniMax (minimax.io)"
     },
     {
@@ -207,7 +207,7 @@
       "iconURL": "https://models.dev/logos/minimax-cn.svg",
       "id": "minimax-cn",
       "lobeIcon": "Minimax.Color",
-      "modelCount": 19,
+      "modelCount": 20,
       "name": "MiniMax (minimax.cn)"
     },
     {
@@ -278,7 +278,7 @@
       "iconURL": "https://models.dev/logos/morph.svg",
       "id": "morph",
       "lobeIcon": "Morph.Color",
-      "modelCount": 11,
+      "modelCount": 13,
       "name": "Morph"
     },
     {
@@ -417,7 +417,7 @@
       "iconURL": "https://models.dev/logos/tencent-token-plan.svg",
       "id": "tencent-token-plan",
       "lobeIcon": "Hunyuan.Color",
-      "modelCount": 2,
+      "modelCount": 3,
       "name": "Tencent Token Plan",
       "subscription": true
     },
@@ -431,7 +431,7 @@
       "iconURL": "https://models.dev/logos/tencent-tokenhub.svg",
       "id": "tencent-tokenhub",
       "lobeIcon": "Hunyuan.Color",
-      "modelCount": 3,
+      "modelCount": 6,
       "name": "Tencent TokenHub"
     },
     {
@@ -564,7 +564,7 @@
       "iconURL": "https://models.dev/logos/zhipuai.svg",
       "id": "zhipuai",
       "lobeIcon": "Zhipu.Color",
-      "modelCount": 22,
+      "modelCount": 24,
       "name": "Zhipu AI"
     },
     {
