@@ -1,0 +1,26 @@
+{
+  "attachment": true,
+  "description": "Video model for 512P to 1080P clips of up to 10 seconds from text, a first-frame image or first and last frames",
+  "family": "minimax",
+  "id": "MiniMax-Hailuo-02",
+  "last_updated": "2025-06-18",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "name": "Hailuo 02",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-06-18",
+  "temperature": false,
+  "tool_call": false
+}

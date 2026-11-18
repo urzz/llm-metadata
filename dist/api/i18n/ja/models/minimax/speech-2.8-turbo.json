@@ -6,6 +6,11 @@
   "description": "高速で自然な音声を生成する MiniMax Turbo テキスト読み上げモデル",
   "family": "minimax",
   "id": "speech-2.8-turbo",
+  "last_updated": "2026-01-23",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
   "modalities": {
     "input": [
       "text"

@@ -1,0 +1,28 @@
+{
+  "attachment": true,
+  "description": "Lower-cost, faster Seedance 2.0 audio-video model at 480p and 720p",
+  "family": "seed",
+  "id": "doubao-seedance-2-0-mini-260615",
+  "last_updated": "2026-06-15",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "name": "Seedance 2.0 Mini",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-06-15",
+  "temperature": false,
+  "tool_call": false
+}

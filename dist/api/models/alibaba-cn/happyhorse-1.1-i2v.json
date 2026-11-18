@@ -1,0 +1,25 @@
+{
+  "attachment": true,
+  "description": "Video model for text, image and reference to video with smoother motion and stronger consistency",
+  "id": "happyhorse-1.1-i2v",
+  "last_updated": "2026-06-16",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "name": "HappyHorse-1.1 Image-to-Video",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-06-16",
+  "temperature": false,
+  "tool_call": false
+}

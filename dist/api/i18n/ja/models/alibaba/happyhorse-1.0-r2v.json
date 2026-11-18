@@ -1,0 +1,25 @@
+{
+  "attachment": true,
+  "description": "Video model for text, image and reference to video with realistic motion",
+  "id": "happyhorse-1.0-r2v",
+  "last_updated": "2026-04-22",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "name": "HappyHorse-1.0 Reference-to-Video",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-04-22",
+  "temperature": false,
+  "tool_call": false
+}

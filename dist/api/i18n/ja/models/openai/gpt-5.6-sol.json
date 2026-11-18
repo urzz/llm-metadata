@@ -41,6 +41,19 @@
           }
         }
       },
+      "flex": {
+        "cost": {
+          "cache_read": 0.2,
+          "cache_write": 2.5,
+          "input": 2,
+          "output": 10
+        },
+        "provider": {
+          "body": {
+            "service_tier": "flex"
+          }
+        }
+      },
       "pro": {
         "provider": {
           "body": {
@@ -89,6 +102,6 @@
   ],
   "release_date": "2026-07-09",
   "structured_output": true,
-  "temperature": false,
+  "temperature": true,
   "tool_call": true
 }

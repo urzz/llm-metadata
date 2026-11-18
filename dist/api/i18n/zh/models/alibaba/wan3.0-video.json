@@ -1,0 +1,27 @@
+{
+  "attachment": true,
+  "description": "All-in-one video model for reference, editing and image-to-video generation with audio, up to 30 seconds",
+  "id": "wan3.0-video",
+  "last_updated": "2026-08-06",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "name": "Wan3.0",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-08-06",
+  "temperature": false,
+  "tool_call": false
+}

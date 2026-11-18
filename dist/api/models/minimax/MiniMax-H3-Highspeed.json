@@ -1,0 +1,28 @@
+{
+  "attachment": true,
+  "description": "MiniMax H3 video tier that balances quality and speed, with multimodal references and synchronized audio",
+  "family": "minimax",
+  "id": "MiniMax-H3-Highspeed",
+  "last_updated": "2026-07-31",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "name": "MiniMax H3 Highspeed",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-07-31",
+  "temperature": false,
+  "tool_call": false
+}

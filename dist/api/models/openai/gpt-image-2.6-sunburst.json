@@ -1,0 +1,26 @@
+{
+  "attachment": true,
+  "description": "Detailed image generation and editing with complexity control, markup-guided edits, SVG and animated GIF output",
+  "family": "gpt-image",
+  "id": "gpt-image-2.6-sunburst",
+  "last_updated": "2026-10-28",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "name": "GPT Image 2.6 Sunburst",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-10-28",
+  "temperature": false,
+  "tool_call": false
+}

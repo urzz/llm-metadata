@@ -1,0 +1,29 @@
+{
+  "attachment": true,
+  "description": "ByteDance unified multimodal audio-video model supporting text, image, video and audio references, editing, extension and synchronized stereo sound.",
+  "family": "seed",
+  "id": "doubao-seedance-2-0-260128",
+  "last_updated": "2026-10-04",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "video",
+      "audio"
+    ]
+  },
+  "name": "Seedance 2.0",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-02-12",
+  "temperature": false,
+  "tool_call": false
+}

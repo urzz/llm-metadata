@@ -15,6 +15,180 @@
   "id": "alibaba",
   "lobeIcon": "Qwen.Color",
   "models": {
+    "happyhorse-1.0-i2v": {
+      "attachment": true,
+      "description": "Video model for text, image and reference to video with realistic motion",
+      "id": "happyhorse-1.0-i2v",
+      "last_updated": "2026-04-22",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "HappyHorse-1.0 Image-to-Video",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-04-22",
+      "temperature": false,
+      "tool_call": false
+    },
+    "happyhorse-1.0-r2v": {
+      "attachment": true,
+      "description": "Video model for text, image and reference to video with realistic motion",
+      "id": "happyhorse-1.0-r2v",
+      "last_updated": "2026-04-22",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "HappyHorse-1.0 Reference-to-Video",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-04-22",
+      "temperature": false,
+      "tool_call": false
+    },
+    "happyhorse-1.0-t2v": {
+      "attachment": false,
+      "description": "Video model for text, image and reference to video with realistic motion",
+      "id": "happyhorse-1.0-t2v",
+      "last_updated": "2026-04-22",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "HappyHorse-1.0 Text-to-Video",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-04-22",
+      "temperature": false,
+      "tool_call": false
+    },
+    "happyhorse-1.0-video-edit": {
+      "attachment": true,
+      "description": "Video model for text, image and reference to video with realistic motion",
+      "id": "happyhorse-1.0-video-edit",
+      "last_updated": "2026-04-22",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "HappyHorse-1.0 Video Edit",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-04-22",
+      "temperature": false,
+      "tool_call": false
+    },
+    "happyhorse-1.1-i2v": {
+      "attachment": true,
+      "description": "Video model for text, image and reference to video with smoother motion and stronger consistency",
+      "id": "happyhorse-1.1-i2v",
+      "last_updated": "2026-06-16",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "HappyHorse-1.1 Image-to-Video",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-06-16",
+      "temperature": false,
+      "tool_call": false
+    },
+    "happyhorse-1.1-r2v": {
+      "attachment": true,
+      "description": "Video model for text, image and reference to video with smoother motion and stronger consistency",
+      "id": "happyhorse-1.1-r2v",
+      "last_updated": "2026-06-16",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "HappyHorse-1.1 Reference-to-Video",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-06-16",
+      "temperature": false,
+      "tool_call": false
+    },
+    "happyhorse-1.1-t2v": {
+      "attachment": false,
+      "description": "Video model for text, image and reference to video with smoother motion and stronger consistency",
+      "id": "happyhorse-1.1-t2v",
+      "last_updated": "2026-06-16",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "HappyHorse-1.1 Text-to-Video",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-06-16",
+      "temperature": false,
+      "tool_call": false
+    },
     "qvq-max": {
       "attachment": true,
       "cost": {
@@ -1393,7 +1567,8 @@
       "modalities": {
         "input": [
           "text",
-          "image"
+          "image",
+          "video"
         ],
         "output": [
           "text"
@@ -2586,6 +2761,162 @@
       "temperature": false,
       "tool_call": false
     },
+    "wan2.6-i2v": {
+      "attachment": true,
+      "description": "Video model for text- and image-to-video with audio input and synchronized sound",
+      "id": "wan2.6-i2v",
+      "last_updated": "2025-12-03",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Wan2.6 Image-to-Video",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-12-03",
+      "temperature": false,
+      "tool_call": false
+    },
+    "wan2.6-i2v-flash": {
+      "attachment": true,
+      "description": "Video model for text- and image-to-video with audio input and synchronized sound",
+      "id": "wan2.6-i2v-flash",
+      "last_updated": "2025-12-03",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Wan2.6 Image-to-Video Flash",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-12-03",
+      "temperature": false,
+      "tool_call": false
+    },
+    "wan2.6-r2v": {
+      "attachment": true,
+      "description": "Video model for text- and image-to-video with audio input and synchronized sound",
+      "id": "wan2.6-r2v",
+      "last_updated": "2025-12-03",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Wan2.6 Reference-to-Video",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-12-03",
+      "temperature": false,
+      "tool_call": false
+    },
+    "wan2.6-r2v-flash": {
+      "attachment": true,
+      "description": "Video model for text- and image-to-video with audio input and synchronized sound",
+      "id": "wan2.6-r2v-flash",
+      "last_updated": "2025-12-03",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Wan2.6 Reference-to-Video Flash",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-12-03",
+      "temperature": false,
+      "tool_call": false
+    },
+    "wan2.6-t2v": {
+      "attachment": true,
+      "description": "Video model for text- and image-to-video with audio input and synchronized sound",
+      "id": "wan2.6-t2v",
+      "last_updated": "2025-12-03",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "audio"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Wan2.6 Text-to-Video",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-12-03",
+      "temperature": false,
+      "tool_call": false
+    },
+    "wan2.7-i2v": {
+      "attachment": true,
+      "description": "Video model for text, image and reference to video, with mixed image and video references and voice timbre cloning",
+      "id": "wan2.7-i2v",
+      "last_updated": "2026-04-03",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Wan2.7 Image-to-Video",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-04-03",
+      "temperature": false,
+      "tool_call": false
+    },
     "wan2.7-image": {
       "attachment": true,
       "description": "Wan image model for prompt-driven generation and editing",
@@ -2633,6 +2964,138 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2026-05-29",
+      "temperature": false,
+      "tool_call": false
+    },
+    "wan2.7-r2v": {
+      "attachment": true,
+      "description": "Video model for text, image and reference to video, with mixed image and video references and voice timbre cloning",
+      "id": "wan2.7-r2v",
+      "last_updated": "2026-04-03",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Wan2.7 Reference-to-Video",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-04-03",
+      "temperature": false,
+      "tool_call": false
+    },
+    "wan2.7-t2v": {
+      "attachment": true,
+      "description": "Video model for text, image and reference to video, with mixed image and video references and voice timbre cloning",
+      "id": "wan2.7-t2v",
+      "last_updated": "2026-04-03",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "audio"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Wan2.7 Text-to-Video",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-04-03",
+      "temperature": false,
+      "tool_call": false
+    },
+    "wan2.7-videoedit": {
+      "attachment": true,
+      "description": "Video model for text, image and reference to video, with mixed image and video references and voice timbre cloning",
+      "id": "wan2.7-videoedit",
+      "last_updated": "2026-04-03",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Wan2.7 Video Edit",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-04-03",
+      "temperature": false,
+      "tool_call": false
+    },
+    "wan3.0-video": {
+      "attachment": true,
+      "description": "All-in-one video model for reference, editing and image-to-video generation with audio, up to 30 seconds",
+      "id": "wan3.0-video",
+      "last_updated": "2026-08-06",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Wan3.0",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-08-06",
+      "temperature": false,
+      "tool_call": false
+    },
+    "wan3.0-video-prime": {
+      "attachment": true,
+      "description": "High-speed Wan3.0 video model with the same four-modal references, up to 30 seconds",
+      "id": "wan3.0-video-prime",
+      "last_updated": "2026-08-20",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Wan3.0-Video-Prime",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-08-20",
       "temperature": false,
       "tool_call": false
     }

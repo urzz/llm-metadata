@@ -1,0 +1,25 @@
+{
+  "attachment": true,
+  "description": "Video model for text- and image-to-video with audio input and synchronized sound",
+  "id": "wan2.6-t2v",
+  "last_updated": "2025-12-03",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "name": "Wan2.6 Text-to-Video",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-12-03",
+  "temperature": false,
+  "tool_call": false
+}

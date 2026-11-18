@@ -22,6 +22,11 @@
       "description": "Open general-purpose MiniMax video model for text-, image-, and multimodal reference-to-video generation up to 2K",
       "family": "minimax",
       "id": "MiniMax-H3",
+      "last_updated": "2026-10-04",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
       "modalities": {
         "input": [
           "text",
@@ -35,6 +40,34 @@
       },
       "name": "MiniMax-H3",
       "open_weights": true,
+      "reasoning": false,
+      "release_date": "2026-07-31",
+      "temperature": false,
+      "tool_call": false
+    },
+    "MiniMax-H3-Highspeed": {
+      "attachment": true,
+      "description": "MiniMax H3 video tier that balances quality and speed, with multimodal references and synchronized audio",
+      "family": "minimax",
+      "id": "MiniMax-H3-Highspeed",
+      "last_updated": "2026-07-31",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "MiniMax H3 Highspeed",
+      "open_weights": false,
       "reasoning": false,
       "release_date": "2026-07-31",
       "temperature": false,
@@ -60,9 +93,63 @@
         ]
       },
       "name": "MiniMax H3 Image",
-      "open_weights": false,
+      "open_weights": true,
       "reasoning": false,
       "release_date": "2026-11-10",
+      "temperature": false,
+      "tool_call": false
+    },
+    "MiniMax-H3-Image-Highspeed": {
+      "attachment": true,
+      "description": "Faster tier of MiniMax H3 Image for text-to-image and image editing",
+      "family": "minimax",
+      "id": "MiniMax-H3-Image-Highspeed",
+      "last_updated": "2026-11-10",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "MiniMax H3 Image Highspeed",
+      "open_weights": true,
+      "reasoning": false,
+      "release_date": "2026-11-10",
+      "temperature": false,
+      "tool_call": false
+    },
+    "MiniMax-H3-Lite": {
+      "attachment": true,
+      "description": "Lower-cost MiniMax H3 video tier for creative exploration and batch generation, with multimodal references",
+      "family": "minimax",
+      "id": "MiniMax-H3-Lite",
+      "last_updated": "2026-07-31",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "MiniMax H3 Lite",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-07-31",
       "temperature": false,
       "tool_call": false
     },
@@ -76,6 +163,11 @@
       "description": "MiniMax H3 variant post-trained by fal.ai for high-speed video generation up to 768P",
       "family": "minimax",
       "id": "MiniMax-H3-Max",
+      "last_updated": "2026-08-26",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
       "modalities": {
         "input": [
           "text",
@@ -90,6 +182,85 @@
       "name": "MiniMax-H3-Max",
       "open_weights": false,
       "reasoning": false,
+      "release_date": "2026-08-26",
+      "temperature": false,
+      "tool_call": false
+    },
+    "MiniMax-Hailuo-02": {
+      "attachment": true,
+      "description": "Video model for 512P to 1080P clips of up to 10 seconds from text, a first-frame image or first and last frames",
+      "family": "minimax",
+      "id": "MiniMax-Hailuo-02",
+      "last_updated": "2025-06-18",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Hailuo 02",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-06-18",
+      "temperature": false,
+      "tool_call": false
+    },
+    "MiniMax-Hailuo-2.3": {
+      "attachment": true,
+      "description": "Video model for realistic human motion, cinematic effects and stylized scenes from text or a first-frame image",
+      "family": "minimax",
+      "id": "MiniMax-Hailuo-2.3",
+      "last_updated": "2025-10-28",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Hailuo 2.3",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-10-28",
+      "temperature": false,
+      "tool_call": false
+    },
+    "MiniMax-Hailuo-2.3-Fast": {
+      "attachment": true,
+      "description": "Faster, lower-cost Hailuo 2.3 variant that animates a first-frame image with a text prompt",
+      "family": "minimax",
+      "id": "MiniMax-Hailuo-2.3-Fast",
+      "last_updated": "2025-10-28",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Hailuo 2.3 Fast",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2025-10-28",
       "temperature": false,
       "tool_call": false
     },
@@ -587,6 +758,11 @@
       "description": "MiniMax HD text-to-speech model with ultra-realistic audio and natural sound tags",
       "family": "minimax",
       "id": "speech-2.8-hd",
+      "last_updated": "2026-01-23",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
       "modalities": {
         "input": [
           "text"
@@ -611,6 +787,11 @@
       "description": "MiniMax Turbo text-to-speech model for fast, natural-sounding speech",
       "family": "minimax",
       "id": "speech-2.8-turbo",
+      "last_updated": "2026-01-23",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
       "modalities": {
         "input": [
           "text"

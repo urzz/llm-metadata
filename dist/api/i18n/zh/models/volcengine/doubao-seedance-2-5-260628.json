@@ -1,0 +1,29 @@
+{
+  "attachment": true,
+  "description": "ByteDance multimodal audio-video model with up to 30-second single-pass generation, multi-round extension, reference inputs and timestamp-level editing.",
+  "family": "seed",
+  "id": "doubao-seedance-2-5-260628",
+  "last_updated": "2026-10-04",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "video",
+      "audio"
+    ]
+  },
+  "name": "Seedance 2.5",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-07-31",
+  "temperature": false,
+  "tool_call": false
+}

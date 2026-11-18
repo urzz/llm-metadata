@@ -13,7 +13,7 @@
       "iconURL": "https://models.dev/logos/alibaba.svg",
       "id": "alibaba",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 70,
+      "modelCount": 88,
       "name": "Alibaba"
     },
     {
@@ -30,7 +30,7 @@
       "iconURL": "https://models.dev/logos/alibaba-cn.svg",
       "id": "alibaba-cn",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 65,
+      "modelCount": 83,
       "name": "Alibaba (China)"
     },
     {
@@ -81,7 +81,7 @@
       "iconURL": "https://models.dev/logos/alibaba-token-plan.svg",
       "id": "alibaba-token-plan",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 16,
+      "modelCount": 17,
       "name": "Alibaba Token Plan",
       "subscription": true
     },
@@ -99,7 +99,7 @@
       "iconURL": "https://models.dev/logos/alibaba-token-plan-cn.svg",
       "id": "alibaba-token-plan-cn",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 16,
+      "modelCount": 17,
       "name": "Alibaba Token Plan (China)",
       "subscription": true
     },
@@ -124,13 +124,13 @@
       "name": "Arcee"
     },
     {
-      "api": "https://api.tbox.cn/api/llm/v1",
+      "api": "https://api.ant-ling.com/v1",
       "currency": "CNY",
-      "doc": "https://alipaytbox.yuque.com/sxs0ba/ling/intro",
+      "doc": "https://developer.ant-ling.com/zh-CN/docs",
       "iconURL": "https://models.dev/logos/bailing.svg",
       "id": "bailing",
       "lobeIcon": "AntGroup.Color",
-      "modelCount": 2,
+      "modelCount": 7,
       "name": "Bailing"
     },
     {
@@ -155,7 +155,7 @@
       "iconURL": "https://models.dev/logos/google.svg",
       "id": "google",
       "lobeIcon": "Gemini.Color",
-      "modelCount": 52,
+      "modelCount": 53,
       "name": "Google"
     },
     {
@@ -194,7 +194,7 @@
       "iconURL": "https://models.dev/logos/minimax.svg",
       "id": "minimax",
       "lobeIcon": "Minimax.Color",
-      "modelCount": 20,
+      "modelCount": 26,
       "name": "MiniMax (minimax.io)"
     },
     {
@@ -207,7 +207,7 @@
       "iconURL": "https://models.dev/logos/minimax-cn.svg",
       "id": "minimax-cn",
       "lobeIcon": "Minimax.Color",
-      "modelCount": 20,
+      "modelCount": 26,
       "name": "MiniMax (minimax.cn)"
     },
     {
@@ -298,7 +298,7 @@
       "iconURL": "https://models.dev/logos/openai.svg",
       "id": "openai",
       "lobeIcon": "OpenAI",
-      "modelCount": 77,
+      "modelCount": 82,
       "name": "OpenAI"
     },
     {
@@ -408,7 +408,7 @@
       "subscription": true
     },
     {
-      "api": "https://api.lkeap.cloud.tencent.com/plan/v3",
+      "api": "https://tokenhub.tencentmaas.com/plan/v3",
       "billing": {
         "priority": 10
       },
@@ -417,7 +417,7 @@
       "iconURL": "https://models.dev/logos/tencent-token-plan.svg",
       "id": "tencent-token-plan",
       "lobeIcon": "Hunyuan.Color",
-      "modelCount": 3,
+      "modelCount": 15,
       "name": "Tencent Token Plan",
       "subscription": true
     },
@@ -461,7 +461,7 @@
       "iconURL": "https://models.dev/logos/volcengine.svg",
       "id": "volcengine",
       "lobeIcon": "Doubao.Color",
-      "modelCount": 12,
+      "modelCount": 16,
       "name": "Volcengine Ark"
     },
     {
@@ -474,7 +474,7 @@
       "iconURL": "https://models.dev/logos/volcengine-coding-plan.svg",
       "id": "volcengine-coding-plan",
       "lobeIcon": "Doubao.Color",
-      "modelCount": 3,
+      "modelCount": 6,
       "name": "Volcengine Ark Coding Plan",
       "subscription": true
     },

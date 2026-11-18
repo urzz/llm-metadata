@@ -1,0 +1,27 @@
+{
+  "attachment": true,
+  "description": "Cybersecurity model for finding and validating exploitable vulnerabilities in authorized security research",
+  "family": "gpt",
+  "id": "gpt-6-cyber",
+  "last_updated": "2026-11-05",
+  "limit": {
+    "context": 1050000,
+    "output": 128000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "GPT-6 Cyber",
+  "open_weights": false,
+  "reasoning": true,
+  "release_date": "2026-11-05",
+  "structured_output": true,
+  "temperature": false,
+  "tool_call": true
+}

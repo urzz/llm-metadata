@@ -1,0 +1,26 @@
+{
+  "attachment": true,
+  "description": "Faster, lower-cost Hailuo 2.3 variant that animates a first-frame image with a text prompt",
+  "family": "minimax",
+  "id": "MiniMax-Hailuo-2.3-Fast",
+  "last_updated": "2025-10-28",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "name": "Hailuo 2.3 Fast",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-10-28",
+  "temperature": false,
+  "tool_call": false
+}

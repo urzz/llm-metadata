@@ -7,6 +7,11 @@
   "description": "MiniMax HD text-to-speech model with ultra-realistic audio and natural sound tags",
   "family": "minimax",
   "id": "speech-2.8-hd",
+  "last_updated": "2026-01-23",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
   "modalities": {
     "input": [
       "text"

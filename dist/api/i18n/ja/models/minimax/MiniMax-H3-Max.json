@@ -7,6 +7,11 @@
   "description": "fal.ai が MiniMax H3 をベースにポストトレーニングした、最大 768P の高速動画生成向けモデル",
   "family": "minimax",
   "id": "MiniMax-H3-Max",
+  "last_updated": "2026-08-26",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
   "modalities": {
     "input": [
       "text",
@@ -21,6 +26,7 @@
   "name": "MiniMax-H3-Max",
   "open_weights": false,
   "reasoning": false,
+  "release_date": "2026-08-26",
   "temperature": false,
   "tool_call": false
 }

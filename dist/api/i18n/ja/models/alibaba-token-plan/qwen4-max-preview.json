@@ -1,0 +1,29 @@
+{
+  "attachment": true,
+  "description": "Preview flagship multimodal model for coding, office productivity, frontend design, and complex agentic tasks",
+  "family": "qwen",
+  "id": "qwen4-max-preview",
+  "last_updated": "2026-11-11",
+  "limit": {
+    "context": 1000000,
+    "output": 393216
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "pdf"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Qwen4 Max Preview",
+  "open_weights": false,
+  "reasoning": true,
+  "release_date": "2026-11-11",
+  "structured_output": true,
+  "temperature": true,
+  "tool_call": true
+}

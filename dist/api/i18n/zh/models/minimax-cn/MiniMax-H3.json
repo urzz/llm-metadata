@@ -8,6 +8,11 @@
   "description": "开放通用 MiniMax 视频模型，支持文生视频、图生视频与多模态参考生视频，最高 2K",
   "family": "minimax",
   "id": "MiniMax-H3",
+  "last_updated": "2026-10-04",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
   "modalities": {
     "input": [
       "text",

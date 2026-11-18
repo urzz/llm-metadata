@@ -1,0 +1,25 @@
+{
+  "attachment": true,
+  "description": "Design image generation and editing model for UI drafts and visual design workflows",
+  "id": "Ming-Image-0.1-Design",
+  "last_updated": "2026-10-27",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "name": "Ming Image 0.1 Design",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-10-27",
+  "temperature": false,
+  "tool_call": false
+}

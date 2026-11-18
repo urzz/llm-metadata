@@ -1,0 +1,26 @@
+{
+  "attachment": true,
+  "description": "Video model for text, image and reference to video, with mixed image and video references and voice timbre cloning",
+  "id": "wan2.7-videoedit",
+  "last_updated": "2026-04-03",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "name": "Wan2.7 Video Edit",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-04-03",
+  "temperature": false,
+  "tool_call": false
+}

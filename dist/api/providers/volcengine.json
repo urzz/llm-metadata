@@ -575,7 +575,7 @@
       },
       "last_updated": "2026-06-23",
       "limit": {
-        "context": 256000,
+        "context": 1024000,
         "output": 256000
       },
       "modalities": {
@@ -740,7 +740,7 @@
       },
       "last_updated": "2026-06-23",
       "limit": {
-        "context": 256000,
+        "context": 1024000,
         "output": 256000
       },
       "modalities": {
@@ -774,6 +774,121 @@
       "structured_output": true,
       "temperature": true,
       "tool_call": true
+    },
+    "doubao-seedance-2-0-260128": {
+      "attachment": true,
+      "description": "ByteDance unified multimodal audio-video model supporting text, image, video and audio references, editing, extension and synchronized stereo sound.",
+      "family": "seed",
+      "id": "doubao-seedance-2-0-260128",
+      "last_updated": "2026-10-04",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "video",
+          "audio"
+        ]
+      },
+      "name": "Seedance 2.0",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-02-12",
+      "temperature": false,
+      "tool_call": false
+    },
+    "doubao-seedance-2-0-fast-260128": {
+      "attachment": true,
+      "description": "Faster, lower-cost Seedance 2.0 variant for text, image, video and audio references with synchronized sound.",
+      "family": "seed",
+      "id": "doubao-seedance-2-0-fast-260128",
+      "last_updated": "2026-02-12",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "video",
+          "audio"
+        ]
+      },
+      "name": "Seedance 2.0 Fast",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-02-12",
+      "temperature": false,
+      "tool_call": false
+    },
+    "doubao-seedance-2-0-mini-260615": {
+      "attachment": true,
+      "description": "Lower-cost, faster Seedance 2.0 audio-video model at 480p and 720p",
+      "family": "seed",
+      "id": "doubao-seedance-2-0-mini-260615",
+      "last_updated": "2026-06-15",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Seedance 2.0 Mini",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-06-15",
+      "temperature": false,
+      "tool_call": false
+    },
+    "doubao-seedance-2-5-260628": {
+      "attachment": true,
+      "description": "ByteDance multimodal audio-video model with up to 30-second single-pass generation, multi-round extension, reference inputs and timestamp-level editing.",
+      "family": "seed",
+      "id": "doubao-seedance-2-5-260628",
+      "last_updated": "2026-10-04",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "video",
+          "audio"
+        ]
+      },
+      "name": "Seedance 2.5",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-07-31",
+      "temperature": false,
+      "tool_call": false
     }
   },
   "name": "Volcengine Ark",

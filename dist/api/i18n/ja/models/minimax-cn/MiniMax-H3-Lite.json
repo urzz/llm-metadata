@@ -1,0 +1,28 @@
+{
+  "attachment": true,
+  "description": "Lower-cost MiniMax H3 video tier for creative exploration and batch generation, with multimodal references",
+  "family": "minimax",
+  "id": "MiniMax-H3-Lite",
+  "last_updated": "2026-07-31",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "name": "MiniMax H3 Lite",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2026-07-31",
+  "temperature": false,
+  "tool_call": false
+}

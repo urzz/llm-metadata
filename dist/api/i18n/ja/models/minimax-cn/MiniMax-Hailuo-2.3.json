@@ -1,0 +1,26 @@
+{
+  "attachment": true,
+  "description": "Video model for realistic human motion, cinematic effects and stylized scenes from text or a first-frame image",
+  "family": "minimax",
+  "id": "MiniMax-Hailuo-2.3",
+  "last_updated": "2025-10-28",
+  "limit": {
+    "context": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "name": "Hailuo 2.3",
+  "open_weights": false,
+  "reasoning": false,
+  "release_date": "2025-10-28",
+  "temperature": false,
+  "tool_call": false
+}
