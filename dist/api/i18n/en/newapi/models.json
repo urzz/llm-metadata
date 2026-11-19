@@ -1191,6 +1191,16 @@
       "vendor_name": "Google"
     },
     {
+      "description": "Google's Gemini 4 model for fast, frontier-level coding, knowledge work and science workflows, with four thinking levels and a 1M-token context window",
+      "endpoints": null,
+      "icon": "Gemini.Color",
+      "model_name": "gemini-4-neon",
+      "name_rule": 0,
+      "status": 1,
+      "tags": "Reasoning,Tools,Files,Vision,Audio,1M",
+      "vendor_name": "Google"
+    },
+    {
       "description": "Google's decision model that returns calibrated probabilities for typed yes/no, choice and score questions about text, images, audio, video and PDFs",
       "endpoints": null,
       "icon": "Gemini.Color",

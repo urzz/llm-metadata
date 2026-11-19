@@ -3436,6 +3436,17 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gemini-4-neon",
+      "name": "Gemini 4 Neon",
+      "providerId": "google",
+      "updated": "2026-11-18"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": false,
         "tool_call": false
       },
@@ -8988,7 +8999,7 @@
       "iconURL": "https://models.dev/logos/google.svg",
       "id": "google",
       "lobeIcon": "Gemini.Color",
-      "modelCount": 53,
+      "modelCount": 54,
       "name": "Google"
     },
     {
